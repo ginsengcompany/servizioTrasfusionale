@@ -743,3 +743,149 @@
 
 15:41:25 - info: ::ffff:192.168.125.14 - GET /operatore/me HTTP/1.1 401 14 - 0.720 ms
 
+15:43:33 - info: uid: 3B33A159 auth: true
+15:43:33 - info: ::ffff:192.168.125.97 - POST /operatore/login HTTP/1.1 200 148 - 54.346 ms
+
+15:43:33 - info: ::ffff:192.168.125.97 - GET /operatore/me HTTP/1.1 200 157 - 5.441 ms
+
+15:43:41 - info: uid: 3B33A159 auth: true
+15:43:41 - info: ::ffff:192.168.125.14 - POST /operatore/login HTTP/1.1 200 148 - 22.837 ms
+
+15:43:41 - info: ::ffff:192.168.125.14 - GET /operatore/me HTTP/1.1 200 157 - 3.501 ms
+
+15:43:58 - info: uid: ADF365D9 auth: true
+15:43:58 - info: ::ffff:192.168.125.14 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 3.313 ms
+
+15:43:58 - info: ::ffff:192.168.125.14 - GET /operatore/me HTTP/1.1 200 147 - 1.683 ms
+
+15:44:50 - info: uid: 3B33A159 auth: true
+15:44:50 - info: ::ffff:192.168.125.97 - POST /operatore/login HTTP/1.1 200 148 - 41.274 ms
+
+15:44:50 - info: ::ffff:192.168.125.97 - GET /operatore/me HTTP/1.1 200 157 - 1.702 ms
+
+15:45:45 - info: uid: 3B33A159 auth: true
+15:45:45 - info: ::ffff:192.168.125.97 - POST /operatore/login HTTP/1.1 200 148 - 42.746 ms
+
+15:45:45 - info: ::ffff:192.168.125.97 - GET /operatore/me HTTP/1.1 200 157 - 2.161 ms
+
+15:49:10 - info: uid: 3B33A159 auth: true
+15:49:10 - info: ::ffff:192.168.125.85 - POST /operatore/login HTTP/1.1 200 148 - 67.849 ms
+
+15:49:10 - info: ::ffff:192.168.125.85 - GET /operatore/me HTTP/1.1 200 157 - 1.591 ms
+
+15:49:21 - info: ::ffff:192.168.125.85 - POST /provette/datiprovetta HTTP/1.1 200 74 - 16.945 ms
+
+15:49:25 - info: ::ffff:192.168.125.85 - POST /paziente/datiPaziente HTTP/1.1 200 175 - 7.810 ms
+
+15:52:32 - info: uid: 3B33A159 auth: true
+15:52:32 - info: ::ffff:192.168.125.85 - POST /operatore/login HTTP/1.1 200 148 - 62.341 ms
+
+15:52:32 - info: ::ffff:192.168.125.85 - GET /operatore/me HTTP/1.1 200 157 - 1.393 ms
+
+15:52:45 - info: ::ffff:192.168.125.85 - POST /provette/datiprovetta HTTP/1.1 200 74 - 1.678 ms
+
+15:52:51 - info: ::ffff:192.168.125.85 - POST /paziente/datiPaziente HTTP/1.1 200 175 - 2.247 ms
+
+15:58:29 - info: uid: 3B33A159 auth: true
+15:58:29 - info: ::ffff:192.168.125.85 - POST /operatore/login HTTP/1.1 200 148 - 78.817 ms
+
+15:58:29 - info: ::ffff:192.168.125.85 - GET /operatore/me HTTP/1.1 200 157 - 1.435 ms
+
+16:02:13 - info: uid: 3B33A159 auth: true
+16:02:13 - info: ::ffff:192.168.125.85 - POST /operatore/login HTTP/1.1 200 148 - 66.206 ms
+
+16:02:14 - info: ::ffff:192.168.125.85 - GET /operatore/me HTTP/1.1 200 157 - 2.220 ms
+
+16:03:08 - info: ::ffff:192.168.125.85 - POST /provette/datiprovetta HTTP/1.1 200 74 - 6.701 ms
+
+16:03:14 - info: ::ffff:192.168.125.85 - POST /paziente/datiPaziente HTTP/1.1 200 175 - 2.657 ms
+
+16:06:16 - info: uid: 3B33A159 auth: true
+16:06:16 - info: ::ffff:192.168.125.85 - POST /operatore/login HTTP/1.1 200 148 - 130.264 ms
+
+16:06:16 - info: ::ffff:192.168.125.85 - GET /operatore/me HTTP/1.1 200 157 - 2.022 ms
+
+16:07:13 - info: uid: 3B33A159 auth: true
+16:07:13 - info: ::ffff:192.168.125.85 - POST /operatore/login HTTP/1.1 200 148 - 53.324 ms
+
+16:07:13 - info: ::ffff:192.168.125.85 - GET /operatore/me HTTP/1.1 200 157 - 2.261 ms
+
+16:07:28 - info: ::ffff:192.168.125.85 - POST /provette/datiprovetta HTTP/1.1 200 74 - 2.448 ms
+
+16:07:30 - info: uid: 3B33A159 auth: true
+16:07:30 - info: ::ffff:192.168.125.30 - POST /operatore/login HTTP/1.1 200 148 - 85.396 ms
+
+16:07:30 - info: ::ffff:192.168.125.30 - GET /operatore/me HTTP/1.1 200 157 - 1.525 ms
+
+16:07:34 - info: ::ffff:192.168.125.85 - POST /paziente/datiPaziente HTTP/1.1 200 175 - 1.986 ms
+
+16:08:09 - info: ::ffff:192.168.125.85 - POST /provette/datiprovetta HTTP/1.1 404 20 - 1.466 ms
+
+16:08:19 - info: ::ffff:192.168.125.85 - POST /provette/datiprovetta HTTP/1.1 200 74 - 1.855 ms
+
+16:08:19 - info: ::ffff:192.168.125.85 - POST /paziente/datiPaziente HTTP/1.1 200 175 - 2.258 ms
+
+16:09:17 - info: uid: 3B33A159 auth: true
+16:09:17 - info: ::ffff:192.168.125.30 - POST /operatore/login HTTP/1.1 200 148 - 98.625 ms
+
+16:09:17 - info: ::ffff:192.168.125.30 - GET /operatore/me HTTP/1.1 200 157 - 1.314 ms
+
+16:09:51 - info: uid: ADF365D9 auth: true
+16:09:51 - info: ::ffff:192.168.125.30 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 42.087 ms
+
+16:09:51 - info: ::ffff:192.168.125.30 - GET /operatore/me HTTP/1.1 200 147 - 1.307 ms
+
+16:17:02 - info: uid: 3B33A159 auth: true
+16:17:02 - info: ::ffff:192.168.125.97 - POST /operatore/login HTTP/1.1 200 148 - 42.046 ms
+
+16:17:02 - info: ::ffff:192.168.125.97 - GET /operatore/me HTTP/1.1 200 157 - 1.429 ms
+
+16:21:13 - info: uid: 3B33A159 auth: true
+16:21:13 - info: ::ffff:192.168.125.30 - POST /operatore/login HTTP/1.1 200 148 - 87.386 ms
+
+16:21:13 - info: ::ffff:192.168.125.30 - GET /operatore/me HTTP/1.1 200 157 - 1.412 ms
+
+16:22:17 - info: uid: 3B33A159 auth: true
+16:22:17 - info: ::ffff:192.168.125.30 - POST /operatore/login HTTP/1.1 200 148 - 99.576 ms
+
+16:22:18 - info: ::ffff:192.168.125.30 - GET /operatore/me HTTP/1.1 200 157 - 1.792 ms
+
+16:23:00 - info: uid: ADF365D9 auth: true
+16:23:00 - info: ::ffff:192.168.125.30 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 42.961 ms
+
+16:23:00 - info: ::ffff:192.168.125.30 - GET /operatore/me HTTP/1.1 200 147 - 1.567 ms
+
+16:26:44 - info: uid: 3B33A159 auth: true
+16:26:44 - info: ::ffff:192.168.125.30 - POST /operatore/login HTTP/1.1 200 148 - 97.695 ms
+
+16:26:44 - info: ::ffff:192.168.125.30 - GET /operatore/me HTTP/1.1 200 157 - 1.414 ms
+
+16:27:15 - info: uid: ADF365D9 auth: true
+16:27:15 - info: ::ffff:192.168.125.30 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 44.027 ms
+
+16:27:15 - info: ::ffff:192.168.125.30 - GET /operatore/me HTTP/1.1 200 147 - 1.333 ms
+
+16:30:29 - info: uid: 3B33A159 auth: true
+16:30:29 - info: ::ffff:192.168.125.30 - POST /operatore/login HTTP/1.1 200 148 - 89.600 ms
+
+16:30:30 - info: ::ffff:192.168.125.30 - GET /operatore/me HTTP/1.1 200 157 - 1.396 ms
+
+16:30:50 - info: ::ffff:192.168.125.30 - POST /provette/datiprovetta HTTP/1.1 200 74 - 41.273 ms
+
+16:30:50 - info: ::ffff:192.168.125.30 - POST /paziente/datiPaziente HTTP/1.1 200 175 - 42.208 ms
+
+16:32:23 - info: uid: 3B33A159 auth: true
+16:32:23 - info: ::ffff:192.168.125.30 - POST /operatore/login HTTP/1.1 200 148 - 74.354 ms
+
+16:32:23 - info: ::ffff:192.168.125.30 - GET /operatore/me HTTP/1.1 200 157 - 1.269 ms
+
+16:33:53 - info: uid: 3B33A159 auth: true
+16:33:53 - info: ::ffff:192.168.125.30 - POST /operatore/login HTTP/1.1 200 148 - 72.876 ms
+
+16:33:53 - info: ::ffff:192.168.125.30 - GET /operatore/me HTTP/1.1 200 157 - 2.926 ms
+
+16:35:36 - info: uid: 3B33A159 auth: true
+16:35:36 - info: ::ffff:192.168.125.30 - POST /operatore/login HTTP/1.1 200 148 - 86.759 ms
+
+16:35:36 - info: ::ffff:192.168.125.30 - GET /operatore/me HTTP/1.1 200 157 - 1.397 ms
+
