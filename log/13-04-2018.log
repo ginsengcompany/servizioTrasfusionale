@@ -196,3 +196,29 @@
 
 16:01:14 - info: ::ffff:192.168.125.62 - POST /sacche/datisacca HTTP/1.1 200 73 - 2.890 ms
 
+16:42:03 - info: uid: 3B33A159 auth: true
+16:42:03 - info: ::ffff:192.168.125.62 - POST /operatore/login HTTP/1.1 200 148 - 243.054 ms
+
+16:42:03 - info: ::ffff:192.168.125.62 - GET /operatore/me HTTP/1.1 200 157 - 8.591 ms
+
+16:42:36 - info: uid: ADF365D9 auth: true
+16:42:36 - info: ::ffff:192.168.125.62 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 3.993 ms
+
+16:42:36 - info: ::ffff:192.168.125.62 - GET /operatore/me HTTP/1.1 200 147 - 1.835 ms
+
+16:42:46 - info: ::ffff:192.168.125.62 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 1.167 ms
+
+16:42:57 - info: ::ffff:192.168.125.62 - POST /paziente/datiPaziente HTTP/1.1 200 175 - 3.472 ms
+
+16:43:04 - info: ::ffff:192.168.125.62 - POST /sacche/datisacca HTTP/1.1 200 73 - 2.591 ms
+
+17:03:51 - info: uid: 3B33A159 auth: true
+17:03:51 - info: ::ffff:192.168.125.30 - POST /operatore/login HTTP/1.1 200 148 - 45.542 ms
+
+17:03:52 - info: ::ffff:192.168.125.30 - GET /operatore/me HTTP/1.1 200 157 - 1.732 ms
+
+17:04:11 - info: uid: ADF365D9 auth: true
+17:04:11 - info: ::ffff:192.168.125.30 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 45.324 ms
+
+17:04:11 - info: ::ffff:192.168.125.30 - GET /operatore/me HTTP/1.1 200 147 - 1.404 ms
+
