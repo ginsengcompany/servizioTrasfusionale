@@ -1,7 +1,91 @@
 let mongoose = require('mongoose');
 let saccheSchema = new mongoose.Schema({
     uid: String,
-    uidPaziente: String
+    uidPaziente: String,
+    fase1 : {
+        luogoRaccolta : String,
+        tipoDonazione : String,
+        anticoagulante : String,
+        conservante : String,
+        volumeEmocomponenti : String,
+        dateStamp : String,
+        durata : String,
+        codiceFiscaleDonatore : String,
+        esitoDonazione : String,
+        tipoEmocomponente : String
+    },
+    fase2 : {
+        luogoRaccolta : String,
+        tipoDonazione : String,
+        anticoagulante : String,
+        conservante : String,
+        volumeEmocomponenti : String,
+        dateStamp : String,
+        durata : String,
+        codiceFiscaleDonatore : String,
+        esitoDonazione : String,
+        laboratorioProvenienza : String,
+        fenotipo : String,
+        laboratorioAnalisi : String,
+        tipoEmocomponente : String
+    },
+    fase3 : {
+        luogoRaccolta : String,
+        tipoDonazione : String,
+        anticoagulante : String,
+        conservante : String,
+        volumeEmocomponenti : String,
+        dateStamp : String,
+        durata : String,
+        codiceFiscaleDonatore : String,
+        esitoDonazione : String,
+        laboratorioProvenienza : String,
+        fenotipo : String,
+        laboratorioAnalisi : String,
+        tipoEmoderivato : String,
+        tipoEmocomponente : String,
+        tipoLavorazione : String
+    },
+    fase4 : {
+        luogoRaccolta : String,
+        tipoDonazione : String,
+        anticoagulante : String,
+        conservante : String,
+        volumeEmocomponenti : String,
+        dateStamp : String,
+        durata : String,
+        codiceFiscaleDonatore : String,
+        esitoDonazione : String,
+        laboratorioProvenienza : String,
+        fenotipo : String,
+        laboratorioAnalisi : String,
+        tipoEmoderivato : String,
+        tipoEmocomponente : String,
+        tipoLavorazione : String,
+        dataScadenza : String
+    },
+    fase5 : {
+        luogoRaccolta : String,
+        tipoDonazione : String,
+        anticoagulante : String,
+        conservante : String,
+        volumeEmocomponenti : String,
+        dateStamp : String,
+        durata : String,
+        codiceFiscaleDonatore : String,
+        esitoDonazione : String,
+        laboratorioProvenienza : String,
+        fenotipo : String,
+        laboratorioAnalisi : String,
+        tipoEmoderivato : String,
+        tipoEmocomponente : String,
+        tipoLavorazione : String,
+        dataScadenza : String,
+        dataSomministrazione : String,
+        medicoResponsabile : String,
+        infermiereResponsabile : String,
+        nosograficoPaziente : String
+    }
 });
 mongoose.model('sacche', saccheSchema);
 module.exports = mongoose.model('sacche');
