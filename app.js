@@ -13,6 +13,7 @@ let provette = require('./routes/provette');
 let paziente = require('./routes/paziente');
 let sacche = require('./routes/sacche');
 let modelloH = require('./routes/modelloH');
+let login = require('./routes/login');
 
 let app = express();
 
@@ -34,6 +35,7 @@ app.use('/provette',provette);
 app.use('/paziente',paziente);
 app.use('/sacche',sacche);
 app.use('/modelloH',modelloH);
+app.use('/', login);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

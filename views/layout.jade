@@ -1,7 +1,18 @@
 doctype html
 html
   head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+    block title
+      title= title
+
+    block style
+      link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
+      link(rel='stylesheet', href='/stylesheets/style.css')
+
+  block body
+  block content
+  block footer
+  block javascript
+    script(type='text/javascript', src = '/javascript/jquery-3.4.1.min.js')
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js')
+    script(type='text/javascript', src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js')
+

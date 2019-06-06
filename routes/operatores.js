@@ -6,7 +6,6 @@ router.use(bodyParser.json());
 let operatoreController = require('../controllers/operatoresController');
 
 router.post('/login',operatoreController.login);
-
 router.get('/me',operatoreController.me);
 
 router.post('/loginTrasfusione',operatoreController.loginTrasfusione);

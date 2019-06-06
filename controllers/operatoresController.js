@@ -5,6 +5,9 @@ let log = require('../utils/logger');
 let seedTok = "proviamo";
 let operatore = require('../models/operatores');
 
+
+
+
 exports.login = function (req, res) {
     if (!req.body.hasOwnProperty('uid') || !req.body.hasOwnProperty('password'))
         return res.status(400).send("La richiesta non può essere elaborata");
