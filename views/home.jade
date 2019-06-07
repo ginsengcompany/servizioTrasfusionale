@@ -1,0 +1,18 @@
+extends layout
+
+block title
+    title Home
+block style
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css')
+block body
+    body
+        .Home
+            h1 Home
+            .container#TabHome
+                h1 Sacche di sangue
+                table#tabSacche.table.table-striped.table-bordered.dt-responsive
+block append javascript
+    script(type='text/javascript', src = '/javascript/home.js')
+    script(type='text/javascript', src = 'https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js')
