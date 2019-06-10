@@ -1,17 +1,19 @@
 $(document).ready(function () {
     let token = GetURLParameter('token');
     let uid = "Test";
+    let sacca ;
     console.log(token);
     $.ajax({
-        url: '/sacche/datisacca',
+        url: '/sacche/datiSacche',
         type: 'POST',
         contentType: 'application/json',
         headers: {'access-token': token},
-        data: JSON.stringify({uid: uid}),
         success: function (data, textStatus, jqXHR) {
-            let prova = [data];
+            sacca=data;
+            let prova = data;
             console.log(prova);
-            $("#tabSacche").DataTable({
+            let tabellaSacche =
+                $("#tabSacche").DataTable({
                 data: prova,
                 columns: [
                     {
@@ -34,13 +36,26 @@ $(document).ready(function () {
                         title: "DATA CREAZIONE",
                         data: 'dateStamp'
                     },
-                    {
-                        title: "DETTAGLI",
-                        data: null
-                    },
-
+                    { //prima colonna per aprire la riga e visualizzare i dati del contatto selezionato
+                        orderable: false,
+                        data: null,
+                        render: function (data, type, row) {
+                            return '<button type="button" class="btn btn-color-primary btn-sm btn-rounded gay">Dettagli</button>'
+                        },
+                    }
                 ]
             });
+            $('#tabSacche tbody').on('click', '.gay', function () {
+                console.log("sono gay qua");
+                if (tabellaSacche.row(this).data() !== undefined){
+                    data = tabellaSacche.row(this).data();
+                }else{
+                    data = tabellaSacche.row($(this).parents('tr')).data();
+                }
+
+                console.log(data.uid);
+                window.location.href = 'dettagliSacca' + '?token=' + token + "&" + "uid=" + data.uid;
+            } );
         },
         error: function (jqXHR, textStatus, errorThrown) {
         },

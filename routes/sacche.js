@@ -6,5 +6,6 @@ router.use(bodyParser.json());
 let saccheController = require('../controllers/saccheController');
 
 router.post('/datisacca',saccheController.getSacca);
+router.post('/datisacche',saccheController.getSacche);
 
 module.exports = router;

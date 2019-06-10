@@ -1,0 +1,245 @@
+10:49:58 AM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 622.384 ms
+
+10:49:58 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 7.015 ms
+
+10:49:58 AM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 304 - - 3.866 ms
+
+10:49:58 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 200 5588 - 22.105 ms
+
+10:49:58 AM - info: ::ffff:127.0.0.1 - GET /favicon.ico HTTP/1.1 404 2265 - 37.870 ms
+
+10:49:58 AM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 97.300 ms
+
+10:56:47 AM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 279.851 ms
+
+10:56:47 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 7.230 ms
+
+10:56:47 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 14.189 ms
+
+10:56:47 AM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2692 - 19.103 ms
+
+10:56:47 AM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 32.064 ms
+
+10:57:20 AM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 22.761 ms
+
+10:57:20 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.252 ms
+
+10:57:20 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.662 ms
+
+10:57:20 AM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2609 - 3.281 ms
+
+10:57:20 AM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 4.652 ms
+
+11:19:56 AM - error: uncaughtException: Cannot read property 'render' of undefined date=Mon Jun 10 2019 11:19:56 GMT+0200 (GMT+02:00), pid=16528, uid=null, gid=null, cwd=D:\ServiziNode\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, D:\ServiziNode\servizioTrasfusionale\bin\www.js], rss=45527040, heapTotal=33800192, heapUsed=17438352, external=18985250, loadavg=[0, 0, 0], uptime=333280, trace=[column=9, file=D:\ServiziNode\servizioTrasfusionale\controllers\dettagliSaccaController.js, function=Object.exports.dettagliSacca, line=8, method=dettagliSacca, native=false, column=40, file=D:\ServiziNode\servizioTrasfusionale\routes\dettagliSacca.js, function=null, line=8, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=776, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=787, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=653, method=load, native=false, column=12, file=internal/modules/cjs/loader.js, function=tryModuleLoad, line=593, method=null, native=false, column=3, file=internal/modules/cjs/loader.js, function=Module._load, line=585, method=_load, native=false, column=17, file=internal/modules/cjs/loader.js, function=Module.require, line=690, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=25, method=null, native=false, column=21, file=D:\ServiziNode\servizioTrasfusionale\app.js, function=null, line=18, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=776, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=787, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=653, method=load, native=false, column=12, file=internal/modules/cjs/loader.js, function=tryModuleLoad, line=593, method=null, native=false, column=3, file=internal/modules/cjs/loader.js, function=Module._load, line=585, method=_load, native=false, column=17, file=internal/modules/cjs/loader.js, function=Module.require, line=690, method=require, native=false], stack=[TypeError: Cannot read property 'render' of undefined,     at Object.exports.dettagliSacca (D:\ServiziNode\servizioTrasfusionale\controllers\dettagliSaccaController.js:8:9),     at Object.<anonymous> (D:\ServiziNode\servizioTrasfusionale\routes\dettagliSacca.js:8:40),     at Module._compile (internal/modules/cjs/loader.js:776:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10),     at Module.load (internal/modules/cjs/loader.js:653:32),     at tryModuleLoad (internal/modules/cjs/loader.js:593:12),     at Function.Module._load (internal/modules/cjs/loader.js:585:3),     at Module.require (internal/modules/cjs/loader.js:690:17),     at require (internal/modules/cjs/helpers.js:25:18),     at Object.<anonymous> (D:\ServiziNode\servizioTrasfusionale\app.js:18:21),     at Module._compile (internal/modules/cjs/loader.js:776:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10),     at Module.load (internal/modules/cjs/loader.js:653:32),     at tryModuleLoad (internal/modules/cjs/loader.js:593:12),     at Function.Module._load (internal/modules/cjs/loader.js:585:3),     at Module.require (internal/modules/cjs/loader.js:690:17)]
+11:23:10 AM - error: uncaughtException: Cannot read property 'render' of undefined date=Mon Jun 10 2019 11:23:10 GMT+0200 (GMT+02:00), pid=13188, uid=null, gid=null, cwd=D:\ServiziNode\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, D:\ServiziNode\servizioTrasfusionale\bin\www.js], rss=44384256, heapTotal=34324480, heapUsed=17494064, external=18977266, loadavg=[0, 0, 0], uptime=333473, trace=[column=9, file=D:\ServiziNode\servizioTrasfusionale\controllers\dettagliSaccaController.js, function=Object.exports.dettagliSacca, line=8, method=dettagliSacca, native=false, column=40, file=D:\ServiziNode\servizioTrasfusionale\routes\dettagliSacca.js, function=null, line=8, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=776, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=787, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=653, method=load, native=false, column=12, file=internal/modules/cjs/loader.js, function=tryModuleLoad, line=593, method=null, native=false, column=3, file=internal/modules/cjs/loader.js, function=Module._load, line=585, method=_load, native=false, column=17, file=internal/modules/cjs/loader.js, function=Module.require, line=690, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=25, method=null, native=false, column=21, file=D:\ServiziNode\servizioTrasfusionale\app.js, function=null, line=18, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=776, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=787, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=653, method=load, native=false, column=12, file=internal/modules/cjs/loader.js, function=tryModuleLoad, line=593, method=null, native=false, column=3, file=internal/modules/cjs/loader.js, function=Module._load, line=585, method=_load, native=false, column=17, file=internal/modules/cjs/loader.js, function=Module.require, line=690, method=require, native=false], stack=[TypeError: Cannot read property 'render' of undefined,     at Object.exports.dettagliSacca (D:\ServiziNode\servizioTrasfusionale\controllers\dettagliSaccaController.js:8:9),     at Object.<anonymous> (D:\ServiziNode\servizioTrasfusionale\routes\dettagliSacca.js:8:40),     at Module._compile (internal/modules/cjs/loader.js:776:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10),     at Module.load (internal/modules/cjs/loader.js:653:32),     at tryModuleLoad (internal/modules/cjs/loader.js:593:12),     at Function.Module._load (internal/modules/cjs/loader.js:585:3),     at Module.require (internal/modules/cjs/loader.js:690:17),     at require (internal/modules/cjs/helpers.js:25:18),     at Object.<anonymous> (D:\ServiziNode\servizioTrasfusionale\app.js:18:21),     at Module._compile (internal/modules/cjs/loader.js:776:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10),     at Module.load (internal/modules/cjs/loader.js:653:32),     at tryModuleLoad (internal/modules/cjs/loader.js:593:12),     at Function.Module._load (internal/modules/cjs/loader.js:585:3),     at Module.require (internal/modules/cjs/loader.js:690:17)]
+11:30:24 AM - error: uncaughtException: Cannot read property 'render' of undefined date=Mon Jun 10 2019 11:30:24 GMT+0200 (GMT+02:00), pid=13628, uid=null, gid=null, cwd=D:\ServiziNode\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, D:\ServiziNode\servizioTrasfusionale\bin\www.js], rss=58048512, heapTotal=34324480, heapUsed=20747696, external=19246354, loadavg=[0, 0, 0], uptime=333907, trace=[column=9, file=D:\ServiziNode\servizioTrasfusionale\controllers\dettagliSaccaController.js, function=Object.exports.dettagliSacca, line=8, method=dettagliSacca, native=false, column=40, file=D:\ServiziNode\servizioTrasfusionale\routes\dettagliSacca.js, function=null, line=8, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=776, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=787, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=653, method=load, native=false, column=12, file=internal/modules/cjs/loader.js, function=tryModuleLoad, line=593, method=null, native=false, column=3, file=internal/modules/cjs/loader.js, function=Module._load, line=585, method=_load, native=false, column=17, file=internal/modules/cjs/loader.js, function=Module.require, line=690, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=25, method=null, native=false, column=21, file=D:\ServiziNode\servizioTrasfusionale\app.js, function=null, line=18, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=776, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=787, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=653, method=load, native=false, column=12, file=internal/modules/cjs/loader.js, function=tryModuleLoad, line=593, method=null, native=false, column=3, file=internal/modules/cjs/loader.js, function=Module._load, line=585, method=_load, native=false, column=17, file=internal/modules/cjs/loader.js, function=Module.require, line=690, method=require, native=false], stack=[TypeError: Cannot read property 'render' of undefined,     at Object.exports.dettagliSacca (D:\ServiziNode\servizioTrasfusionale\controllers\dettagliSaccaController.js:8:9),     at Object.<anonymous> (D:\ServiziNode\servizioTrasfusionale\routes\dettagliSacca.js:8:40),     at Module._compile (internal/modules/cjs/loader.js:776:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10),     at Module.load (internal/modules/cjs/loader.js:653:32),     at tryModuleLoad (internal/modules/cjs/loader.js:593:12),     at Function.Module._load (internal/modules/cjs/loader.js:585:3),     at Module.require (internal/modules/cjs/loader.js:690:17),     at require (internal/modules/cjs/helpers.js:25:18),     at Object.<anonymous> (D:\ServiziNode\servizioTrasfusionale\app.js:18:21),     at Module._compile (internal/modules/cjs/loader.js:776:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10),     at Module.load (internal/modules/cjs/loader.js:653:32),     at tryModuleLoad (internal/modules/cjs/loader.js:593:12),     at Function.Module._load (internal/modules/cjs/loader.js:585:3),     at Module.require (internal/modules/cjs/loader.js:690:17)]
+11:46:37 AM - error: uncaughtException: Cannot read property 'render' of undefined date=Mon Jun 10 2019 11:46:37 GMT+0200 (GMT+02:00), pid=17032, uid=null, gid=null, cwd=D:\ServiziNode\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, D:\ServiziNode\servizioTrasfusionale\bin\www.js], rss=45273088, heapTotal=33800192, heapUsed=17364408, external=18969074, loadavg=[0, 0, 0], uptime=334880, trace=[column=9, file=D:\ServiziNode\servizioTrasfusionale\controllers\dettagliSaccaController.js, function=Object.exports.dettagliSacca, line=8, method=dettagliSacca, native=false, column=40, file=D:\ServiziNode\servizioTrasfusionale\routes\dettagliSacca.js, function=null, line=8, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=776, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=787, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=653, method=load, native=false, column=12, file=internal/modules/cjs/loader.js, function=tryModuleLoad, line=593, method=null, native=false, column=3, file=internal/modules/cjs/loader.js, function=Module._load, line=585, method=_load, native=false, column=17, file=internal/modules/cjs/loader.js, function=Module.require, line=690, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=25, method=null, native=false, column=21, file=D:\ServiziNode\servizioTrasfusionale\app.js, function=null, line=18, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=776, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=787, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=653, method=load, native=false, column=12, file=internal/modules/cjs/loader.js, function=tryModuleLoad, line=593, method=null, native=false, column=3, file=internal/modules/cjs/loader.js, function=Module._load, line=585, method=_load, native=false, column=17, file=internal/modules/cjs/loader.js, function=Module.require, line=690, method=require, native=false], stack=[TypeError: Cannot read property 'render' of undefined,     at Object.exports.dettagliSacca (D:\ServiziNode\servizioTrasfusionale\controllers\dettagliSaccaController.js:8:9),     at Object.<anonymous> (D:\ServiziNode\servizioTrasfusionale\routes\dettagliSacca.js:8:40),     at Module._compile (internal/modules/cjs/loader.js:776:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10),     at Module.load (internal/modules/cjs/loader.js:653:32),     at tryModuleLoad (internal/modules/cjs/loader.js:593:12),     at Function.Module._load (internal/modules/cjs/loader.js:585:3),     at Module.require (internal/modules/cjs/loader.js:690:17),     at require (internal/modules/cjs/helpers.js:25:18),     at Object.<anonymous> (D:\ServiziNode\servizioTrasfusionale\app.js:18:21),     at Module._compile (internal/modules/cjs/loader.js:776:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10),     at Module.load (internal/modules/cjs/loader.js:653:32),     at tryModuleLoad (internal/modules/cjs/loader.js:593:12),     at Function.Module._load (internal/modules/cjs/loader.js:585:3),     at Module.require (internal/modules/cjs/loader.js:690:17)]
+11:47:07 AM - error: uncaughtException: Cannot read property 'render' of undefined date=Mon Jun 10 2019 11:47:07 GMT+0200 (GMT+02:00), pid=16032, uid=null, gid=null, cwd=D:\ServiziNode\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, D:\ServiziNode\servizioTrasfusionale\bin\www.js], rss=62156800, heapTotal=37994496, heapUsed=16746416, external=17842700, loadavg=[0, 0, 0], uptime=334911, trace=[column=9, file=D:\ServiziNode\servizioTrasfusionale\controllers\dettagliSaccaController.js, function=Object.exports.dettagliSacca, line=8, method=dettagliSacca, native=false, column=40, file=D:\ServiziNode\servizioTrasfusionale\routes\dettagliSacca.js, function=null, line=8, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=776, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=787, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=653, method=load, native=false, column=12, file=internal/modules/cjs/loader.js, function=tryModuleLoad, line=593, method=null, native=false, column=3, file=internal/modules/cjs/loader.js, function=Module._load, line=585, method=_load, native=false, column=17, file=internal/modules/cjs/loader.js, function=Module.require, line=690, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=25, method=null, native=false, column=21, file=D:\ServiziNode\servizioTrasfusionale\app.js, function=null, line=18, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=776, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=787, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=653, method=load, native=false, column=12, file=internal/modules/cjs/loader.js, function=tryModuleLoad, line=593, method=null, native=false, column=3, file=internal/modules/cjs/loader.js, function=Module._load, line=585, method=_load, native=false, column=17, file=internal/modules/cjs/loader.js, function=Module.require, line=690, method=require, native=false], stack=[TypeError: Cannot read property 'render' of undefined,     at Object.exports.dettagliSacca (D:\ServiziNode\servizioTrasfusionale\controllers\dettagliSaccaController.js:8:9),     at Object.<anonymous> (D:\ServiziNode\servizioTrasfusionale\routes\dettagliSacca.js:8:40),     at Module._compile (internal/modules/cjs/loader.js:776:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10),     at Module.load (internal/modules/cjs/loader.js:653:32),     at tryModuleLoad (internal/modules/cjs/loader.js:593:12),     at Function.Module._load (internal/modules/cjs/loader.js:585:3),     at Module.require (internal/modules/cjs/loader.js:690:17),     at require (internal/modules/cjs/helpers.js:25:18),     at Object.<anonymous> (D:\ServiziNode\servizioTrasfusionale\app.js:18:21),     at Module._compile (internal/modules/cjs/loader.js:776:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10),     at Module.load (internal/modules/cjs/loader.js:653:32),     at tryModuleLoad (internal/modules/cjs/loader.js:593:12),     at Function.Module._load (internal/modules/cjs/loader.js:585:3),     at Module.require (internal/modules/cjs/loader.js:690:17)]
+11:48:07 AM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 275.737 ms
+
+11:48:07 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 7.311 ms
+
+11:48:07 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 7.611 ms
+
+11:48:07 AM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2338 - 16.849 ms
+
+11:48:07 AM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 39.498 ms
+
+11:51:34 AM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 22.924 ms
+
+11:51:34 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.901 ms
+
+11:51:34 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.522 ms
+
+11:51:34 AM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2413 - 2.891 ms
+
+11:51:34 AM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 5.460 ms
+
+11:52:15 AM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 17.071 ms
+
+11:52:15 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.054 ms
+
+11:52:15 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.954 ms
+
+11:52:15 AM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2414 - 1.300 ms
+
+11:52:15 AM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 3.109 ms
+
+11:52:45 AM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 15.049 ms
+
+11:52:45 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.094 ms
+
+11:52:45 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.023 ms
+
+11:52:45 AM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2450 - 1.576 ms
+
+11:52:45 AM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 3.508 ms
+
+11:53:54 AM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 13.937 ms
+
+11:53:54 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.791 ms
+
+11:53:54 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.804 ms
+
+11:53:54 AM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2418 - 2.426 ms
+
+11:53:54 AM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 3.733 ms
+
+11:54:45 AM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 13.337 ms
+
+11:54:45 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.297 ms
+
+11:54:45 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.090 ms
+
+11:54:45 AM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2450 - 3.299 ms
+
+11:54:46 AM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 3.572 ms
+
+11:54:48 AM - info: ::ffff:127.0.0.1 - GET /dettagliSacca?sacca=[object%20Object] HTTP/1.1 200 929 - 14.001 ms
+
+11:54:48 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.917 ms
+
+11:54:48 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.905 ms
+
+11:54:48 AM - info: ::ffff:127.0.0.1 - GET /javascript/dettagliSacca.js HTTP/1.1 200 40 - 1.620 ms
+
+11:54:58 AM - info: ::ffff:127.0.0.1 - GET /dettagliSacca?sacca=[object%20Object] HTTP/1.1 304 - - 10.607 ms
+
+11:54:58 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.473 ms
+
+11:54:58 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.779 ms
+
+11:54:58 AM - info: ::ffff:127.0.0.1 - GET /javascript/dettagliSacca.js HTTP/1.1 304 - - 0.273 ms
+
+11:59:36 AM - info: ::ffff:127.0.0.1 - GET /dettagliSacca?sacca=[object%20Object] HTTP/1.1 304 - - 9.038 ms
+
+11:59:36 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.411 ms
+
+11:59:36 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.282 ms
+
+11:59:36 AM - info: ::ffff:127.0.0.1 - GET /javascript/dettagliSacca.js HTTP/1.1 304 - - 1.869 ms
+
+11:59:38 AM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 8.990 ms
+
+11:59:38 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.635 ms
+
+11:59:38 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.889 ms
+
+11:59:38 AM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2611 - 1.386 ms
+
+11:59:39 AM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 3.130 ms
+
+12:00:24 PM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 9.284 ms
+
+12:00:24 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.150 ms
+
+12:00:24 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.153 ms
+
+12:00:24 PM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2620 - 1.590 ms
+
+12:00:25 PM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 3.116 ms
+
+12:00:26 PM - info: ::ffff:127.0.0.1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=Test HTTP/1.1 200 929 - 8.233 ms
+
+12:00:26 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.959 ms
+
+12:00:26 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.851 ms
+
+12:00:26 PM - info: ::ffff:127.0.0.1 - GET /javascript/dettagliSacca.js HTTP/1.1 304 - - 3.973 ms
+
+12:00:41 PM - info: ::ffff:127.0.0.1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=Test HTTP/1.1 304 - - 7.826 ms
+
+12:00:41 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.428 ms
+
+12:00:41 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.380 ms
+
+12:00:41 PM - info: ::ffff:127.0.0.1 - GET /javascript/dettagliSacca.js HTTP/1.1 304 - - 1.757 ms
+
+12:00:43 PM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 8.325 ms
+
+12:00:43 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.345 ms
+
+12:00:43 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.279 ms
+
+12:00:43 PM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2622 - 1.966 ms
+
+12:00:43 PM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 7.068 ms
+
+12:02:49 PM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 9.302 ms
+
+12:02:49 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.081 ms
+
+12:02:49 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.008 ms
+
+12:02:49 PM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2607 - 1.680 ms
+
+12:02:49 PM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 4.618 ms
+
+12:06:48 PM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 11.883 ms
+
+12:06:48 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.151 ms
+
+12:06:48 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.251 ms
+
+12:06:48 PM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2788 - 1.737 ms
+
+12:06:49 PM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 3.766 ms
+
+12:07:04 PM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 9.441 ms
+
+12:07:04 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.242 ms
+
+12:07:04 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.171 ms
+
+12:07:04 PM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2796 - 1.831 ms
+
+12:07:04 PM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 2.736 ms
+
+12:07:38 PM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 9.001 ms
+
+12:07:39 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.368 ms
+
+12:07:39 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.487 ms
+
+12:07:39 PM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2800 - 1.091 ms
+
+12:07:39 PM - info: ::ffff:127.0.0.1 - POST /sacche/datisacca HTTP/1.1 200 786 - 5.666 ms
+
+12:12:02 PM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 12.981 ms
+
+12:12:02 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.740 ms
+
+12:12:02 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.685 ms
+
+12:12:02 PM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2761 - 0.530 ms
+
+12:12:02 PM - info: ::ffff:127.0.0.1 - POST /sacche/datiSacche HTTP/1.1 404 2265 - 26.532 ms
+
+12:12:15 PM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 264.761 ms
+
+12:12:15 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 5.244 ms
+
+12:12:15 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 6.702 ms
+
+12:12:15 PM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 304 - - 8.259 ms
+
+12:12:15 PM - info: ::ffff:127.0.0.1 - POST /sacche/datiSacche HTTP/1.1 200 1576 - 34.065 ms
+
+12:12:33 PM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=3B33A159 HTTP/1.1 304 - - 21.316 ms
+
+12:12:33 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.646 ms
+
+12:12:33 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.847 ms
+
+12:12:33 PM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2759 - 4.136 ms
+
+12:12:33 PM - info: ::ffff:127.0.0.1 - POST /sacche/datiSacche HTTP/1.1 200 1576 - 3.325 ms
+
+12:12:46 PM - info: ::ffff:127.0.0.1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU1OTkxNjMxMn0.9cO-w-ToYIpIvxakaMmDe7dm5kNOQhhS_ZwVZeePlhU&uid=Test2 HTTP/1.1 200 929 - 20.076 ms
+
+12:12:46 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.498 ms
+
+12:12:46 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.738 ms
+
+12:12:46 PM - info: ::ffff:127.0.0.1 - GET /javascript/dettagliSacca.js HTTP/1.1 304 - - 0.296 ms
+

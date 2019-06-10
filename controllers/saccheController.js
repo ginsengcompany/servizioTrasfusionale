@@ -20,3 +20,18 @@ exports.getSacca = function (req, res) {
         });
     });
 };
+exports.getSacche = function (req, res) {
+    if (!req.headers.hasOwnProperty('access-token'))
+        return res.status(400).send("La richiesta non può essere elaborata");
+    if (sacche.db._readyState !== 1) //Controlla se il database è pronto per la comunicazione
+        return res.status(503).send('Il servizio non è momentaneamente disponibile');
+    let token = req.headers['access-token'];
+    jwt.verify(token,seedTok,function (err, decoded) {
+        if (err) return res.status(401).send('Accesso negato');
+        sacche.find({},function (err, sacche) {
+            if (err) return res.status(503).send('Il servizio non è momentaneamente disponibile');
+            if (!sacche) return res.status(404).send('Sacche non trovate');
+            res.status(200).send(sacche);
+        });
+    });
+};

@@ -3,8 +3,8 @@ let router = express.Router();
 let bodyParser = require('body-parser');
 router.use(bodyParser.urlencoded({extended: true}));
 router.use(bodyParser.json());
-let homeController = require('../controllers/homeController');
+let dettagliSaccaController = require('../controllers/dettagliSaccaController');
 
-router.get('/',homeController.homePage);
+router.get('/',dettagliSaccaController.dettagliSacca);
 
 module.exports = router;
