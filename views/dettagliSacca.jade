@@ -2,16 +2,134 @@ extends layout
 
 block title
     title Sacca
-block style
-    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
-    link(rel='stylesheet', href='/stylesheets/style.css')
-    link(rel='stylesheet', href='https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css')
 block body
-    body
-        .Home
-            h1 DettagliSacca
-            .container#TabHome
-                h1 Sacche di sangue
+    body.overflow-auto
+        .Sacche
+            h1 Dettagli Sacca
+            .container
+                .col-md-12.order-md-1
+                    .card
+                        .card-header
+                            h4.mb-3 Dati Generici
+                        .card-body
+                            form.needs-validation(novalidate='')
+                                .row
+                                    .col-md-4.mb-3
+                                        label(for='uid') UID Sacca
+                                        input#uid.form-control(type='text', placeholder='', value='', required='')
+                                        .invalid-feedback
+                                            | UID non valido.
+                                    .col-md-4.mb-3
+                                        label(for='uidPaziente') UID Paziente
+                                        input#uidPaziente.form-control(type='text', placeholder='', value='', required='')
+                                        .invalid-feedback
+                                            | UID paziente non valido.
+                                    .col-md-4.mb-3
+                                        label(for='uidPersonale') UID Personale
+                                        .input-group
+                                            .input-group-prepend
+                                                span.input-group-text @
+                                            input#uidPersonale.form-control(type='text', placeholder='UID Personale', required='')
+                                            .invalid-feedback(style='width: 100%;')
+                                                | UID personale non valido.
+                                .row
+                                    .col-md-8.mb-3
+                                        label(for='fase')
+                                            | Fase
+                                        input#fase.form-control(type='text', placeholder='Fase')
+                                        .invalid-feedback
+                                            | Fase di elaborazione non valida
+                                    .col-md-4.mb-3
+                                        br
+                                        .custom-control.custom-checkbox
+                                            input#trasfusa.custom-control-input(type='checkbox',style='text-align: center;')
+                                            label.custom-control-label(for='trasfusa') Trasfusa
+                    hr.mb-4
+                    .card
+                        .card-header
+                            | FASE 1
+                        .card-body
+                            .mb-3
+                                label(for='luogoRaccolta') Luogo Raccolta
+                                input#luogoRaccolta.form-control(type='text', placeholder='Caserta Laboratorio di Analisi A', required='')
+                                .invalid-feedback
+                                    | Inserisci il luogo di raccolta
+                            .mb-3
+                                label(for='tipoDonazione')
+                                    | Tipo di donazione e procedura adottata
+                                input#tipoDonazione.form-control(type='text', placeholder='Sangue intero Aferesi...')
+                                .invalid-feedback
+                                    | Inserisci tipo Donazione
+                            .row
+                                .col-md-4.mb-3
+                                    label(for='anticoagulante') Anticoagulante impiegato e volume
+                                    input#anticoagulante.form-control(type='text', placeholder='Soluzione anticoagulante CPD 63 ml ± 5%...')
+                                    .invalid-feedback
+                                        | Inserisci i deti inerenti al Anticoagulante
+                                .col-md-4.mb-3
+                                    label(for='conservante') Conservante impiegato e volume
+                                    input#conservante.form-control(type='text', placeholder='Soluzione conservante SAGM 100 ml ± 5%...')
+                                    .invalid-feedback
+                                        | Inserisci i dati relativi all'conservante
+                                .col-md-4.mb-3
+                                    label(for='volumeEmocomponenti') Volume degli emocomponenti raccolti
+                                    input#volumeEmocomponenti.form-control(type='Number' Step="0.01", placeholder='5.20')
+                                    .invalid-feedback
+                                        | Inserisci Volume valido
+                            .mb-3
+                                label(for='dateStamp')
+                                    | Data e ora della procedura di raccolta
+                                input#dateStamp.form-control(type='date')
+                                .invalid-feedback
+                                    | Inserisci data valida
+
+                            hr.mb-4
+                            .custom-control.custom-checkbox
+                                input#same-address.custom-control-input(type='checkbox')
+                                label.custom-control-label(for='same-address') Shipping address is the same as my billing address
+                            .custom-control.custom-checkbox
+                                input#save-info.custom-control-input(type='checkbox')
+                                label.custom-control-label(for='save-info') Save this information for next time
+                            hr.mb-4
+                            h4.mb-3 Payment
+                            .d-block.my-3
+                                .custom-control.custom-radio
+                                    input#credit.custom-control-input(name='paymentMethod', type='radio', checked='', required='')
+                                    label.custom-control-label(for='credit') Credit card
+                                .custom-control.custom-radio
+                                    input#debit.custom-control-input(name='paymentMethod', type='radio', required='')
+                                    label.custom-control-label(for='debit') Debit card
+                                .custom-control.custom-radio
+                                    input#paypal.custom-control-input(name='paymentMethod', type='radio', required='')
+                                    label.custom-control-label(for='paypal') Paypal
+                            .row
+                                .col-md-6.mb-3
+                                    label(for='cc-name') Name on card
+                                    input#cc-name.form-control(type='text', placeholder='', required='')
+                                    small.text-muted Full name as displayed on card
+                                    .invalid-feedback
+                                        | Name on card is required
+                                .col-md-6.mb-3
+                                    label(for='cc-number') Credit card number
+                                    input#cc-number.form-control(type='text', placeholder='', required='')
+                                    .invalid-feedback
+                                        | Credit card number is required
+                            .row
+                                .col-md-3.mb-3
+                                    label(for='cc-expiration') Expiration
+                                    input#cc-expiration.form-control(type='text', placeholder='', required='')
+                                    .invalid-feedback
+                                        | Expiration date required
+                                .col-md-3.mb-3
+                                    label(for='cc-expiration') CVV
+                                    input#cc-cvv.form-control(type='text', placeholder='', required='')
+                                    .invalid-feedback
+                                        | Security code required
+                            hr.mb-4
+                            button.btn.btn-primary.btn-lg.btn-block(type='submit') Continue to checkout
+
+
+
 block append javascript
     script(type='text/javascript', src = '/javascript/dettagliSacca.js')
     script(type='text/javascript', src = 'https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js')
