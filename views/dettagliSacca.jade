@@ -2,6 +2,7 @@ extends layout
 
 block title
     title Sacca
+
 block body
     body.overflow-auto
         .Sacche
@@ -44,17 +45,17 @@ block body
                                         .custom-control.custom-checkbox
                                             input#trasfusa.custom-control-input(type='checkbox',style='text-align: center;')
                                             label.custom-control-label(for='trasfusa') Trasfusa
-                    hr.mb-4
+                    hr.md-12.mb-3
                     .card
                         .card-header
                             | FASE 1
                         .card-body
-                            .mb-3
+                            .md-12.mb-3
                                 label(for='luogoRaccolta') Luogo Raccolta
                                 input#luogoRaccolta.form-control(type='text', placeholder='Caserta Laboratorio di Analisi A', required='')
                                 .invalid-feedback
                                     | Inserisci il luogo di raccolta
-                            .mb-3
+                            .md-12.mb-3
                                 label(for='tipoDonazione')
                                     | Tipo di donazione e procedura adottata
                                 input#tipoDonazione.form-control(type='text', placeholder='Sangue intero Aferesi...')
@@ -76,60 +77,115 @@ block body
                                     input#volumeEmocomponenti.form-control(type='Number' Step="0.01", placeholder='5.20')
                                     .invalid-feedback
                                         | Inserisci Volume valido
-                            .mb-3
-                                label(for='dateStamp')
-                                    | Data e ora della procedura di raccolta
-                                input#dateStamp.form-control(type='date')
+                            .row
+                                .col-md-8.mb-3
+                                    label(for='dateStamp')
+                                        | Data e ora della procedura di raccolta
+                                    input#dateStamp.form-control.datetimepicker-input(readonly type='text', data-toggle='datetimepicker', data-target='#dateStamp')
+                                    .invalid-feedback
+                                        | Inserisci data valida
+                                .col-md-4.mb-3
+                                    label(for='durata') Durata
+                                    input#durata.form-control(type='text', placeholder='2 ore...')
+                                    .invalid-feedback
+                                        | Inserisci la durata
+
+                            .md-12.mb-3
+                                label(for='codiceFiscaleDonatore') CodiceFiscale Donatore
+                                input#codiceFiscaleDonatore.form-control(type='text', placeholder='AAABBB00C00D000E')
+                                .invalid-feedback
+                                    | Inserisci CodiceFiscale Donatore
+                            .row
+                                .col-md-6.mb-3
+                                    label(for='esitoDonazione') Esito Donazione
+                                    input#esitoDonazione.form-control(type='text', placeholder='Idoneo...')
+                                    .invalid-feedback
+                                        | Inserisci Esito Donazione
+                                .col-md-6.mb-3
+                                    label(for='tipoEmocomponente') Tipo Emocomponente
+                                    input#tipoEmocomponente.form-control(type='text', placeholder='Globuli rossi plasma...')
+                                    .invalid-feedback
+                                        | Inserisci Tipo Emocomponente
+                    hr.md-12.mb-3
+                    .card
+                        .card-header
+                            | FASE 2
+                        .card-body
+                            .row
+                                .col-md-8.mb-3
+                                    label(for='laboratorioProvenienza') Laboratorio di Provenienza
+                                    input#laboratorioProvenienza.form-control(type='text', placeholder='Laboratorio di...')
+                                    .invalid-feedback
+                                        | Inserisci Laboratorio di Provenienza
+                                .col-md-4.mb-3
+                                    label(for='fenotipo') Fenotipo
+                                    input#fenotipo.form-control(type='text', placeholder='Gruppo AB')
+                                    .invalid-feedback
+                                        | Inserisci Fenotipo
+                            .md-12.mb-3
+                                label(for='laboratorioAnalisi') Laboratorio Analisi
+                                input#laboratorioAnalisi.form-control(type='text', placeholder='Laboratorio di...')
+                                .invalid-feedback
+                                    | Inserisci Laboratorio Analisi
+                    hr.md-12.mb-3
+                    .card
+                        .card-header
+                            | FASE 3
+                        .card-body
+                            .md-12.mb-3
+                                label(for='tipoEmoderivato') Tipo Emoderivato
+                                input#tipoEmoderivato.form-control(type='text', placeholder='Albumina, Gammaglobuline...')
+                                .invalid-feedback
+                                    | Inserisci Tipo Emoderivato
+                            .md-12.mb-3
+                                label(for='tipoLavorazione') Tipo Lavorazione
+                                input#tipoLavorazione.form-control(type='text', placeholder='Centrifugazione...')
+                                .invalid-feedback
+                                    | Inserisci Tipo Lavorazione
+                    hr.md-12.mb-3
+                    .card
+                        .card-header
+                            | FASE 4
+                        .card-body
+                            .md-12.mb-3
+                                label(for='dataScadenza')
+                                    | Data di scadenza
+                                input#dataScadenza.form-control.datetimepicker-input(readonly type='text', data-toggle='datetimepicker', data-target='#dataScadenza')
                                 .invalid-feedback
                                     | Inserisci data valida
+                    hr.md-12.mb-3
+                    .card
+                        .card-header
+                            | FASE 5
+                        .card-body
+                            .md-12.mb-3
+                                label(for='dataSomministrazione')
+                                    | Data di Somministrazione
+                                input#dataSomministrazione.form-control.datetimepicker-input(readonly type='text', data-toggle='datetimepicker', data-target='#dataSomministrazione')
+                                .invalid-feedback
+                                    | Inserisci data valida
+                            .row
+                                .col-md-6.mb-3
+                                    label(for='medicoResponsabile') Medico Responabile
+                                    input#medicoResponsabile.form-control(type='text', placeholder='Dott. Mario Rossi')
+                                    .invalid-feedback
+                                        | Inserisci Nome Medico responsabile
+                                .col-md-6.mb-3
+                                    label(for='infermiereResponsabile') Infermiere Responsabile
+                                    input#infermiereResponsabile.form-control(type='text', placeholder='Inf. Mario Rossi')
+                                    .invalid-feedback
+                                        | Inserisci Nome Infermiere responsabile
+                            .md-12.mb-3
+                                label(for='nosograficoPaziente') Nosogragico Paziente
+                                input#nosograficoPaziente.form-control(type='text', placeholder='')
+                                .invalid-feedback
+                                    | Inserisci Nosografico Paziente
 
-                            hr.mb-4
-                            .custom-control.custom-checkbox
-                                input#same-address.custom-control-input(type='checkbox')
-                                label.custom-control-label(for='same-address') Shipping address is the same as my billing address
-                            .custom-control.custom-checkbox
-                                input#save-info.custom-control-input(type='checkbox')
-                                label.custom-control-label(for='save-info') Save this information for next time
-                            hr.mb-4
-                            h4.mb-3 Payment
-                            .d-block.my-3
-                                .custom-control.custom-radio
-                                    input#credit.custom-control-input(name='paymentMethod', type='radio', checked='', required='')
-                                    label.custom-control-label(for='credit') Credit card
-                                .custom-control.custom-radio
-                                    input#debit.custom-control-input(name='paymentMethod', type='radio', required='')
-                                    label.custom-control-label(for='debit') Debit card
-                                .custom-control.custom-radio
-                                    input#paypal.custom-control-input(name='paymentMethod', type='radio', required='')
-                                    label.custom-control-label(for='paypal') Paypal
-                            .row
-                                .col-md-6.mb-3
-                                    label(for='cc-name') Name on card
-                                    input#cc-name.form-control(type='text', placeholder='', required='')
-                                    small.text-muted Full name as displayed on card
-                                    .invalid-feedback
-                                        | Name on card is required
-                                .col-md-6.mb-3
-                                    label(for='cc-number') Credit card number
-                                    input#cc-number.form-control(type='text', placeholder='', required='')
-                                    .invalid-feedback
-                                        | Credit card number is required
-                            .row
-                                .col-md-3.mb-3
-                                    label(for='cc-expiration') Expiration
-                                    input#cc-expiration.form-control(type='text', placeholder='', required='')
-                                    .invalid-feedback
-                                        | Expiration date required
-                                .col-md-3.mb-3
-                                    label(for='cc-expiration') CVV
-                                    input#cc-cvv.form-control(type='text', placeholder='', required='')
-                                    .invalid-feedback
-                                        | Security code required
-                            hr.mb-4
-                            button.btn.btn-primary.btn-lg.btn-block(type='submit') Continue to checkout
+                    hr.md-12.mb-3
+                    hr.mb-4
+                    button.btn.btn-primary.btn-lg.btn-block(type='submit') Continue to checkout
 
 
 
 block append javascript
     script(type='text/javascript', src = '/javascript/dettagliSacca.js')
-    script(type='text/javascript', src = 'https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js')
