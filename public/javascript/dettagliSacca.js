@@ -19,4 +19,40 @@ $(document).ready(function () {
         ignoreReadonly: true
     });
 
+    let token = GetURLParameter('token');
+    let uid = GetURLParameter('uid');
+    console.log(uid);
+    let sacca ;
+    console.log(token);
+    $.ajax({
+        url: '/sacche/datiSacca',
+        type: 'POST',
+        data: JSON.stringify({'uid': uid}),
+        contentType: 'application/json',
+        headers: {'access-token': token},
+        success: function (data, textStatus, jqXHR) {
+            sacca=data;
+            $('#uid').val(sacca.uid);
+            $('#uidPaziente').val(sacca.uidPaziente);
+            $('#uidPersonale').val(sacca.uidPersonale);
+            $('#fase').val(sacca.fase);
+            $('#trasfusa').val(sacca.trasfusa);
+            $('#luogoRaccolta').val(sacca.luogoRaccolta);
+
+
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.log(textStatus + jqXHR.status);
+        },
+    });
+    function GetURLParameter(sParam) {
+        let sPageURL = window.location.search.substring(1);
+        let sURLVariables = sPageURL.split('&');
+        for (let i = 0; i < sURLVariables.length; i++) {
+            let sParameterName = sURLVariables[i].split('=');
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1];
+            }
+        }
+    }
 });
