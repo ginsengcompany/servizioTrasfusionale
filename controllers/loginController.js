@@ -4,7 +4,6 @@ let moment = require('moment');
 let log = require('../utils/logger');
 let seedTok = "proviamo";
 let operatore = require('../models/operatores');
-
 exports.loginPage = function(req,res){
     res.render('login')
 };
@@ -23,7 +22,7 @@ exports.loginMethod = function (req,res) {
             //expiresIn: 86400 // expires in 24 hours
         });
         let messageLog = "uid: " + req.body.uid + " auth: true";
-        log.info(messageLog);
+        log.info(messageLog)
         res.status(200).send(token);
     });
 };

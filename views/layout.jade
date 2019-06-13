@@ -11,6 +11,20 @@ html
       link(rel='stylesheet', href='/stylesheets/style.css')
 
   block body
+    nav.navbar.navbar-expand-sm.navbar-dark.bg-dark
+      // Navbar content
+      ul.navbar-nav
+        a.navbar-brand(href='#') Navbar
+          button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNavDropdown', aria-controls='navbarNavDropdown', aria-expanded='false', aria-label='Toggle navigation')
+            span.navbar-toggler-icon
+        #navbarNavDropdown.collapse.navbar-collapse
+            li#home.nav-item
+              a#homeAncor.nav-link
+                | Home
+            li.nav-item
+              a#NuovaSacca.nav-link
+                | Nuova Sacca
+
   block content
   block footer
   block javascript
@@ -20,4 +34,5 @@ html
     script(type='text/javascript', src = 'https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/js/tempusdominus-bootstrap-4.min.js')
     script(type='text/javascript', src = 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js')
     script(type='text/javascript', src = 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js')
+    script(type='text/javascript', src = '/javascript/Menu.js')
 

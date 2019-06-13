@@ -1,5 +1,6 @@
 $(document).ready(function () {
     let token = GetURLParameter('token');
+    let uid = "Test";
     let sacca ;
     console.log(token);
     $.ajax({

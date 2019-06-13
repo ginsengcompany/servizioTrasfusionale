@@ -46,7 +46,10 @@ $(document).ready(function () {
             let a = moment(sacca.dateStamp).format('DD-MM-YYYY HH:mm ');
             console.log(a);
             $('#dateStamp').val(a);
-
+            $('#durata').val(sacca.durata);
+            $('#codiceFiscaleDonatore').val(sacca.codiceFiscaleDonatore);
+            $('#esitoDonazione').val(sacca.esitoDonazione);
+            $('#tipoEmocomponente').val(sacca.tipoEmocomponente);
 
         },
         error: function (jqXHR, textStatus, errorThrown) {
