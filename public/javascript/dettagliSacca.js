@@ -21,9 +21,7 @@ $(document).ready(function () {
 
     let token = GetURLParameter('token');
     let uid = GetURLParameter('uid');
-    console.log(uid);
     let sacca ;
-    console.log(token);
     $.ajax({
         url: '/sacche/datiSacca',
         type: 'POST',
@@ -36,8 +34,18 @@ $(document).ready(function () {
             $('#uidPaziente').val(sacca.uidPaziente);
             $('#uidPersonale').val(sacca.uidPersonale);
             $('#fase').val(sacca.fase);
-            $('#trasfusa').val(sacca.trasfusa);
+            if(sacca.trasfusa)
+                $('#trasfusa').prop('checked', true);
+            else
+                $('#trasfusa').prop('checked', false);
             $('#luogoRaccolta').val(sacca.luogoRaccolta);
+            $('#tipoDonazione').val(sacca.tipoDonazione);
+            $('#anticoagulante').val(sacca.anticoagulante);
+            $('#conservante').val(sacca.conservante);
+            $('#volumeEmocomponenti').val(sacca.volumeEmocomponenti);
+            let a = moment(sacca.dateStamp).format('DD-MM-YYYY HH:mm ');
+            console.log(a);
+            $('#dateStamp').val(a);
 
 
         },

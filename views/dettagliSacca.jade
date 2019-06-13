@@ -43,7 +43,7 @@ block body
                                     .col-md-4.mb-3
                                         br
                                         .custom-control.custom-checkbox
-                                            input#trasfusa.custom-control-input(type='checkbox',style='text-align: center;',readonly="readonly")
+                                            input#trasfusa.custom-control-input(type='checkbox',style='text-align: center;',onclick="return false;")
                                             label.custom-control-label(for='trasfusa') Trasfusa
                     hr.md-12.mb-3
                     .card
@@ -81,7 +81,7 @@ block body
                                 .col-md-8.mb-3
                                     label(for='dateStamp')
                                         | Data e ora della procedura di raccolta
-                                    input#dateStamp.form-control.datetimepicker-input(type='text', data-toggle='datetimepicker', data-target='#dateStamp',readonly="readonly")
+                                    input#dateStamp.form-control.datetimepicker-input(type='text', data-toggle='datetimepicker', data-target='#dateStamp',readonly="readonly",disabled="")
                                     .invalid-feedback
                                         | Inserisci data valida
                                 .col-md-4.mb-3
