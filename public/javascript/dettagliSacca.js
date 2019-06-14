@@ -18,10 +18,10 @@ $(document).ready(function () {
         locale: 'it',
         ignoreReadonly: true
     });
-
     let token = GetURLParameter('token');
     let uid = GetURLParameter('uid');
     let sacca ;
+    console.log(uid);
     $.ajax({
         url: '/sacche/datiSacca',
         type: 'POST',
@@ -38,6 +38,7 @@ $(document).ready(function () {
                 $('#trasfusa').prop('checked', true);
             else
                 $('#trasfusa').prop('checked', false);
+            /*Fase 1*/
             $('#luogoRaccolta').val(sacca.luogoRaccolta);
             $('#tipoDonazione').val(sacca.tipoDonazione);
             $('#anticoagulante').val(sacca.anticoagulante);
@@ -50,20 +51,51 @@ $(document).ready(function () {
             $('#codiceFiscaleDonatore').val(sacca.codiceFiscaleDonatore);
             $('#esitoDonazione').val(sacca.esitoDonazione);
             $('#tipoEmocomponente').val(sacca.tipoEmocomponente);
+            /*fase2*/
+            $('#laboratorioProvenienza').val(sacca.laboratorioProvenienza);
+            $('#fenotipo').val(sacca.fenotipo);
+            $('#laboratorioAnalisi').val(sacca.laboratorioAnalisi);
+            /*fase3*/
+            $('#tipoEmoderivato').val(sacca.tipoEmoderivato);
+            $('#tipoLavorazione').val(sacca.tipoLavorazione);
+            /*fase4*/
+            if(sacca.dataScadenza){
+                let dataScadenza = moment(sacca.dataScadenza).format('DD-MM-YYYY');
+                console.log(dataScadenza);
+                $('#dataScadenza').val(dataScadenza);
+            }
+            else
+                $('#dataScadenza').val('');
+            /*fase5*/
+            if(sacca.dataSomministrazione){
+                let dataSomministrazione = moment(sacca.dataSomministrazione).format('DD-MM-YYYY HH:mm');
+                console.log(dataSomministrazione);
+                $('#dataSomministrazione').val(dataSomministrazione);
+            }
+            else
+                $('#dataSomministrazione').val('');
+            $('#medicoResponsabile').val(sacca.medicoResponsabile);
+            $('#infermiereResponsabile').val(sacca.infermiereResponsabile);
+            $('#nosograficoPaziente').val(sacca.nosograficoPaziente);
+
 
         },
         error: function (jqXHR, textStatus, errorThrown) {
             console.log(textStatus + jqXHR.status);
         },
     });
-    function GetURLParameter(sParam) {
-        let sPageURL = window.location.search.substring(1);
-        let sURLVariables = sPageURL.split('&');
-        for (let i = 0; i < sURLVariables.length; i++) {
-            let sParameterName = sURLVariables[i].split('=');
-            if (sParameterName[0] === sParam) {
-                return sParameterName[1];
-            }
+    $(".homePage").focusin(function() {
+        window.location.href = 'home' + '?token=' + token ;
+    });
+});
+
+function GetURLParameter(sParam) {
+    let sPageURL = window.location.search.substring(1);
+    let sURLVariables = sPageURL.split('&');
+    for (let i = 0; i < sURLVariables.length; i++) {
+        let sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1];
         }
     }
-});
+}

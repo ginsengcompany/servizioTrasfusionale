@@ -8,6 +8,6 @@ let saccheController = require('../controllers/saccheController');
 router.post('/datisacca',saccheController.getSacca);
 router.post('/datisacche',saccheController.getSacche);
 
-router.get('/',saccheController.dettagliSacca);
-router.get('/',saccheController.nuovaSacca);
+router.get('/dettagliSacca',saccheController.dettagliSacca);
+router.get('/nuovaSacca',saccheController.nuovaSacca);
 module.exports = router;

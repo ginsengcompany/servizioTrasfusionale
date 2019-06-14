@@ -40,13 +40,12 @@ $(document).ready(function () {
                         orderable: false,
                         data: null,
                         render: function (data, type, row) {
-                            return '<button type="button" class="btn btn-color-primary btn-sm btn-rounded gay">Dettagli</button>'
+                            return '<button type="button" class="btn btn-color-primary btn-sm btn-rounded dettagliSacca">Dettagli</button>'
                         },
                     }
                 ]
             });
-            $('#tabSacche tbody').on('click', '.gay', function () {
-                console.log("sono gay qua");
+            $('#tabSacche tbody').on('click', '.dettagliSacca', function () {
                 if (tabellaSacche.row(this).data() !== undefined){
                     data = tabellaSacche.row(this).data();
                 }else{

@@ -38,8 +38,7 @@ app.use('/sacche',sacche);
 app.use('/modelloH',modelloH);
 app.use('/', login);
 app.use('/home', home);
-app.use('/dettagliSacca', sacche);
-app.use('/nuovaSacca', sacche);
+app.use('/', sacche);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

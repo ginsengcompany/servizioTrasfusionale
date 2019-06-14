@@ -36,7 +36,7 @@ exports.getSacche = function (req, res) {
     });
 };
 
-exports.nuovaSacca= function(req,res){
+exports.nuovaSacca = function(req,res){
     res.render('nuovaSacca')
 };
 exports.dettagliSacca = function(req,res){

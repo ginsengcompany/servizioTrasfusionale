@@ -2,13 +2,27 @@ extends layout
 
 block title
     title Sacca
-
 block content
-    body.overflow-auto
-        .Sacche
+    body.overflow-y
+        nav#navbarNavDropdown.navbar.navbar-expand-sm.navbar-dark.bg-dark.fixed-top
+            ul.navbar-nav
+                a#HomeButton.navbar-brand.homePage(href='#') Home
+                .collapse.navbar-collapse
+                    li.nav-item
+                        a.nav-link(href='#fase1') Fase 1
+                    li.nav-item
+                        a.nav-link(href='#fase2') Fase 2
+                    li.nav-item
+                        a.nav-link(href='#fase3') Fase 3
+                    li.nav-item
+                        a.nav-link(href='#fase4') Fase 4
+                    li.nav-item
+                        a.nav-link(href='#fase5') Fase 5
+        .Sacche(style='overflow: scroll;,width: 100%; height:100%', data-offset='0', data-target='#navbarNavDropdown', data-spy='scroll')
             h1 Dettagli Sacca
             .container
                 .col-md-12.order-md-1
+                    #fase1.container-fluid
                     .card
                         .card-header
                             h4.mb-3 Dati Generici
@@ -30,14 +44,14 @@ block content
                                         .input-group
                                             .input-group-prepend
                                                 span.input-group-text @
-                                            input#uidPersonale.form-control(type='text', placeholder='UID Personale', required='',readonly="readonly")
+                                            input#uidPersonale.form-control(type='text', placeholder='', required='',readonly="readonly")
                                             .invalid-feedback(style='width: 100%;')
                                                 | UID personale non valido.
                                 .row
                                     .col-md-8.mb-3
                                         label(for='fase')
                                             | Fase
-                                        input#fase.form-control(type='text', placeholder='Fase',readonly="readonly")
+                                        input#fase.form-control(type='text', placeholder='',readonly="readonly")
                                         .invalid-feedback
                                             | Fase di elaborazione non valida
                                     .col-md-4.mb-3
@@ -52,29 +66,29 @@ block content
                         .card-body
                             .md-12.mb-3
                                 label(for='luogoRaccolta') Luogo Raccolta
-                                input#luogoRaccolta.form-control(type='text', placeholder='Caserta Laboratorio di Analisi A', required='',readonly="readonly")
+                                input#luogoRaccolta.form-control(type='text', placeholder='', required='',readonly="readonly")
                                 .invalid-feedback
                                     | Inserisci il luogo di raccolta
                             .md-12.mb-3
                                 label(for='tipoDonazione')
                                     | Tipo di donazione e procedura adottata
-                                input#tipoDonazione.form-control(type='text', placeholder='Sangue intero Aferesi...',readonly="readonly")
+                                input#tipoDonazione.form-control(type='text', placeholder='',readonly="readonly")
                                 .invalid-feedback
                                     | Inserisci tipo Donazione
                             .row
                                 .col-md-4.mb-3
                                     label(for='anticoagulante') Anticoagulante impiegato e volume
-                                    input#anticoagulante.form-control(type='text', placeholder='Soluzione anticoagulante CPD 63 ml ± 5%...',readonly="readonly")
+                                    input#anticoagulante.form-control(type='text', placeholder='',readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci i deti inerenti al Anticoagulante
                                 .col-md-4.mb-3
                                     label(for='conservante') Conservante impiegato e volume
-                                    input#conservante.form-control(type='text', placeholder='Soluzione conservante SAGM 100 ml ± 5%...',readonly="readonly")
+                                    input#conservante.form-control(type='text', placeholder='',readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci i dati relativi all'conservante
                                 .col-md-4.mb-3
                                     label(for='volumeEmocomponenti') Volume degli emocomponenti raccolti
-                                    input#volumeEmocomponenti.form-control(type='Number' Step="0.01", placeholder='5.20',readonly="readonly")
+                                    input#volumeEmocomponenti.form-control(type='Number' Step="0.01", placeholder='',readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci Volume valido
                             .row
@@ -86,26 +100,27 @@ block content
                                         | Inserisci data valida
                                 .col-md-4.mb-3
                                     label(for='durata') Durata
-                                    input#durata.form-control(type='text', placeholder='2 ore...',readonly="readonly")
+                                    input#durata.form-control(type='text', placeholder='',readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci la durata
 
                             .md-12.mb-3
                                 label(for='codiceFiscaleDonatore') CodiceFiscale Donatore
-                                input#codiceFiscaleDonatore.form-control(type='text', placeholder='AAABBB00C00D000E',readonly="readonly")
+                                input#codiceFiscaleDonatore.form-control(type='text', placeholder='',readonly="readonly")
                                 .invalid-feedback
                                     | Inserisci CodiceFiscale Donatore
                             .row
                                 .col-md-6.mb-3
                                     label(for='esitoDonazione') Esito Donazione
-                                    input#esitoDonazione.form-control(type='text', placeholder='Idoneo...',readonly="readonly")
+                                    input#esitoDonazione.form-control(type='text', placeholder='',readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci Esito Donazione
                                 .col-md-6.mb-3
                                     label(for='tipoEmocomponente') Tipo Emocomponente
-                                    input#tipoEmocomponente.form-control(type='text', placeholder='Globuli rossi plasma...',readonly="readonly")
+                                    input#tipoEmocomponente.form-control(type='text', placeholder='',readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci Tipo Emocomponente
+                    #fase2.ccontainer-fluid
                     hr.md-12.mb-3
                     .card
                         .card-header
@@ -114,19 +129,20 @@ block content
                             .row
                                 .col-md-8.mb-3
                                     label(for='laboratorioProvenienza') Laboratorio di Provenienza
-                                    input#laboratorioProvenienza.form-control(type='text', placeholder='Laboratorio di...',readonly="readonly")
+                                    input#laboratorioProvenienza.form-control(type='text', placeholder='',readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci Laboratorio di Provenienza
                                 .col-md-4.mb-3
                                     label(for='fenotipo') Fenotipo
-                                    input#fenotipo.form-control(type='text', placeholder='Gruppo AB',readonly="readonly")
+                                    input#fenotipo.form-control(type='text', placeholder='', readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci Fenotipo
                             .md-12.mb-3
                                 label(for='laboratorioAnalisi') Laboratorio Analisi
-                                input#laboratorioAnalisi.form-control(type='text', placeholder='Laboratorio di...',readonly="readonly")
+                                input#laboratorioAnalisi.form-control(type='text', placeholder='', readonly="readonly")
                                 .invalid-feedback
                                     | Inserisci Laboratorio Analisi
+                    #fase3.container-fluid
                     hr.md-12.mb-3
                     .card
                         .card-header
@@ -134,14 +150,15 @@ block content
                         .card-body
                             .md-12.mb-3
                                 label(for='tipoEmoderivato') Tipo Emoderivato
-                                input#tipoEmoderivato.form-control(type='text', placeholder='Albumina, Gammaglobuline...',readonly="readonly")
+                                input#tipoEmoderivato.form-control(type='text', placeholder='', readonly="readonly")
                                 .invalid-feedback
                                     | Inserisci Tipo Emoderivato
                             .md-12.mb-3
                                 label(for='tipoLavorazione') Tipo Lavorazione
-                                input#tipoLavorazione.form-control(type='text', placeholder='Centrifugazione...',readonly="readonly")
+                                input#tipoLavorazione.form-control(type='text', placeholder='', readonly="readonly")
                                 .invalid-feedback
                                     | Inserisci Tipo Lavorazione
+                    #fase4.container-fluid
                     hr.md-12.mb-3
                     .card
                         .card-header
@@ -150,9 +167,10 @@ block content
                             .md-12.mb-3
                                 label(for='dataScadenza')
                                     | Data di scadenza
-                                input#dataScadenza.form-control.datetimepicker-input(readonly="readonly", type='text', data-toggle='datetimepicker', data-target='#dataScadenza')
+                                input#dataScadenza.form-control.datetimepicker-input(readonly="readonly", type='text', data-toggle='datetimepicker', data-target='#dataScadenza', disabled="")
                                 .invalid-feedback
                                     | Inserisci data valida
+                    #fase5.container-fluid
                     hr.md-12.mb-3
                     .card
                         .card-header
@@ -161,18 +179,18 @@ block content
                             .md-12.mb-3
                                 label(for='dataSomministrazione')
                                     | Data di Somministrazione
-                                input#dataSomministrazione.form-control.datetimepicker-input(readonly="readonly", type='text', data-toggle='datetimepicker', data-target='#dataSomministrazione')
+                                input#dataSomministrazione.form-control.datetimepicker-input(disabled="", readonly="readonly", type='text', data-toggle='datetimepicker', data-target='#dataSomministrazione')
                                 .invalid-feedback
                                     | Inserisci data valida
                             .row
                                 .col-md-6.mb-3
                                     label(for='medicoResponsabile') Medico Responabile
-                                    input#medicoResponsabile.form-control(type='text', placeholder='Dott. Mario Rossi',readonly="readonly")
+                                    input#medicoResponsabile.form-control(type='text', placeholder='',readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci Nome Medico responsabile
                                 .col-md-6.mb-3
                                     label(for='infermiereResponsabile') Infermiere Responsabile
-                                    input#infermiereResponsabile.form-control(type='text', placeholder='Inf. Mario Rossi',readonly="readonly")
+                                    input#infermiereResponsabile.form-control(type='text', placeholder='',readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci Nome Infermiere responsabile
                             .md-12.mb-3
@@ -184,8 +202,6 @@ block content
                     hr.md-12.mb-3
                     hr.mb-4
                     button.btn.btn-primary.btn-lg.btn-block(type='submit') Continue to checkout
-
-
 
 block append javascript
     script(type='text/javascript', src = '/javascript/dettagliSacca.js')
