@@ -36,6 +36,15 @@ exports.getSacche = function (req, res) {
     });
 };
 
+
+exports.postNuovaSacca = function (req, res) {
+
+    if (!req.body.uid)
+        return res.status(400).send("La richiesta non può essere elaborata");
+    else
+        return res.status(200).send("Avvenuto");
+};
+
 exports.nuovaSacca = function(req,res){
     res.render('nuovaSacca')
 };

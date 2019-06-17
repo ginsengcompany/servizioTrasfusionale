@@ -18,8 +18,7 @@ block content
                                     .col-md-4.mb-3
                                         label(for='uid', style='font-weight:bold') UID Sacca
                                         input#uid.form-control(type='text', placeholder='', value='', required='')
-                                        .invalid-feedback
-                                            | UID non valido.
+                                        small#invalidUid.form-text.text-muted.font-italic L'username deve contenere 3-16 caratteri alfanumerici.
                                     .col-md-4.mb-3
                                         label(for='uidPaziente', style='font-weight:bold') UID Paziente
                                         input#uidPaziente.form-control(type='text', placeholder='', value='', required='')
@@ -80,7 +79,7 @@ block content
 
                             .md-12.mb-3
                                 label(for='codiceFiscaleDonatore', style='font-weight:bold') CodiceFiscale Donatore
-                                input#codiceFiscaleDonatore.form-control(type='text', placeholder='AAABBB00C00D000E')
+                                input#codiceFiscaleDonatore.form-control(type='text', placeholder='AAABBB00C00D000E', required='')
                                 .invalid-feedback
                                     | Inserisci CodiceFiscale Donatore
                             .row
@@ -99,9 +98,13 @@ block content
                     .row
                         .col-md-5
                         .col-md-2.mb-3
-                            button.btn.btn-primary.btn-lg.btn-block(type='submit') Continue to checkout
+                            button#btnInvioDati.btn.btn-primary.btn-lg.btn-block(type='submit') INSERISCI
                     br
                     br
 
+                    #modalErrore.modal.fade.bd-example-modal-lg(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel', aria-hidden='true')
+                        .modal-dialog.modal-lg
+                            .modal-content
+                                #idModal.p #{messaggio}
 block append javascript
     script(type='text/javascript', src = '/javascript/nuovaSacca.js')
