@@ -15,21 +15,16 @@ block content
                         .card-body
                             form.needs-validation(novalidate='')
                                 .row
-                                    .col-md-4.mb-3
+                                    .col-md-6.mb-3
                                         label(for='uid', style='font-weight:bold') UID Sacca
                                         input#uid.form-control(type='text', placeholder='', value='', required='')
                                         small#invalidUid.form-text.text-muted.font-italic L'username deve contenere 3-16 caratteri alfanumerici.
-                                    .col-md-4.mb-3
-                                        label(for='uidPaziente', style='font-weight:bold') UID Paziente
-                                        input#uidPaziente.form-control(type='text', placeholder='', value='', required='')
-                                        .invalid-feedback
-                                            | UID paziente non valido.
-                                    .col-md-4.mb-3
+                                    .col-md-6.mb-3
                                         label(for='uidPersonale', style='font-weight:bold') UID Personale
                                         .input-group
                                             .input-group-prepend
                                                 span.input-group-text @
-                                            input#uidPersonale.form-control(type='text', placeholder='UID Personale', required='')
+                                            input#uidPersonale.form-control(type='text', placeholder='UID Personale', required='', readonly="readonly")
                                             .invalid-feedback(style='width: 100%;')
                                                 | UID personale non valido.
                     hr.md-12.mb-3

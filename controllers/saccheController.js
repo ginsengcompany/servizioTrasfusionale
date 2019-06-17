@@ -39,10 +39,25 @@ exports.getSacche = function (req, res) {
 
 exports.postNuovaSacca = function (req, res) {
 
-    if (!req.body.uid)
-        return res.status(400).send("La richiesta non può essere elaborata");
-    else
-        return res.status(200).send("Avvenuto");
+        if (!req.body.uid)
+            return res.status(400).send("La richiesta non può essere elaborata");
+        else{
+            let sacca = new sacche(req.body);
+            sacca.save(function (err, saccha1) {
+                if (err) return  res.status(400).error(err);{
+                        res.status(200).send(saccha1)
+                }
+            });
+        }
+};
+
+exports.postModificaFase = function(req,res){
+    let sacca = new sacche(req.body);
+    let seedTok = "proviamo";
+    let decoded = jwt.decode(req.body.token, seedTok);
+    sacca.update({ fase: 1}, function (err, affected, resp) {
+        res.status(200).send(saccha1)
+    });
 };
 
 exports.nuovaSacca = function(req,res){
@@ -51,3 +66,4 @@ exports.nuovaSacca = function(req,res){
 exports.dettagliSacca = function(req,res){
     res.render('dettagliSacca')
 };
+

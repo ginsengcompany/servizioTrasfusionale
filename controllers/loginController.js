@@ -22,7 +22,7 @@ exports.loginMethod = function (req,res) {
             //expiresIn: 86400 // expires in 24 hours
         });
         let messageLog = "uid: " + req.body.uid + " auth: true";
-        log.info(messageLog)
+        log.info(messageLog);
         res.status(200).send(token);
     });
 };

@@ -1,6 +1,6 @@
 $(document).ready(function () {
     let token = GetURLParameter('token');
-    let uid = "Test";
+    let uid = GetURLParameter('uid');
     let sacca ;
     console.log(token);
     $.ajax({
@@ -53,7 +53,7 @@ $(document).ready(function () {
                 }
 
                 console.log(data.uid);
-                window.location.href = 'dettagliSacca' + '?token=' + token + "&" + "uid=" + data.uid;
+                window.location.href = 'dettagliSacca' + '?token=' + token + "&" + "uid=" + uid + "&" + "uidSacca=" + data.uid;
             } );
         },
         error: function (jqXHR, textStatus, errorThrown) {

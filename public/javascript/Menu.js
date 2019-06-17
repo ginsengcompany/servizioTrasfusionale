@@ -1,8 +1,9 @@
 $(document).ready(function () {
     let token = GetURLParameter('token');
+    let uid = GetURLParameter('uid');
 
-    $("#homeAncor").attr("href","home?token="+token);
-    $("#NuovaSacca").attr("href","nuovaSacca?token="+token);
+    $("#homeAncor").attr("href","home?token="+token+"&uid="+uid);
+    $("#NuovaSacca").attr("href","nuovaSacca?token="+token+ "&uid="+uid);
 
     function GetURLParameter(sParam) {
         let sPageURL = window.location.search.substring(1);

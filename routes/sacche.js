@@ -8,6 +8,7 @@ let saccheController = require('../controllers/saccheController');
 router.post('/datisacca',saccheController.getSacca);
 router.post('/datisacche',saccheController.getSacche);
 router.post('/postNuovaSacca',saccheController.postNuovaSacca);
+router.post('/postModificaFase',saccheController.postModificaFase);
 
 router.get('/dettagliSacca',saccheController.dettagliSacca);
 router.get('/nuovaSacca',saccheController.nuovaSacca);

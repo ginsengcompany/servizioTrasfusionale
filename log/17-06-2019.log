@@ -1,0 +1,893 @@
+11:54:04 AM - info: ::1 - GET / HTTP/1.1 304 - - 267.072 ms
+
+11:54:04 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.295 ms
+
+11:54:04 AM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.940 ms
+
+11:54:04 AM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.511 ms
+
+11:54:04 AM - info: ::1 - GET /javascript/login.js HTTP/1.1 304 - - 1.966 ms
+
+11:54:19 AM - info: uid: 3B33A159 auth: true
+11:54:19 AM - info: ::1 - POST /loginMethod HTTP/1.1 200 148 - 83.673 ms
+
+11:54:19 AM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg&uid=3B33A159 HTTP/1.1 200 2509 - 62.075 ms
+
+11:54:19 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.423 ms
+
+11:54:19 AM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.541 ms
+
+11:54:19 AM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.794 ms
+
+11:54:19 AM - info: ::1 - GET /javascript/home.js HTTP/1.1 200 2733 - 19.334 ms
+
+11:54:20 AM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 1580 - 10.641 ms
+
+11:54:23 AM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 200 6746 - 124.906 ms
+
+11:54:23 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.327 ms
+
+11:54:23 AM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.160 ms
+
+11:54:23 AM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.714 ms
+
+11:54:23 AM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3587 - 3.529 ms
+
+11:54:42 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.562 ms
+
+11:55:41 AM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 98.765 ms
+
+11:55:41 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.667 ms
+
+11:55:41 AM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.887 ms
+
+11:55:41 AM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.585 ms
+
+11:55:41 AM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3593 - 0.935 ms
+
+11:58:01 AM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 69.622 ms
+
+11:58:01 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 6.445 ms
+
+11:58:01 AM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.106 ms
+
+11:58:01 AM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 6.385 ms
+
+11:58:01 AM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3552 - 9.670 ms
+
+11:58:17 AM - info: ::1 - POST /postNuovaSacca HTTP/1.1 500 3716 - 25.499 ms
+
+11:58:48 AM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 372.651 ms
+
+11:58:48 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 12.086 ms
+
+11:58:48 AM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 5.756 ms
+
+11:58:48 AM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 6.142 ms
+
+11:58:48 AM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 7.706 ms
+
+11:59:01 AM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 310 - 19.553 ms
+
+11:59:20 AM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 137.197 ms
+
+11:59:20 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.635 ms
+
+11:59:20 AM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.641 ms
+
+11:59:20 AM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.026 ms
+
+11:59:20 AM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 2.390 ms
+
+11:59:34 AM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 278 - 2.179 ms
+
+11:59:39 AM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 278 - 0.990 ms
+
+11:59:40 AM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 278 - 0.928 ms
+
+11:59:40 AM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 278 - 0.950 ms
+
+11:59:40 AM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 278 - 0.945 ms
+
+11:59:40 AM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 278 - 1.179 ms
+
+12:01:09 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 278 - 6466.705 ms
+
+12:03:58 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 278 - 27561.707 ms
+
+12:04:39 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 278 - 4212.809 ms
+
+12:04:44 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 1616.501 ms
+
+12:04:44 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.129 ms
+
+12:04:44 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.221 ms
+
+12:04:44 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.453 ms
+
+12:04:44 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3617 - 5.665 ms
+
+12:05:00 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 262 - 6790.900 ms
+
+12:09:11 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 915.246 ms
+
+12:09:11 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.866 ms
+
+12:09:11 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.411 ms
+
+12:09:11 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.340 ms
+
+12:09:11 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 2.426 ms
+
+12:09:16 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 371.374 ms
+
+12:09:16 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 6.039 ms
+
+12:09:16 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.945 ms
+
+12:09:16 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 3.173 ms
+
+12:09:16 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 4.493 ms
+
+12:09:53 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 500 3722 - 68.326 ms
+
+12:10:11 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 500 3722 - 269.224 ms
+
+12:10:55 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 500 3722 - 267.556 ms
+
+12:11:21 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 133.234 ms
+
+12:11:21 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.078 ms
+
+12:11:21 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.132 ms
+
+12:11:21 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.748 ms
+
+12:11:21 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 0.341 ms
+
+12:11:27 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 500 3722 - 23.040 ms
+
+12:12:24 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 500 3722 - 29.593 ms
+
+12:12:37 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 81.216 ms
+
+12:12:37 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.721 ms
+
+12:12:37 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.621 ms
+
+12:12:37 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 0.710 ms
+
+12:12:37 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.266 ms
+
+12:12:41 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 406.523 ms
+
+12:12:41 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 7.005 ms
+
+12:12:41 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.945 ms
+
+12:12:41 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 5.233 ms
+
+12:12:41 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 8.843 ms
+
+12:12:48 PM - error: uncaughtException: res.status(...).error is not a function date=Mon Jun 17 2019 12:12:48 GMT+0200 (GMT+02:00), pid=10964, uid=null, gid=null, cwd=D:\ServiziNode\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, D:\ServiziNode\servizioTrasfusionale\bin\www.js], rss=67465216, heapTotal=62722048, heapUsed=23322040, external=17957336, loadavg=[0, 0, 0], uptime=11878, trace=[column=50, file=D:\ServiziNode\servizioTrasfusionale\controllers\saccheController.js, function=null, line=47, method=null, native=false, column=16, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=null, line=3940, method=null, native=false, column=16, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=$__save.error, line=342, method=error, native=false, column=48, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=null, line=246, method=null, native=false, column=27, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=next, line=167, method=null, native=false, column=3, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=Kareem.execPost, line=217, method=execPost, native=false, column=21, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=_handleWrapError, line=245, method=null, native=false, column=14, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=null, line=271, method=null, native=false, column=14, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=_next, line=94, method=null, native=false, column=38, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=process.nextTick, line=427, method=nextTick, native=false, column=11, file=internal/process/next_tick.js, function=process._tickCallback, line=61, method=_tickCallback, native=false], stack=[TypeError: res.status(...).error is not a function,     at D:\ServiziNode\servizioTrasfusionale\controllers\saccheController.js:47:50,     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:3940:16,     at $__save.error (D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:342:16),     at D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:246:48,     at next (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:167:27),     at Kareem.execPost (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:217:3),     at _handleWrapError (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:245:21),     at D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:271:14,     at _next (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:94:14),     at process.nextTick (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:427:38),     at process._tickCallback (internal/process/next_tick.js:61:11)]
+12:12:50 PM - error: uncaughtException: res.status(...).error is not a function date=Mon Jun 17 2019 12:12:50 GMT+0200 (GMT+02:00), pid=10964, uid=null, gid=null, cwd=D:\ServiziNode\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, D:\ServiziNode\servizioTrasfusionale\bin\www.js], rss=68067328, heapTotal=62722048, heapUsed=23664944, external=17966488, loadavg=[0, 0, 0], uptime=11880, trace=[column=50, file=D:\ServiziNode\servizioTrasfusionale\controllers\saccheController.js, function=null, line=47, method=null, native=false, column=16, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=null, line=3940, method=null, native=false, column=16, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=$__save.error, line=342, method=error, native=false, column=48, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=null, line=246, method=null, native=false, column=27, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=next, line=167, method=null, native=false, column=3, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=Kareem.execPost, line=217, method=execPost, native=false, column=21, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=_handleWrapError, line=245, method=null, native=false, column=14, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=null, line=271, method=null, native=false, column=14, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=_next, line=94, method=null, native=false, column=38, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=process.nextTick, line=427, method=nextTick, native=false, column=11, file=internal/process/next_tick.js, function=process._tickCallback, line=61, method=_tickCallback, native=false], stack=[TypeError: res.status(...).error is not a function,     at D:\ServiziNode\servizioTrasfusionale\controllers\saccheController.js:47:50,     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:3940:16,     at $__save.error (D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:342:16),     at D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:246:48,     at next (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:167:27),     at Kareem.execPost (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:217:3),     at _handleWrapError (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:245:21),     at D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:271:14,     at _next (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:94:14),     at process.nextTick (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:427:38),     at process._tickCallback (internal/process/next_tick.js:61:11)]
+12:14:58 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 397.724 ms
+
+12:14:58 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 8.115 ms
+
+12:14:58 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.566 ms
+
+12:14:58 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 4.988 ms
+
+12:14:58 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3625 - 10.754 ms
+
+12:15:07 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 291 - 58.492 ms
+
+12:16:21 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 109.785 ms
+
+12:16:21 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.627 ms
+
+12:16:21 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.362 ms
+
+12:16:21 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.348 ms
+
+12:16:21 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3698 - 2.042 ms
+
+12:16:28 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 292 - 4.154 ms
+
+12:19:11 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 66.683 ms
+
+12:19:11 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.127 ms
+
+12:19:11 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.074 ms
+
+12:19:11 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.280 ms
+
+12:19:11 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3697 - 1.836 ms
+
+12:19:11 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 52.640 ms
+
+12:19:11 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.464 ms
+
+12:19:11 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.041 ms
+
+12:19:11 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.432 ms
+
+12:19:11 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 0.702 ms
+
+12:19:17 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 291 - 3.067 ms
+
+12:19:40 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 62.759 ms
+
+12:19:40 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.651 ms
+
+12:19:40 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.590 ms
+
+12:19:40 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.844 ms
+
+12:19:40 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3695 - 1.967 ms
+
+12:19:45 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 273 - 2.834 ms
+
+12:25:24 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 50.253 ms
+
+12:25:25 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.651 ms
+
+12:25:25 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.450 ms
+
+12:25:25 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.307 ms
+
+12:25:25 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3667 - 0.802 ms
+
+12:25:31 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 288 - 3.618 ms
+
+12:26:09 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 134.423 ms
+
+12:26:09 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.531 ms
+
+12:26:09 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.405 ms
+
+12:26:09 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.001 ms
+
+12:26:09 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3679 - 0.559 ms
+
+12:26:17 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 312 - 9.054 ms
+
+12:27:15 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 88.489 ms
+
+12:27:15 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.611 ms
+
+12:27:15 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.412 ms
+
+12:27:15 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.631 ms
+
+12:27:16 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3686 - 0.648 ms
+
+12:27:23 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 311 - 2.950 ms
+
+12:35:14 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 74.193 ms
+
+12:35:14 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.624 ms
+
+12:35:14 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.585 ms
+
+12:35:14 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.510 ms
+
+12:35:14 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3580 - 0.730 ms
+
+12:35:30 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 311 - 3.421 ms
+
+12:41:06 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 111.565 ms
+
+12:41:06 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.341 ms
+
+12:41:06 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.426 ms
+
+12:41:06 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.328 ms
+
+12:41:06 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3623 - 3.346 ms
+
+12:41:12 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 291 - 2.947 ms
+
+12:44:35 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 68.398 ms
+
+12:44:35 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.454 ms
+
+12:44:35 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.154 ms
+
+12:44:35 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.336 ms
+
+12:44:35 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 0.270 ms
+
+12:44:46 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 311 - 34.027 ms
+
+12:47:35 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 395.923 ms
+
+12:47:35 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 5.142 ms
+
+12:47:35 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.278 ms
+
+12:47:35 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 3.191 ms
+
+12:47:35 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 7.491 ms
+
+12:47:38 PM - error: uncaughtException: fase is not defined date=Mon Jun 17 2019 12:47:38 GMT+0200 (GMT+02:00), pid=3092, uid=null, gid=null, cwd=D:\ServiziNode\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, D:\ServiziNode\servizioTrasfusionale\bin\www.js], rss=66256896, heapTotal=63246336, heapUsed=23527032, external=17957745, loadavg=[0, 0, 0], uptime=13969, trace=[column=35, file=D:\ServiziNode\servizioTrasfusionale\controllers\saccheController.js, function=null, line=49, method=null, native=false, column=16, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=null, line=3940, method=null, native=false, column=7, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=model.$__save.error, line=344, method=error, native=false, column=21, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=null, line=297, method=null, native=false, column=27, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=next, line=209, method=null, native=false, column=3, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=Kareem.execPost, line=217, method=execPost, native=false, column=15, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=_cb, line=289, method=null, native=false, column=5, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=$__handleSave, line=282, method=null, native=false, column=7, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=null, line=169, method=null, native=false, column=17, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=result, line=413, method=null, native=false, column=35, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=executeCallback, line=404, method=null, native=false, column=5, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\collection.js, function=null, line=659, method=null, native=false, column=17, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=result, line=413, method=null, native=false, column=9, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=executeCallback, line=405, method=null, native=false, column=55, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=handleCallback, line=128, method=null, native=false, column=16, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\bulk\unordered.js, function=null, line=560, method=null, native=false], stack=[ReferenceError: fase is not defined,     at D:\ServiziNode\servizioTrasfusionale\controllers\saccheController.js:49:35,     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:3940:16,     at model.$__save.error (D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:344:7),     at D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:297:21,     at next (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:209:27),     at Kareem.execPost (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:217:3),     at _cb (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:289:15),     at $__handleSave (D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:282:5),     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:169:7,     at result (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:413:17),     at executeCallback (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:404:35),     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\collection.js:659:5,     at result (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:413:17),     at executeCallback (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:405:9),     at handleCallback (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:128:55),     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\bulk\unordered.js:560:16]
+12:47:47 PM - error: uncaughtException: fase is not defined date=Mon Jun 17 2019 12:47:47 GMT+0200 (GMT+02:00), pid=3092, uid=null, gid=null, cwd=D:\ServiziNode\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, D:\ServiziNode\servizioTrasfusionale\bin\www.js], rss=66863104, heapTotal=63246336, heapUsed=24069840, external=17968295, loadavg=[0, 0, 0], uptime=13977, trace=[column=35, file=D:\ServiziNode\servizioTrasfusionale\controllers\saccheController.js, function=null, line=49, method=null, native=false, column=16, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=null, line=3940, method=null, native=false, column=7, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=model.$__save.error, line=344, method=error, native=false, column=21, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=null, line=297, method=null, native=false, column=27, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=next, line=209, method=null, native=false, column=3, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=Kareem.execPost, line=217, method=execPost, native=false, column=15, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=_cb, line=289, method=null, native=false, column=5, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=$__handleSave, line=282, method=null, native=false, column=7, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=null, line=169, method=null, native=false, column=17, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=result, line=413, method=null, native=false, column=35, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=executeCallback, line=404, method=null, native=false, column=5, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\collection.js, function=null, line=659, method=null, native=false, column=17, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=result, line=413, method=null, native=false, column=9, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=executeCallback, line=405, method=null, native=false, column=55, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=handleCallback, line=128, method=null, native=false, column=16, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\bulk\unordered.js, function=null, line=560, method=null, native=false], stack=[ReferenceError: fase is not defined,     at D:\ServiziNode\servizioTrasfusionale\controllers\saccheController.js:49:35,     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:3940:16,     at model.$__save.error (D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:344:7),     at D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:297:21,     at next (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:209:27),     at Kareem.execPost (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:217:3),     at _cb (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:289:15),     at $__handleSave (D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:282:5),     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:169:7,     at result (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:413:17),     at executeCallback (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:404:35),     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\collection.js:659:5,     at result (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:413:17),     at executeCallback (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:405:9),     at handleCallback (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:128:55),     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\bulk\unordered.js:560:16]
+12:48:05 PM - info: ::ffff:127.0.0.1 - POST /postNuovaSacca HTTP/1.1 200 289 - 37.376 ms
+
+12:48:06 PM - info: ::ffff:127.0.0.1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 382.020 ms
+
+12:48:06 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 11.032 ms
+
+12:48:06 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 6.628 ms
+
+12:48:06 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 5.373 ms
+
+12:48:06 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 6.294 ms
+
+12:48:12 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 311 - 5.213 ms
+
+1:05:22 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 397.891 ms
+
+1:05:22 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 9.278 ms
+
+1:05:22 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 5.288 ms
+
+1:05:22 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 5.615 ms
+
+1:05:22 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 7.516 ms
+
+1:05:28 PM - error: uncaughtException: sacca.updateOne is not a function date=Mon Jun 17 2019 13:05:28 GMT+0200 (GMT+02:00), pid=4212, uid=null, gid=null, cwd=D:\ServiziNode\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, D:\ServiziNode\servizioTrasfusionale\bin\www.js], rss=57090048, heapTotal=45944832, heapUsed=23519568, external=17965739, loadavg=[0, 0, 0], uptime=15039, trace=[column=31, file=D:\ServiziNode\servizioTrasfusionale\controllers\saccheController.js, function=null, line=49, method=null, native=false, column=16, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=null, line=3940, method=null, native=false, column=7, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=model.$__save.error, line=344, method=error, native=false, column=21, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=null, line=297, method=null, native=false, column=27, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=next, line=209, method=null, native=false, column=3, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=Kareem.execPost, line=217, method=execPost, native=false, column=15, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=_cb, line=289, method=null, native=false, column=5, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=$__handleSave, line=282, method=null, native=false, column=7, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=null, line=169, method=null, native=false, column=17, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=result, line=413, method=null, native=false, column=35, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=executeCallback, line=404, method=null, native=false, column=5, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\collection.js, function=null, line=659, method=null, native=false, column=17, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=result, line=413, method=null, native=false, column=9, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=executeCallback, line=405, method=null, native=false, column=55, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=handleCallback, line=128, method=null, native=false, column=16, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\bulk\unordered.js, function=null, line=560, method=null, native=false], stack=[TypeError: sacca.updateOne is not a function,     at D:\ServiziNode\servizioTrasfusionale\controllers\saccheController.js:49:31,     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:3940:16,     at model.$__save.error (D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:344:7),     at D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:297:21,     at next (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:209:27),     at Kareem.execPost (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:217:3),     at _cb (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:289:15),     at $__handleSave (D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:282:5),     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:169:7,     at result (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:413:17),     at executeCallback (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:404:35),     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\collection.js:659:5,     at result (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:413:17),     at executeCallback (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:405:9),     at handleCallback (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:128:55),     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\bulk\unordered.js:560:16]
+1:06:41 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 405.232 ms
+
+1:06:41 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 8.244 ms
+
+1:06:41 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 7.534 ms
+
+1:06:41 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 7.758 ms
+
+1:06:41 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 6.960 ms
+
+1:06:47 PM - error: uncaughtException: sacca.updateOne is not a function date=Mon Jun 17 2019 13:06:46 GMT+0200 (GMT+02:00), pid=13516, uid=null, gid=null, cwd=D:\ServiziNode\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, D:\ServiziNode\servizioTrasfusionale\bin\www.js], rss=66908160, heapTotal=63246336, heapUsed=23475552, external=17965761, loadavg=[0, 0, 0], uptime=15117, trace=[column=27, file=D:\ServiziNode\servizioTrasfusionale\controllers\saccheController.js, function=null, line=48, method=null, native=false, column=16, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=null, line=3940, method=null, native=false, column=7, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=model.$__save.error, line=344, method=error, native=false, column=21, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=null, line=297, method=null, native=false, column=27, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=next, line=209, method=null, native=false, column=3, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=Kareem.execPost, line=217, method=execPost, native=false, column=15, file=D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js, function=_cb, line=289, method=null, native=false, column=5, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=$__handleSave, line=282, method=null, native=false, column=7, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=null, line=169, method=null, native=false, column=17, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=result, line=413, method=null, native=false, column=35, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=executeCallback, line=404, method=null, native=false, column=5, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\collection.js, function=null, line=659, method=null, native=false, column=17, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=result, line=413, method=null, native=false, column=9, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=executeCallback, line=405, method=null, native=false, column=55, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js, function=handleCallback, line=128, method=null, native=false, column=16, file=D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\bulk\unordered.js, function=null, line=560, method=null, native=false], stack=[TypeError: sacca.updateOne is not a function,     at D:\ServiziNode\servizioTrasfusionale\controllers\saccheController.js:48:27,     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:3940:16,     at model.$__save.error (D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:344:7),     at D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:297:21,     at next (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:209:27),     at Kareem.execPost (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:217:3),     at _cb (D:\ServiziNode\servizioTrasfusionale\node_modules\kareem\index.js:289:15),     at $__handleSave (D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:282:5),     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongoose\lib\model.js:169:7,     at result (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:413:17),     at executeCallback (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:404:35),     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\collection.js:659:5,     at result (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:413:17),     at executeCallback (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:405:9),     at handleCallback (D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\utils.js:128:55),     at D:\ServiziNode\servizioTrasfusionale\node_modules\mongodb\lib\bulk\unordered.js:560:16]
+1:08:46 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 - - - - ms
+
+2:50:48 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 402.169 ms
+
+2:50:48 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 11.017 ms
+
+2:50:48 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 6.131 ms
+
+2:50:48 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 12.467 ms
+
+2:50:48 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 0.706 ms
+
+2:50:55 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 - - 30.742 ms
+
+2:51:54 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 389.973 ms
+
+2:51:54 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 11.845 ms
+
+2:51:54 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 5.771 ms
+
+2:51:54 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 7.207 ms
+
+2:51:54 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 11.246 ms
+
+2:52:00 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 - - 31.841 ms
+
+3:11:49 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 430.475 ms
+
+3:11:49 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 5.435 ms
+
+3:11:49 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.425 ms
+
+3:11:49 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.861 ms
+
+3:11:49 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3677 - 7.429 ms
+
+3:12:26 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 142.891 ms
+
+3:12:26 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.625 ms
+
+3:12:26 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.762 ms
+
+3:12:26 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.004 ms
+
+3:12:26 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3669 - 1.291 ms
+
+3:13:30 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 76.355 ms
+
+3:13:30 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.347 ms
+
+3:13:30 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.829 ms
+
+3:13:30 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.050 ms
+
+3:13:30 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3673 - 2.212 ms
+
+3:14:07 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 72.185 ms
+
+3:14:07 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.440 ms
+
+3:14:07 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.392 ms
+
+3:14:07 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.018 ms
+
+3:14:07 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3633 - 2.129 ms
+
+3:16:14 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 417.484 ms
+
+3:16:14 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 8.390 ms
+
+3:16:14 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 7.540 ms
+
+3:16:14 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 5.804 ms
+
+3:16:14 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3579 - 8.049 ms
+
+3:16:32 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 88.043 ms
+
+3:16:32 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.517 ms
+
+3:16:32 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.610 ms
+
+3:16:32 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.863 ms
+
+3:16:32 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3545 - 1.965 ms
+
+3:16:33 PM - info: ::1 - POST /PostModificaFase HTTP/1.1 404 3602 - 39.705 ms
+
+3:16:48 PM - info: ::1 - POST /PostModificaFase HTTP/1.1 404 3602 - 656.835 ms
+
+3:16:57 PM - info: ::1 - POST /PostModificaFase HTTP/1.1 404 3602 - 118.119 ms
+
+3:17:41 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc2NTI1OX0.1dfx0oQegUAGa2o7iJbXMbXu31NgN8pdDGBpXYAsDZg HTTP/1.1 304 - - 1728.462 ms
+
+3:17:41 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.262 ms
+
+3:17:41 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.434 ms
+
+3:17:41 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.550 ms
+
+3:17:41 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 6.449 ms
+
+3:21:38 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 44.220 ms
+
+3:21:43 PM - info: uid: 3B33A159 auth: true
+3:21:43 PM - info: ::1 - POST /loginMethod HTTP/1.1 200 171 - 8.192 ms
+
+3:21:44 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc3NzAzfQ.v3HVFJQTkCBkvzxdz60Zv5pd7JiYrj6nsgboySE4QAQ&uid=3B33A159 HTTP/1.1 200 2509 - 1045.901 ms
+
+3:21:44 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.318 ms
+
+3:21:44 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.767 ms
+
+3:21:44 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.954 ms
+
+3:21:44 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 1.549 ms
+
+3:21:44 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 6.476 ms
+
+3:22:32 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc3NzAzfQ.v3HVFJQTkCBkvzxdz60Zv5pd7JiYrj6nsgboySE4QAQ HTTP/1.1 200 6746 - 963.267 ms
+
+3:22:32 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.279 ms
+
+3:22:32 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.599 ms
+
+3:22:32 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.850 ms
+
+3:22:32 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 2.126 ms
+
+3:30:47 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc3NzAzfQ.v3HVFJQTkCBkvzxdz60Zv5pd7JiYrj6nsgboySE4QAQ HTTP/1.1 200 2509 - 300.150 ms
+
+3:30:47 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 5.765 ms
+
+3:30:47 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 7.155 ms
+
+3:30:47 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 12.300 ms
+
+3:30:47 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 200 662 - 17.248 ms
+
+3:30:48 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 34.338 ms
+
+3:30:53 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc3NzAzfQ.v3HVFJQTkCBkvzxdz60Zv5pd7JiYrj6nsgboySE4QAQ&uid=undefined HTTP/1.1 200 6746 - 125.911 ms
+
+3:30:53 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.729 ms
+
+3:30:53 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.723 ms
+
+3:30:53 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.859 ms
+
+3:30:53 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3518 - 3.203 ms
+
+3:30:59 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 8.533 ms
+
+3:31:05 PM - info: ::1 - POST /loginMethod HTTP/1.1 404 18 - 5.496 ms
+
+3:31:08 PM - info: ::1 - GET / HTTP/1.1 304 - - 17.871 ms
+
+3:31:08 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.414 ms
+
+3:31:08 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.335 ms
+
+3:31:08 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.243 ms
+
+3:31:08 PM - info: ::1 - GET /javascript/login.js HTTP/1.1 304 - - 0.598 ms
+
+3:31:41 PM - info: ::1 - GET / HTTP/1.1 304 - - 28.992 ms
+
+3:31:41 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.115 ms
+
+3:31:41 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.373 ms
+
+3:31:41 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.623 ms
+
+3:31:41 PM - info: ::1 - GET /javascript/login.js HTTP/1.1 304 - - 1.720 ms
+
+3:31:46 PM - info: uid: 3B33A159 auth: true
+3:31:46 PM - info: ::1 - POST /loginMethod HTTP/1.1 200 171 - 3.386 ms
+
+3:31:46 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4MzA2fQ.eixgM3lay6Mwf_4HdIHozoov2FuKDnsoLb_TLEH42cQ&uid=3B33A159 HTTP/1.1 200 2509 - 38.546 ms
+
+3:31:46 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.315 ms
+
+3:31:46 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.808 ms
+
+3:31:46 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.977 ms
+
+3:31:46 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 1.149 ms
+
+3:31:46 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 6.661 ms
+
+3:31:53 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4MzA2fQ.eixgM3lay6Mwf_4HdIHozoov2FuKDnsoLb_TLEH42cQ&uid=3B33A159 HTTP/1.1 200 6746 - 100.866 ms
+
+3:31:53 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.999 ms
+
+3:31:53 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.958 ms
+
+3:31:53 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.144 ms
+
+3:31:53 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 1.345 ms
+
+3:31:54 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4MzA2fQ.eixgM3lay6Mwf_4HdIHozoov2FuKDnsoLb_TLEH42cQ&uid=3B33A159 HTTP/1.1 304 - - 21.900 ms
+
+3:31:55 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.428 ms
+
+3:31:55 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.657 ms
+
+3:31:55 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.900 ms
+
+3:31:55 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 1.591 ms
+
+3:31:55 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 5.610 ms
+
+3:31:59 PM - info: ::1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4MzA2fQ.eixgM3lay6Mwf_4HdIHozoov2FuKDnsoLb_TLEH42cQ&uid=12 HTTP/1.1 200 10726 - 71.806 ms
+
+3:31:59 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 18.277 ms
+
+3:31:59 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 19.536 ms
+
+3:31:59 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 10.866 ms
+
+3:31:59 PM - info: ::1 - GET /javascript/dettagliSacca.js HTTP/1.1 200 4622 - 9.139 ms
+
+3:31:59 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 311 - 3.924 ms
+
+3:32:02 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 4.944 ms
+
+3:32:10 PM - info: ::1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4MzA2fQ.eixgM3lay6Mwf_4HdIHozoov2FuKDnsoLb_TLEH42cQ&uid=12 HTTP/1.1 304 - - 108.099 ms
+
+3:32:10 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.364 ms
+
+3:32:10 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.764 ms
+
+3:32:10 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.692 ms
+
+3:32:10 PM - info: ::1 - GET /javascript/dettagliSacca.js HTTP/1.1 304 - - 1.040 ms
+
+3:32:10 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 311 - 2.701 ms
+
+3:33:04 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4MzA2fQ.eixgM3lay6Mwf_4HdIHozoov2FuKDnsoLb_TLEH42cQ HTTP/1.1 200 2509 - 19.031 ms
+
+3:33:04 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.063 ms
+
+3:33:04 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.997 ms
+
+3:33:04 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.214 ms
+
+3:33:04 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 200 2759 - 5.046 ms
+
+3:33:04 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 4.641 ms
+
+3:33:09 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4MzA2fQ.eixgM3lay6Mwf_4HdIHozoov2FuKDnsoLb_TLEH42cQ HTTP/1.1 304 - - 15.685 ms
+
+3:33:09 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.383 ms
+
+3:33:09 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.708 ms
+
+3:33:09 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.162 ms
+
+3:33:09 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 0.401 ms
+
+3:33:09 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 4.399 ms
+
+3:33:13 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 311 - 2.727 ms
+
+3:33:13 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 5.883 ms
+
+3:33:14 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 5.228 ms
+
+3:33:19 PM - info: uid: 3B33A159 auth: true
+3:33:19 PM - info: ::1 - POST /loginMethod HTTP/1.1 200 171 - 2.725 ms
+
+3:33:19 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4Mzk5fQ.u22RFKIa9Tj-hC1t7PexKrCzsJrVWVxV0kCPxZyyEQg&uid=3B33A159 HTTP/1.1 200 2509 - 17.016 ms
+
+3:33:19 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.255 ms
+
+3:33:19 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.248 ms
+
+3:33:19 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.360 ms
+
+3:33:19 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 0.963 ms
+
+3:33:20 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 4.887 ms
+
+3:33:24 PM - info: ::1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4Mzk5fQ.u22RFKIa9Tj-hC1t7PexKrCzsJrVWVxV0kCPxZyyEQg&uid=Test&uidSacca=333 HTTP/1.1 200 10726 - 53.551 ms
+
+3:33:24 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.703 ms
+
+3:33:24 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.862 ms
+
+3:33:24 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.320 ms
+
+3:33:24 PM - info: ::1 - GET /javascript/dettagliSacca.js HTTP/1.1 304 - - 0.646 ms
+
+3:33:24 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 788 - 9.240 ms
+
+3:33:55 PM - info: ::1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4Mzk5fQ.u22RFKIa9Tj-hC1t7PexKrCzsJrVWVxV0kCPxZyyEQg&uid=Test&uidSacca=333 HTTP/1.1 304 - - 59.810 ms
+
+3:33:55 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.840 ms
+
+3:33:55 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.949 ms
+
+3:33:55 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.740 ms
+
+3:33:55 PM - info: ::1 - GET /javascript/dettagliSacca.js HTTP/1.1 200 4627 - 1.127 ms
+
+3:33:56 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 321 - 4.415 ms
+
+3:36:00 PM - info: ::1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4Mzk5fQ.u22RFKIa9Tj-hC1t7PexKrCzsJrVWVxV0kCPxZyyEQg&uid=Test&uidSacca=333 HTTP/1.1 304 - - 410.294 ms
+
+3:36:00 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 5.840 ms
+
+3:36:00 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.693 ms
+
+3:36:00 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.009 ms
+
+3:36:00 PM - info: ::1 - GET /javascript/dettagliSacca.js HTTP/1.1 304 - - 4.757 ms
+
+3:36:00 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 321 - 29.537 ms
+
+3:36:03 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4Mzk5fQ.u22RFKIa9Tj-hC1t7PexKrCzsJrVWVxV0kCPxZyyEQg HTTP/1.1 200 2509 - 19.430 ms
+
+3:36:03 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.076 ms
+
+3:36:03 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.086 ms
+
+3:36:03 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 1.560 ms
+
+3:36:03 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.517 ms
+
+3:36:03 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 6.640 ms
+
+3:37:34 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4Mzk5fQ.u22RFKIa9Tj-hC1t7PexKrCzsJrVWVxV0kCPxZyyEQg HTTP/1.1 304 - - 42.982 ms
+
+3:37:34 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.047 ms
+
+3:37:34 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.292 ms
+
+3:37:34 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 2.391 ms
+
+3:37:34 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 200 663 - 4.291 ms
+
+3:37:34 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 7.114 ms
+
+3:37:39 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 321 - 4.664 ms
+
+3:37:41 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4Mzk5fQ.u22RFKIa9Tj-hC1t7PexKrCzsJrVWVxV0kCPxZyyEQg HTTP/1.1 304 - - 30.612 ms
+
+3:37:41 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.707 ms
+
+3:37:41 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.740 ms
+
+3:37:41 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.002 ms
+
+3:37:41 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 1.236 ms
+
+3:37:41 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 5.010 ms
+
+3:38:00 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4Mzk5fQ.u22RFKIa9Tj-hC1t7PexKrCzsJrVWVxV0kCPxZyyEQg&uid=undefined HTTP/1.1 200 2509 - 301.721 ms
+
+3:38:00 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 7.611 ms
+
+3:38:00 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 6.247 ms
+
+3:38:00 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 7.787 ms
+
+3:38:00 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 12.087 ms
+
+3:38:00 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 32.083 ms
+
+3:38:04 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 6.102 ms
+
+3:38:05 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 5.151 ms
+
+3:38:08 PM - info: ::1 - GET / HTTP/1.1 304 - - 25.905 ms
+
+3:38:08 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.074 ms
+
+3:38:08 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.012 ms
+
+3:38:08 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.146 ms
+
+3:38:08 PM - info: ::1 - GET /javascript/login.js HTTP/1.1 304 - - 1.339 ms
+
+3:38:13 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 4.904 ms
+
+3:38:16 PM - info: ::1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4Mzk5fQ.u22RFKIa9Tj-hC1t7PexKrCzsJrVWVxV0kCPxZyyEQg&uid=Test&uidSacca=12 HTTP/1.1 200 10726 - 115.213 ms
+
+3:38:16 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.036 ms
+
+3:38:16 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.329 ms
+
+3:38:16 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.462 ms
+
+3:38:16 PM - info: ::1 - GET /javascript/dettagliSacca.js HTTP/1.1 200 4669 - 2.842 ms
+
+3:38:17 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 311 - 5.232 ms
+
+3:38:18 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4Mzk5fQ.u22RFKIa9Tj-hC1t7PexKrCzsJrVWVxV0kCPxZyyEQg&uid=Test HTTP/1.1 200 2509 - 16.921 ms
+
+3:38:18 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.938 ms
+
+3:38:18 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.257 ms
+
+3:38:18 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.337 ms
+
+3:38:18 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 1.528 ms
+
+3:38:19 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 5.633 ms
+
+3:39:11 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 311 - 5.573 ms
+
+3:40:09 PM - info: ::1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4Mzk5fQ.u22RFKIa9Tj-hC1t7PexKrCzsJrVWVxV0kCPxZyyEQg&uid=Test&uidSacca=12 HTTP/1.1 304 - - 180.559 ms
+
+3:40:09 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.834 ms
+
+3:40:09 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.829 ms
+
+3:40:09 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 5.248 ms
+
+3:40:09 PM - info: ::1 - GET /javascript/dettagliSacca.js HTTP/1.1 304 - - 0.398 ms
+
+3:40:09 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 311 - 3.595 ms
+
+3:40:11 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4Mzk5fQ.u22RFKIa9Tj-hC1t7PexKrCzsJrVWVxV0kCPxZyyEQg&uid=Test HTTP/1.1 304 - - 27.687 ms
+
+3:40:11 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.751 ms
+
+3:40:11 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.577 ms
+
+3:40:11 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.009 ms
+
+3:40:11 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 200 2775 - 0.956 ms
+
+3:40:11 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 5.699 ms
+
+3:40:15 PM - info: ::1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsInVpZCI6IjNCMzNBMTU5IiwiaWF0IjoxNTYwNzc4Mzk5fQ.u22RFKIa9Tj-hC1t7PexKrCzsJrVWVxV0kCPxZyyEQg&uid=Test&uidSacca=333 HTTP/1.1 304 - - 76.890 ms
+
+3:40:15 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 7.579 ms
+
+3:40:15 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 11.354 ms
+
+3:40:15 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 12.692 ms
+
+3:40:15 PM - info: ::1 - GET /javascript/dettagliSacca.js HTTP/1.1 304 - - 11.918 ms
+
+3:40:15 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 321 - 3.389 ms
+
+3:40:30 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 34.648 ms
+
+3:40:31 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 8.662 ms
+
+3:40:37 PM - info: uid: 3B33A159 auth: true
+3:40:37 PM - info: ::1 - POST /loginMethod HTTP/1.1 200 148 - 6.518 ms
+
+3:40:37 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc3ODgzN30._daRqZUCBXYlW5x759Rcc0413oIQWW5nTYODpsofgmE&uid=3B33A159 HTTP/1.1 200 2509 - 307.613 ms
+
+3:40:37 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 4.870 ms
+
+3:40:37 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.170 ms
+
+3:40:37 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 5.529 ms
+
+3:40:37 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 6.487 ms
+
+3:40:37 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 6.305 ms
+
+3:40:40 PM - info: ::1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc3ODgzN30._daRqZUCBXYlW5x759Rcc0413oIQWW5nTYODpsofgmE&uid=3B33A159&uidSacca=333 HTTP/1.1 200 10726 - 135.861 ms
+
+3:40:40 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.515 ms
+
+3:40:40 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.588 ms
+
+3:40:40 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.523 ms
+
+3:40:40 PM - info: ::1 - GET /javascript/dettagliSacca.js HTTP/1.1 304 - - 0.781 ms
+
+3:40:40 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 321 - 3.430 ms
+
+3:40:42 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc3ODgzN30._daRqZUCBXYlW5x759Rcc0413oIQWW5nTYODpsofgmE&uid=3B33A159 HTTP/1.1 304 - - 16.610 ms
+
+3:40:43 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.326 ms
+
+3:40:43 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.565 ms
+
+3:40:43 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.440 ms
+
+3:40:43 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 1.543 ms
+
+3:40:43 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 4.523 ms
+
+3:40:46 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc3ODgzN30._daRqZUCBXYlW5x759Rcc0413oIQWW5nTYODpsofgmE&uid=3B33A159 HTTP/1.1 200 6766 - 84.698 ms
+
+3:40:46 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.255 ms
+
+3:40:46 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.503 ms
+
+3:40:46 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.939 ms
+
+3:40:46 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3538 - 3.038 ms
+
+3:40:48 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc3ODgzN30._daRqZUCBXYlW5x759Rcc0413oIQWW5nTYODpsofgmE&uid=3B33A159 HTTP/1.1 304 - - 14.431 ms
+
+3:40:48 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.178 ms
+
+3:40:48 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.620 ms
+
+3:40:48 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.828 ms
+
+3:40:48 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 1.004 ms
+
+3:40:48 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3488 - 3.824 ms
+
+3:40:51 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc3ODgzN30._daRqZUCBXYlW5x759Rcc0413oIQWW5nTYODpsofgmE&uid=3B33A159 HTTP/1.1 304 - - 71.778 ms
+
+3:40:51 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.874 ms
+
+3:40:51 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.493 ms
+
+3:40:51 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.502 ms
+
+3:40:51 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 0.759 ms
+
+3:41:13 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc3ODgzN30._daRqZUCBXYlW5x759Rcc0413oIQWW5nTYODpsofgmE&uid=3B33A159 HTTP/1.1 304 - - 127.573 ms
+
+3:41:13 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.049 ms
+
+3:41:13 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.069 ms
+
+3:41:13 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.498 ms
+
+3:41:13 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3537 - 2.563 ms
+
+3:42:45 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDc3ODgzN30._daRqZUCBXYlW5x759Rcc0413oIQWW5nTYODpsofgmE&uid=3B33A159 HTTP/1.1 200 6510 - 82.588 ms
+
+3:42:45 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.160 ms
+
+3:42:45 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.085 ms
+
+3:42:45 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.264 ms
+
+3:42:45 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 3551 - 2.000 ms
+

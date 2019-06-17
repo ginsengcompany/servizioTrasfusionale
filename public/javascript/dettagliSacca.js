@@ -20,12 +20,12 @@ $(document).ready(function () {
     });
     let token = GetURLParameter('token');
     let uid = GetURLParameter('uid');
+    let uidSacca = GetURLParameter('uidSacca');
     let sacca ;
-    console.log(uid);
     $.ajax({
         url: '/sacche/datiSacca',
         type: 'POST',
-        data: JSON.stringify({'uid': uid}),
+        data: JSON.stringify({'uid': uidSacca}),
         contentType: 'application/json',
         headers: {'access-token': token},
         success: function (data, textStatus, jqXHR) {
@@ -85,7 +85,7 @@ $(document).ready(function () {
         },
     });
     $(".homePage").focusin(function() {
-        window.location.href = 'home' + '?token=' + token ;
+        window.location.href = 'home' + '?token=' + token +  "&uid=" +uid ;
     });
     $("form").submit(function(e) {
         console.log("CIAONE");
