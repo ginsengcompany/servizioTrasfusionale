@@ -1,0 +1,12 @@
+10:51:37 AM - info: ::1 - GET / HTTP/1.1 200 1635 - 487.875 ms
+
+10:51:37 AM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 200 599 - 3.610 ms
+
+10:51:37 AM - info: ::1 - GET /javascript/login.js HTTP/1.1 200 698 - 11.702 ms
+
+10:51:37 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 5849 - 30.846 ms
+
+10:51:37 AM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 200 88147 - 32.420 ms
+
+10:51:37 AM - info: ::1 - GET /favicon.ico HTTP/1.1 404 3602 - 50.690 ms
+

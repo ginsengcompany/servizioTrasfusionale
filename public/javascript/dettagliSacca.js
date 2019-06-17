@@ -87,6 +87,17 @@ $(document).ready(function () {
     $(".homePage").focusin(function() {
         window.location.href = 'home' + '?token=' + token ;
     });
+    $("form").submit(function(e) {
+        console.log("CIAONE");
+        e.preventDefault(); // Prevents the page from refreshing
+        var $this = $(this); // `this` refers to the current form element
+        $.post(
+            $this.attr("action"), // Gets the URL to sent the post to
+            $this.serialize(), // Serializes form data in standard format
+            function(data) { /** code to handle response **/ },
+            "json" // The format the response should be in
+        );
+    });
 });
 
 function GetURLParameter(sParam) {
