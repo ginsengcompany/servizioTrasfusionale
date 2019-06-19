@@ -43,10 +43,10 @@ exports.postNuovaSacca = function (req, res) {
             return res.status(400).send("La richiesta non può essere elaborata");
         else{
             let sacca = new sacche(req.body);
-            sacca.save(function (err, saccha1) {
-                if (err) return  res.status(400);{
-                        res.status(200).send(saccha1)
-                }
+            sacca.save(function (err,sacca) {
+                if (err)
+                    return  res.status(400).send(err);
+                res.status(200).send(sacca);
             });
         }
 };

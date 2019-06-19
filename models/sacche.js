@@ -1,6 +1,9 @@
 let mongoose = require('mongoose');
 let saccheSchema = new mongoose.Schema({
-        uid: String,
+        uid: {
+                type: String,
+                unique: true
+        },
         uidPaziente: String,
         uidPersonale:String,
         fase : Number,

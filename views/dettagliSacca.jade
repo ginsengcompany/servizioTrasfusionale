@@ -2,6 +2,8 @@ extends layout
 
 block title
     title Sacca
+block append style
+    link(rel='stylesheet', href='/stylesheets/modalStyle.css')
 block content
     body
         nav#navbarNavDropdown.navbar.navbar-expand-sm.navbar-dark.bg-dark.fixed-top
@@ -13,12 +15,17 @@ block content
                     li.nav-item
                         a#idFase2.nav-link(href='#fase2', hidden='true') Fase 2
                     li.nav-item
-                        a.nav-link(href='#fase3', hidden='true') Fase 3
+                        a#idFase3.nav-link(href='#fase3', hidden='true') Fase 3
                     li.nav-item
-                        a.nav-link(href='#fase4', hidden='true') Fase 4
+                        a#idFase4.nav-link(href='#fase4', hidden='true') Fase 4
                     li.nav-item
-                        a.nav-link(href='#fase5', hidden='true') Fase 5
+                        a#idFase5.nav-link(href='#fase5', hidden='true') Fase 5
         .Sacche(style='overflow: scroll;,width: 100%; height:100%;', data-offset='0', data-target='#navbarNavDropdown', data-spy='scroll')
+            a.float.aggiungiFase(href='#')
+                i.fa.fa-plus.my-float
+            .label-container
+                .label-text Aggiungi Fase
+                i.fa.fa-play.label-arrow
             h1 Dettagli Sacca
             .container
                 .col-md-12.order-md-1
@@ -121,7 +128,7 @@ block content
                                     .invalid-feedback
                                         | Inserisci Tipo Emocomponente
                     #fase2.ccontainer-fluid
-                    hr.md-12.mb-3
+                    hr.md-12.mb-3#fase2Hr
                     .card#fase2Card
                         .card-header
                             | FASE 2
@@ -143,7 +150,7 @@ block content
                                 .invalid-feedback
                                     | Inserisci Laboratorio Analisi
                     #fase3.container-fluid
-                    hr.md-12.mb-3
+                    hr.md-12.mb-3#fase3Hr
                     .card#fase3Card
                         .card-header
                             | FASE 3
@@ -159,7 +166,7 @@ block content
                                 .invalid-feedback
                                     | Inserisci Tipo Lavorazione
                     #fase4.container-fluid
-                    hr.md-12.mb-3
+                    hr.md-12.mb-3#fase4Hr
                     .card#fase4Card
                         .card-header
                             | FASE 4
@@ -171,8 +178,8 @@ block content
                                 .invalid-feedback
                                     | Inserisci data valida
                     #fase5.container-fluid
-                    hr.md-12.mb-3
-                    .card
+                    hr.md-12.mb-3#fase5Hr
+                    .card#fase5Card
                         .card-header
                             | FASE 5
                         .card-body
@@ -185,24 +192,89 @@ block content
                             .row
                                 .col-md-6.mb-3
                                     label(for='medicoResponsabile') Medico Responabile
-                                    input#medicoResponsabile.form-control(type='text', placeholder='',readonly="readonly")
+                                    input#medicoResponsabile.form-control(type='text', placeholder='', readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci Nome Medico responsabile
                                 .col-md-6.mb-3
                                     label(for='infermiereResponsabile') Infermiere Responsabile
-                                    input#infermiereResponsabile.form-control(type='text', placeholder='',readonly="readonly")
+                                    input#infermiereResponsabile.form-control(type='text', placeholder='', readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci Nome Infermiere responsabile
                             .md-12.mb-3
                                 label(for='nosograficoPaziente') Nosogragico Paziente
-                                input#nosograficoPaziente.form-control(type='text', placeholder='',readonly="readonly")
+                                input#nosograficoPaziente.form-control(type='text', placeholder='', readonly="readonly")
                                 .invalid-feedback
                                     | Inserisci Nosografico Paziente
+                    hr.md-12.mb-3
+                    // The Modal
+    #myModal.modal
+        // Modal content
+        .modal-content
+            .modal-header
+                h1#titoloModal
+                span.close ×
+            .modal-body.group
+                .div#displayFase2(hidden='true')
+                    .row
+                        .col-md-8.mb-3
+                            label(for='laboratorioProvenienzaInsert') Laboratorio di Provenienza
+                            input#laboratorioProvenienzaInsert.form-control(type='text', placeholder='')
+                            .invalid-feedback
+                                | Inserisci Laboratorio di Provenienza
+                        .col-md-4.mb-3
+                            label(for='fenotipoInsert') Fenotipo
+                            input#fenotipoInsert.form-control(type='text', placeholder='')
+                            .invalid-feedback
+                                | Inserisci Fenotipo
+                    .md-12.mb-3
+                        label(for='laboratorioAnalisiInsert') Laboratorio Analisi
+                        input#laboratorioAnalisiInsert.form-control(type='text', placeholder='')
+                        .invalid-feedback
+                            | Inserisci Laboratorio Analisi
+                .div#displayFase3(hidden='true')
+                    .md-12.mb-3
+                        label(for='tipoEmoderivatoInsert') Tipo Emoderivato
+                        input#tipoEmoderivatoInsert.form-control(type='text', placeholder='')
+                        .invalid-feedback
+                            | Inserisci Tipo Emoderivato
+                    .md-12.mb-3
+                        label(for='tipoLavorazioneInsert') Tipo Lavorazione
+                        input#tipoLavorazioneInsert.form-control(type='text', placeholder='')
+                        .invalid-feedback
+                            | Inserisci Tipo Lavorazione
+                .div#displayFase4(hidden='true')
+                    .md-12.mb-3
+                        label(for='dataScadenzaInsert')
+                            | Data di scadenza
+                        input#dataScadenzaInsert.form-control.datetimepicker-input(readonly="readonly", type='text', data-toggle='datetimepicker', data-target='#dataScadenzaInsert')
+                        .invalid-feedback
+                            | Inserisci data valida
+                .div#displayFase5(hidden='true')
+                    .md-12.mb-3
+                        label(for='dataSomministrazioneInsert')
+                            | Data di Somministrazione
+                        input#dataSomministrazioneInsert.form-control.datetimepicker-input(readonly="readonly", type='text', data-toggle='datetimepicker', data-target='#dataSomministrazioneInsert')
+                        .invalid-feedback
+                            | Inserisci data valida
+                    .row
+                        .col-md-6.mb-3
+                            label(for='medicoResponsabileInsertInsert') Medico Responabile
+                            input#medicoResponsabileInsertInsert.form-control(type='text', placeholder='')
+                            .invalid-feedback
+                                | Inserisci Nome Medico responsabile
+                        .col-md-6.mb-3
+                            label(for='infermiereResponsabileInsert') Infermiere Responsabile
+                            input#infermiereResponsabileInsert.form-control(type='text', placeholder='')
+                            .invalid-feedback
+                                | Inserisci Nome Infermiere responsabile
+                    .md-12.mb-3
+                        label(for='nosograficoPazienteInsert') Nosogragico Paziente
+                        input#nosograficoPazienteInsert.form-control(type='text', placeholder='')
+                        .invalid-feedback
+                            | Inserisci Nosografico Paziente
+            .modal-footer
+                button.btn.btn-success CONTINUA
 
-                    hr.md-12.mb-3
-                    .row(style='margin-bottom:5%')
-                        button.btn.btn-primary.btn-lg.btn-block(type='submit') Continue to checkout
-                    hr.md-12.mb-3
 
 block append javascript
     script(type='text/javascript', src = '/javascript/dettagliSacca.js')

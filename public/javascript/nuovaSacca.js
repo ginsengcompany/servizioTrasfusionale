@@ -19,9 +19,8 @@ $('#dataSomministrazione').datetimepicker({
     ignoreReadonly: true
 });
     let token = GetURLParameter('token');
-    let uid = GetURLParameter('uid');
-
-    let uidPersonale = $('#uidPersonale').val(uid).toString();
+    let uidPersonale = GetURLParameter('uid');
+    $('#uidPersonale').val(uidPersonale);
     $(".inserisciSacca").focusin(function() {
     });
 
@@ -152,7 +151,7 @@ $('#dataSomministrazione').datetimepicker({
                 uid: uid,
                 uidPersonale:uidPersonale,
                 fase : fase,
-               // trasfusa:trasfusa,
+                trasfusa:false,
                 /*Fase 1*/
                 luogoRaccolta : luogoRaccolta,
                 tipoDonazione : tipoDonazione,
@@ -165,7 +164,6 @@ $('#dataSomministrazione').datetimepicker({
                 esitoDonazione : esitoDonazione,
                 tipoEmocomponente : tipoEmocomponente
             };
-            console.log(saccaNuova);
             if(isValid){
                 $.ajax({
                     type: "POST",
@@ -177,7 +175,8 @@ $('#dataSomministrazione').datetimepicker({
                         console.log(data);
                     },
                     error: function (jqXHR, textStatus, errorThrown) {
-                        console.log(textStatus)
+                        let responseText = jQuery.parseJSON(jqXHR.responseText);
+                        alert( "Request failed: " +responseText.code + " Message: " + responseText.errmsg);
                         /* $('#modalErrore').modal('toggle');
                          $('#modalErrore').modal('show');*/
                         //  $('#idModal').text("erroraccio");

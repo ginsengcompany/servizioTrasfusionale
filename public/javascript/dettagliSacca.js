@@ -1,24 +1,35 @@
-//$('#fase2Card').hide();
+$('#fase2Card').hide();
 $('#fase3Card').hide();
 $('#fase4Card').hide();
 $('#fase5Card').hide();
-$('#idFase2').removeAttr('hidden');
+$('#fase2Hr').hide();
+$('#fase3Hr').hide();
+$('#fase4Hr').hide();
+$('#fase5Hr').hide();
+
 $(document).ready(function () {
+    let modal = document.getElementById("myModal");
+// Get the <span> element that closes the modal
+    let span = document.getElementsByClassName("close")[0];
+    span.onclick = function() {
+        modal.style.display = "none";
+    };
+
     let date = moment($('#dateStamp').val(), 'DD-MM-YYYY HH:mm ').toDate();
     $('#dateStamp').datetimepicker({
         date:date,
         locale: 'it',
         ignoreReadonly: true
     });
-    let dateScadenza = moment($('#dataScadenza').val(), 'DD-MM-YYYY').toDate();
-    $('#dataScadenza').datetimepicker({
+    let dateScadenza = moment($('#dataScadenzaInsert').val(), 'DD-MM-YYYY').toDate();
+    $('#dataScadenzaInsert').datetimepicker({
         date:dateScadenza,
         locale: 'it',
         format: 'L',
         ignoreReadonly: true
     });
-    let dateSomministrazione = moment($('#dataSomministrazione').val(), 'DD-MM-YYYY HH:mm ').toDate();
-    $('#dataSomministrazione').datetimepicker({
+    let dateSomministrazione = moment($('#dataSomministrazioneInsert').val(), 'DD-MM-YYYY HH:mm ').toDate();
+    $('#dataSomministrazioneInsert').datetimepicker({
         date:dateSomministrazione,
         locale: 'it',
         ignoreReadonly: true
@@ -83,6 +94,42 @@ $(document).ready(function () {
             $('#infermiereResponsabile').val(sacca.infermiereResponsabile);
             $('#nosograficoPaziente').val(sacca.nosograficoPaziente);
 
+            if(sacca.fase > 1){
+                if(sacca.fase > 3){
+                    $('#fase2Hr').show();
+                    $('#fase2Card').show();
+                    $('#idFase2').removeAttr('hidden');
+                    $('#fase3Hr').show();
+                    $('#fase3Card').show();
+                    $('#idFase3').removeAttr('hidden');
+                    if(sacca.fase === 4){
+                        $('#fase4Hr').show();
+                        $('#fase4Card').show();
+                        $('#idFase4').removeAttr('hidden');
+                    }
+                    else{
+                        $('#fase4Hr').show();
+                        $('#fase4Card').show();
+                        $('#idFase4').removeAttr('hidden');
+                        $('#fase5Hr').show();
+                        $('#fase5Card').show();
+                        $('#idFase5').removeAttr('hidden');
+                    }
+                }
+                else if(sacca.fase === 3){
+                    $('#fase2Hr').show();
+                    $('#fase2Card').show();
+                    $('#idFase2').removeAttr('hidden');
+                    $('#fase3Hr').show();
+                    $('#fase3Card').show();
+                    $('#idFase3').removeAttr('hidden');
+                }
+                else{
+                    $('#fase2Hr').show();
+                    $('#fase2Card').show();
+                    $('#idFase2').removeAttr('hidden');
+                }
+            }
 
         },
         error: function (jqXHR, textStatus, errorThrown) {
@@ -92,16 +139,25 @@ $(document).ready(function () {
     $(".homePage").focusin(function() {
         window.location.href = 'home' + '?token=' + token +  "&uid=" +uid ;
     });
-    $("form").submit(function(e) {
-        console.log("CIAONE");
-        e.preventDefault(); // Prevents the page from refreshing
-        var $this = $(this); // `this` refers to the current form element
-        $.post(
-            $this.attr("action"), // Gets the URL to sent the post to
-            $this.serialize(), // Serializes form data in standard format
-            function(data) { /** code to handle response **/ },
-            "json" // The format the response should be in
-        );
+
+    $(".aggiungiFase").click(function() {
+        if(sacca.fase === 1){
+            $('#titoloModal').text("INSERISCI DATI FASE 2");
+            $('#displayFase2').removeAttr('hidden');
+        }
+        else if(sacca.fase === 2){
+            $('#titoloModal').text("INSERISCI DATI FASE 3");
+            $('#displayFase3').removeAttr('hidden');
+        }
+        else if(sacca.fase === 3){
+            $('#titoloModal').text("INSERISCI DATI FASE 4");
+            $('#displayFase4').removeAttr('hidden');
+        }
+        else if(sacca.fase === 4){
+            $('#titoloModal').text("INSERISCI DATI FASE 5");
+            $('#displayFase5').removeAttr('hidden');
+        }
+        modal.style.display = "block";
     });
 });
 
