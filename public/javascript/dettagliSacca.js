@@ -1,3 +1,8 @@
+//$('#fase2Card').hide();
+$('#fase3Card').hide();
+$('#fase4Card').hide();
+$('#fase5Card').hide();
+$('#idFase2').removeAttr('hidden');
 $(document).ready(function () {
     let date = moment($('#dateStamp').val(), 'DD-MM-YYYY HH:mm ').toDate();
     $('#dateStamp').datetimepicker({

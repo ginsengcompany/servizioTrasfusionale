@@ -11,13 +11,13 @@ block content
                     li.nav-item
                         a.nav-link(href='#fase1') Fase 1
                     li.nav-item
-                        a.nav-link(href='#fase2') Fase 2
+                        a#idFase2.nav-link(href='#fase2', hidden='true') Fase 2
                     li.nav-item
-                        a.nav-link(href='#fase3') Fase 3
+                        a.nav-link(href='#fase3', hidden='true') Fase 3
                     li.nav-item
-                        a.nav-link(href='#fase4') Fase 4
+                        a.nav-link(href='#fase4', hidden='true') Fase 4
                     li.nav-item
-                        a.nav-link(href='#fase5') Fase 5
+                        a.nav-link(href='#fase5', hidden='true') Fase 5
         .Sacche(style='overflow: scroll;,width: 100%; height:100%;', data-offset='0', data-target='#navbarNavDropdown', data-spy='scroll')
             h1 Dettagli Sacca
             .container
@@ -122,7 +122,7 @@ block content
                                         | Inserisci Tipo Emocomponente
                     #fase2.ccontainer-fluid
                     hr.md-12.mb-3
-                    .card
+                    .card#fase2Card
                         .card-header
                             | FASE 2
                         .card-body
@@ -144,7 +144,7 @@ block content
                                     | Inserisci Laboratorio Analisi
                     #fase3.container-fluid
                     hr.md-12.mb-3
-                    .card
+                    .card#fase3Card
                         .card-header
                             | FASE 3
                         .card-body
@@ -160,7 +160,7 @@ block content
                                     | Inserisci Tipo Lavorazione
                     #fase4.container-fluid
                     hr.md-12.mb-3
-                    .card
+                    .card#fase4Card
                         .card-header
                             | FASE 4
                         .card-body
