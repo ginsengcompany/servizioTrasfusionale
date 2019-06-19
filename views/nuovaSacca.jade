@@ -18,15 +18,14 @@ block content
                                     .col-md-6.mb-3
                                         label(for='uid', style='font-weight:bold') UID Sacca
                                         input#uid.form-control(type='text', placeholder='', value='', required='')
-                                        small#invalidUid.form-text.text-muted.font-italic L'username deve contenere 3-16 caratteri alfanumerici.
+                                        small#invalidUid.form-text.text-muted.font-italic
                                     .col-md-6.mb-3
                                         label(for='uidPersonale', style='font-weight:bold') UID Personale
                                         .input-group
                                             .input-group-prepend
                                                 span.input-group-text @
                                             input#uidPersonale.form-control(type='text', placeholder='UID Personale', required='', readonly="readonly")
-                                            .invalid-feedback(style='width: 100%;')
-                                                | UID personale non valido.
+                                            small#uidPersonaleInvalid.form-text.text-muted.font-italic
                     hr.md-12.mb-3
                     .card
                         .card-header
@@ -35,59 +34,49 @@ block content
                             .md-12.mb-3
                                 label(for='luogoRaccolta', style='font-weight:bold') Luogo Raccolta
                                 input#luogoRaccolta.form-control(type='text', placeholder='Caserta Laboratorio di Analisi A', required='')
-                                .invalid-feedback
-                                    | Inserisci il luogo di raccolta
+                                small#luogoRaccoltaInvalid.form-text.text-muted.font-italic
                             .md-12.mb-3
                                 label(for='tipoDonazione', style='font-weight:bold')
                                     | Tipo di donazione e procedura adottata
                                 input#tipoDonazione.form-control(type='text', placeholder='Sangue intero Aferesi...')
-                                .invalid-feedback
-                                    | Inserisci tipo Donazione
+                                small#tipoDonazioneInvalid.form-text.text-muted.font-italic
                             .row
                                 .col-md-4.mb-3
                                     label(for='anticoagulante', style='font-weight:bold') Anticoagulante impiegato e volume
                                     input#anticoagulante.form-control(type='text', placeholder='Soluzione anticoagulante CPD 63 ml ± 5%...')
-                                    .invalid-feedback
-                                        | Inserisci i deti inerenti al Anticoagulante
+                                    small#anticoagulanteInvalid.form-text.text-muted.font-italic
                                 .col-md-4.mb-3
                                     label(for='conservante', style='font-weight:bold') Conservante impiegato e volume
                                     input#conservante.form-control(type='text', placeholder='Soluzione conservante SAGM 100 ml ± 5%...')
-                                    .invalid-feedback
-                                        | Inserisci i dati relativi all'conservante
+                                    small#conservanteInvalid.form-text.text-muted.font-italic
                                 .col-md-4.mb-3
                                     label(for='volumeEmocomponenti', style='font-weight:bold') Volume degli emocomponenti raccolti
                                     input#volumeEmocomponenti.form-control(type='Number' Step="0.01", placeholder='5.20')
-                                    .invalid-feedback
-                                        | Inserisci Volume valido
+                                    small#volumeEmocomponentiInvalid.form-text.text-muted.font-italic
                             .row
                                 .col-md-8.mb-3
                                     label(for='dateStamp', style='font-weight:bold')
                                         | Data e ora della procedura di raccolta
                                     input#dateStamp.form-control.datetimepicker-input(type='text', data-toggle='datetimepicker', data-target='#dateStamp')
-                                    .invalid-feedback
-                                        | Inserisci data valida
+                                    small#dateStampInvalid.form-text.text-muted.font-italic
                                 .col-md-4.mb-3
                                     label(for='durata', style='font-weight:bold') Durata
                                     input#durata.form-control(type='text', placeholder='2 ore...')
-                                    .invalid-feedback
-                                        | Inserisci la durata
+                                    small#durataInvalid.form-text.text-muted.font-italic
 
                             .md-12.mb-3
                                 label(for='codiceFiscaleDonatore', style='font-weight:bold') CodiceFiscale Donatore
                                 input#codiceFiscaleDonatore.form-control(type='text', placeholder='AAABBB00C00D000E', required='')
-                                .invalid-feedback
-                                    | Inserisci CodiceFiscale Donatore
+                                small#codiceFiscaleDonatoreInvalid.form-text.text-muted.font-italic
                             .row
                                 .col-md-6.mb-3
                                     label(for='esitoDonazione', style='font-weight:bold') Esito Donazione
                                     input#esitoDonazione.form-control(type='text', placeholder='Idoneo...')
-                                    .invalid-feedback
-                                        | Inserisci Esito Donazione
+                                    small#esitoDonazioneInvalid.form-text.text-muted.font-italic
                                 .col-md-6.mb-3
                                     label(for='tipoEmocomponente', style='font-weight:bold') Tipo Emocomponente
                                     input#tipoEmocomponente.form-control(type='text', placeholder='Globuli rossi plasma...')
-                                    .invalid-feedback
-                                        | Inserisci Tipo Emocomponente
+                                    small#tipoEmocomponenteInvalid.form-text.text-muted.font-italic
                     br
                     br
                     .row

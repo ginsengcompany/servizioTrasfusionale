@@ -1,0 +1,217 @@
+11:52:35 AM - info: ::1 - GET / HTTP/1.1 200 1635 - 384.382 ms
+
+11:52:35 AM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 200 663 - 3.691 ms
+
+11:52:35 AM - info: ::1 - GET /javascript/login.js HTTP/1.1 200 698 - 5.476 ms
+
+11:52:35 AM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.359 ms
+
+11:52:35 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 5892 - 20.260 ms
+
+11:52:35 AM - info: ::1 - GET /favicon.ico HTTP/1.1 404 4066 - 64.782 ms
+
+11:52:47 AM - info: uid: 3B33A159 auth: true
+11:52:47 AM - info: ::1 - POST /loginMethod HTTP/1.1 200 148 - 35.866 ms
+
+11:52:47 AM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 200 2509 - 51.766 ms
+
+11:52:47 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.545 ms
+
+11:52:47 AM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.349 ms
+
+11:52:47 AM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.333 ms
+
+11:52:47 AM - info: ::1 - GET /javascript/home.js HTTP/1.1 200 2775 - 6.262 ms
+
+11:52:47 AM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 1580 - 10.020 ms
+
+11:52:49 AM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 200 6636 - 104.276 ms
+
+11:52:49 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.957 ms
+
+11:52:49 AM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.342 ms
+
+11:52:49 AM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.700 ms
+
+11:52:49 AM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 6945 - 5.114 ms
+
+11:53:36 AM - error: uncaughtException: res.status(...).error is not a function date=Tue Jun 18 2019 11:53:36 GMT+0200 (GMT+02:00), pid=12152, uid=null, gid=null, cwd=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\bin\www.js], rss=51163136, heapTotal=31789056, heapUsed=26463584, external=17932874, loadavg=[0, 0, 0], uptime=354112, trace=[column=50, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\controllers\saccheController.js, function=null, line=47, method=null, native=false, column=16, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=null, line=3940, method=null, native=false, column=16, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=$__save.error, line=342, method=error, native=false, column=48, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js, function=null, line=246, method=null, native=false, column=27, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js, function=next, line=167, method=null, native=false, column=3, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js, function=Kareem.execPost, line=217, method=execPost, native=false, column=21, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js, function=_handleWrapError, line=245, method=null, native=false, column=14, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js, function=null, line=271, method=null, native=false, column=14, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js, function=_next, line=94, method=null, native=false, column=38, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js, function=process.nextTick, line=427, method=nextTick, native=false, column=11, file=internal/process/next_tick.js, function=process._tickCallback, line=61, method=_tickCallback, native=false], stack=[TypeError: res.status(...).error is not a function,     at C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\controllers\saccheController.js:47:50,     at C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\mongoose\lib\model.js:3940:16,     at $__save.error (C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\mongoose\lib\model.js:342:16),     at C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js:246:48,     at next (C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js:167:27),     at Kareem.execPost (C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js:217:3),     at _handleWrapError (C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js:245:21),     at C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js:271:14,     at _next (C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js:94:14),     at process.nextTick (C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js:427:38),     at process._tickCallback (internal/process/next_tick.js:61:11)]
+11:54:13 AM - error: uncaughtException: res.status(...).error is not a function date=Tue Jun 18 2019 11:54:13 GMT+0200 (GMT+02:00), pid=12152, uid=null, gid=null, cwd=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\bin\www.js], rss=51687424, heapTotal=31789056, heapUsed=26941504, external=17943848, loadavg=[0, 0, 0], uptime=354150, trace=[column=50, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\controllers\saccheController.js, function=null, line=47, method=null, native=false, column=16, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=null, line=3940, method=null, native=false, column=16, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\mongoose\lib\model.js, function=$__save.error, line=342, method=error, native=false, column=48, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js, function=null, line=246, method=null, native=false, column=27, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js, function=next, line=167, method=null, native=false, column=3, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js, function=Kareem.execPost, line=217, method=execPost, native=false, column=21, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js, function=_handleWrapError, line=245, method=null, native=false, column=14, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js, function=null, line=271, method=null, native=false, column=14, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js, function=_next, line=94, method=null, native=false, column=38, file=C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js, function=process.nextTick, line=427, method=nextTick, native=false, column=11, file=internal/process/next_tick.js, function=process._tickCallback, line=61, method=_tickCallback, native=false], stack=[TypeError: res.status(...).error is not a function,     at C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\controllers\saccheController.js:47:50,     at C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\mongoose\lib\model.js:3940:16,     at $__save.error (C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\mongoose\lib\model.js:342:16),     at C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js:246:48,     at next (C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js:167:27),     at Kareem.execPost (C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js:217:3),     at _handleWrapError (C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js:245:21),     at C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js:271:14,     at _next (C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js:94:14),     at process.nextTick (C:\Users\A. Fabrizio Fiume\Desktop\progetti\servizioTrasfusionale\node_modules\kareem\index.js:427:38),     at process._tickCallback (internal/process/next_tick.js:61:11)]
+11:55:36 AM - info: ::1 - POST /postNuovaSacca HTTP/1.1 - - - - ms
+
+11:56:13 AM - info: ::1 - POST /postNuovaSacca HTTP/1.1 - - - - ms
+
+11:57:24 AM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 404.839 ms
+
+11:57:24 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.260 ms
+
+11:57:24 AM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.866 ms
+
+11:57:24 AM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.085 ms
+
+11:57:24 AM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 2.479 ms
+
+11:57:58 AM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 1942.386 ms
+
+11:57:58 AM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.818 ms
+
+11:57:58 AM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.602 ms
+
+11:57:58 AM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.827 ms
+
+11:57:58 AM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 0.709 ms
+
+11:59:54 AM - info: ::ffff:127.0.0.1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 405.178 ms
+
+11:59:54 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.589 ms
+
+11:59:54 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.341 ms
+
+11:59:54 AM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.320 ms
+
+11:59:54 AM - info: ::ffff:127.0.0.1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 6983 - 2.983 ms
+
+12:01:48 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 432.742 ms
+
+12:01:48 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.055 ms
+
+12:01:48 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.880 ms
+
+12:01:48 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.839 ms
+
+12:01:48 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 6991 - 5.816 ms
+
+12:04:04 PM - info: ::ffff:127.0.0.1 - POST /postNuovaSacca HTTP/1.1 - - - - ms
+
+12:04:04 PM - info: ::ffff:127.0.0.1 - POST /postNuovaSacca HTTP/1.1 - - - - ms
+
+12:05:02 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 396.470 ms
+
+12:05:02 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.318 ms
+
+12:05:02 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.056 ms
+
+12:05:02 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.269 ms
+
+12:05:02 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 6988 - 7.213 ms
+
+12:05:33 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 369 - 85.599 ms
+
+12:06:56 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 134.872 ms
+
+12:06:56 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.981 ms
+
+12:06:56 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.537 ms
+
+12:06:56 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.162 ms
+
+12:06:56 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 2.452 ms
+
+12:08:12 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 387.666 ms
+
+12:08:12 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.152 ms
+
+12:08:12 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.336 ms
+
+12:08:12 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.396 ms
+
+12:08:12 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 7024 - 5.200 ms
+
+12:08:54 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 383.911 ms
+
+12:08:54 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.641 ms
+
+12:08:54 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.167 ms
+
+12:08:54 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.767 ms
+
+12:08:54 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 7027 - 3.448 ms
+
+12:09:26 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 400.724 ms
+
+12:09:26 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 8.609 ms
+
+12:09:26 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 5.427 ms
+
+12:09:26 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 9.946 ms
+
+12:09:26 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 7038 - 17.531 ms
+
+12:09:33 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 366 - 31.827 ms
+
+12:09:48 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 366 - 3.352 ms
+
+12:10:45 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 410.404 ms
+
+12:10:45 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.914 ms
+
+12:10:45 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.664 ms
+
+12:10:45 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.982 ms
+
+12:10:45 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 7037 - 7.619 ms
+
+12:10:48 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 366 - 27.054 ms
+
+12:12:05 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 405.582 ms
+
+12:12:05 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.595 ms
+
+12:12:05 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.537 ms
+
+12:12:05 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.647 ms
+
+12:12:05 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 7028 - 6.542 ms
+
+12:12:07 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 366 - 35.044 ms
+
+12:12:10 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 367 - 3.561 ms
+
+12:12:22 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 366 - 4.231 ms
+
+12:13:05 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 418.040 ms
+
+12:13:05 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 6.231 ms
+
+12:13:05 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 8.103 ms
+
+12:13:05 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 9.972 ms
+
+12:13:05 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 7203 - 12.194 ms
+
+12:13:28 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 145.912 ms
+
+12:13:28 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.707 ms
+
+12:13:28 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.398 ms
+
+12:13:28 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.617 ms
+
+12:13:28 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 2.322 ms
+
+12:13:30 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 367 - 32.450 ms
+
+12:14:03 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 411.837 ms
+
+12:14:03 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 8.110 ms
+
+12:14:03 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 11.207 ms
+
+12:14:03 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 11.144 ms
+
+12:14:03 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 7207 - 16.072 ms
+
+12:14:16 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 367 - 31.889 ms
+
+12:16:42 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDg1MTU2N30.qbhz4nkz-Qcbx2sj_ji3cU5HxRrKlBC9Rtu_dwQjvy0&uid=3B33A159 HTTP/1.1 304 - - 405.872 ms
+
+12:16:42 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.021 ms
+
+12:16:42 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.999 ms
+
+12:16:42 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.238 ms
+
+12:16:42 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 8071 - 5.945 ms
+
+12:16:48 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 367 - 35.464 ms
+

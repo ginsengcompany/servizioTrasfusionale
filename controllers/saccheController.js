@@ -44,7 +44,7 @@ exports.postNuovaSacca = function (req, res) {
         else{
             let sacca = new sacche(req.body);
             sacca.save(function (err, saccha1) {
-                if (err) return  res.status(400).error(err);{
+                if (err) return  res.status(400);{
                         res.status(200).send(saccha1)
                 }
             });
