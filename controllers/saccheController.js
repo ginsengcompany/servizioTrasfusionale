@@ -51,15 +51,58 @@ exports.postNuovaSacca = function (req, res) {
         }
 };
 
-exports.postModificaFase = function(req,res){
+exports.postModificaFase = function(req,res) {
     let sacca = new sacche(req.body);
-    let seedTok = "proviamo";
-    let decoded = jwt.decode(req.body.token, seedTok);
-    sacca.update({ fase: 1}, function (err, affected, resp) {
-        res.status(200).send(saccha1)
-    });
+    req.body.fase++;
+    if(req.body.fase === 2){
+        sacca.update({
+            fase: req.body.fase,
+            laboratorioProvenienza: req.body.laboratorioProvenienza,
+            fenotipo: req.body.fenotipo,
+            laboratorioAnalisi: req.body.laboratorioAnalisi
+        }, function (err, affected, resp) {
+            if (err)
+                return res.status(400).send(err);
+            return res.status(200).send(affected);
+        });
+    }
+    else if(req.body.fase === 3){
+        sacca.update({
+            fase: req.body.fase,
+            tipoEmoderivato: req.body.tipoEmoderivato,
+            tipoLavorazione: req.body.tipoLavorazione
+        }, function (err, affected, resp) {
+            if (err)
+                return res.status(400).send(err);
+            return res.status(200).send(affected);
+        });
+    }
+    else if(req.body.fase === 4){
+        sacca.update({
+            fase: req.body.fase,
+            dataScadenza: req.body.dataScadenza
+        }, function (err, affected, resp) {
+            if (err)
+                return res.status(400).send(err);
+            return res.status(200).send(affected);
+        });
+    }
+    else if(req.body.fase === 5){
+        sacca.update({
+            fase: req.body.fase,
+            dataSomministrazione: req.body.dataSomministrazione,
+            medicoResponsabile: req.body.medicoResponsabile,
+            infermiereResponsabile: req.body.infermiereResponsabile,
+            nosograficoPaziente: req.body.nosograficoPaziente
+        }, function (err, affected, resp) {
+            if (err)
+                return res.status(400).send(err);
+            return res.status(200).send(affected);
+        });
+    }
+    else
+        return res.status(400).send("Non esistono ulteriori fasi di lavorazione!");
 };
-
 exports.nuovaSacca = function(req,res){
     res.render('nuovaSacca')
 };

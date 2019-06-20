@@ -20,6 +20,8 @@ block content
                         a#idFase4.nav-link(href='#fase4', hidden='true') Fase 4
                     li.nav-item
                         a#idFase5.nav-link(href='#fase5', hidden='true') Fase 5
+                    li.nav-item
+                        a#idFase6.nav-link(href='#fase6', hidden='true') Fase 6
         .Sacche(style='overflow: scroll;,width: 100%; height:100%;', data-offset='0', data-target='#navbarNavDropdown', data-spy='scroll')
             a.float.aggiungiFase(href='#')
                 i.fa.fa-plus.my-float
@@ -38,12 +40,12 @@ block content
                                 .row
                                     .col-md-4.mb-3
                                         label(for='uid') UID Sacca
-                                        input#uid.form-control(type='text', placeholder='', value='', required='',readonly="readonly")
+                                        input#uid.form-control(type='text', placeholder='', value='', required='', readonly="readonly")
                                         .invalid-feedback#invalidUid
                                             | UID non valido.
                                     .col-md-4.mb-3
                                         label(for='uidPaziente') UID Paziente
-                                        input#uidPaziente.form-control(type='text', placeholder='', value='', required='',readonly="readonly")
+                                        input#uidPaziente.form-control(type='text', placeholder='', value='', required='', readonly="readonly")
                                         .invalid-feedback
                                             | UID paziente non valido.
                                     .col-md-4.mb-3
@@ -51,14 +53,14 @@ block content
                                         .input-group
                                             .input-group-prepend
                                                 span.input-group-text @
-                                            input#uidPersonale.form-control(type='text', placeholder='', required='',readonly="readonly")
+                                            input#uidPersonale.form-control(type='text', placeholder='', required='', readonly="readonly")
                                             .invalid-feedback(style='width: 100%;')
                                                 | UID personale non valido.
                                 .row
                                     .col-md-8.mb-3
                                         label(for='fase')
                                             | Fase
-                                        input#fase.form-control(type='text', placeholder='',readonly="readonly")
+                                        input#fase.form-control(type='text', placeholder='', readonly="readonly")
                                         .invalid-feedback
                                             | Fase di elaborazione non valida
                                     .col-md-4.mb-3
@@ -73,47 +75,47 @@ block content
                         .card-body
                             .md-12.mb-3
                                 label(for='luogoRaccolta') Luogo Raccolta
-                                input#luogoRaccolta.form-control(type='text', placeholder='', required='',readonly="readonly")
+                                input#luogoRaccolta.form-control(type='text', placeholder='', required='', readonly="readonly")
                                 .invalid-feedback
                                     | Inserisci il luogo di raccolta
                             .md-12.mb-3
                                 label(for='tipoDonazione')
                                     | Tipo di donazione e procedura adottata
-                                input#tipoDonazione.form-control(type='text', placeholder='',readonly="readonly")
+                                input#tipoDonazione.form-control(type='text', placeholder='', readonly="readonly")
                                 .invalid-feedback
                                     | Inserisci tipo Donazione
                             .row
                                 .col-md-4.mb-3
                                     label(for='anticoagulante') Anticoagulante impiegato e volume
-                                    input#anticoagulante.form-control(type='text', placeholder='',readonly="readonly")
+                                    input#anticoagulante.form-control(type='text', placeholder='', readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci i deti inerenti al Anticoagulante
                                 .col-md-4.mb-3
                                     label(for='conservante') Conservante impiegato e volume
-                                    input#conservante.form-control(type='text', placeholder='',readonly="readonly")
+                                    input#conservante.form-control(type='text', placeholder='', readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci i dati relativi all'conservante
                                 .col-md-4.mb-3
                                     label(for='volumeEmocomponenti') Volume degli emocomponenti raccolti
-                                    input#volumeEmocomponenti.form-control(type='Number' Step="0.01", placeholder='',readonly="readonly")
+                                    input#volumeEmocomponenti.form-control(type='Number' Step="0.01", placeholder='', readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci Volume valido
                             .row
                                 .col-md-8.mb-3
                                     label(for='dateStamp')
                                         | Data e ora della procedura di raccolta
-                                    input#dateStamp.form-control.datetimepicker-input(type='text', data-toggle='datetimepicker', data-target='#dateStamp',readonly="readonly",disabled="")
+                                    input#dateStamp.form-control.datetimepicker-input(type='text', data-toggle='datetimepicker', data-target='#dateStamp', readonly="readonly", disabled="")
                                     .invalid-feedback
                                         | Inserisci data valida
                                 .col-md-4.mb-3
                                     label(for='durata') Durata
-                                    input#durata.form-control(type='text', placeholder='',readonly="readonly")
+                                    input#durata.form-control(type='text', placeholder='', readonly="readonly")
                                     .invalid-feedback
                                         | Inserisci la durata
 
                             .md-12.mb-3
                                 label(for='codiceFiscaleDonatore') CodiceFiscale Donatore
-                                input#codiceFiscaleDonatore.form-control(type='text', placeholder='',readonly="readonly")
+                                input#codiceFiscaleDonatore.form-control(type='text', placeholder='', readonly="readonly")
                                 .invalid-feedback
                                     | Inserisci CodiceFiscale Donatore
                             .row
@@ -205,7 +207,11 @@ block content
                                 input#nosograficoPaziente.form-control(type='text', placeholder='', readonly="readonly")
                                 .invalid-feedback
                                     | Inserisci Nosografico Paziente
+                    #fase6.container-fluid
                     hr.md-12.mb-3
+                    |""
+                    |""
+                    |""
                     // The Modal
     #myModal.modal
         // Modal content
@@ -214,67 +220,62 @@ block content
                 h1#titoloModal
                 span.close ×
             .modal-body.group
+                //FASE 2
                 .div#displayFase2(hidden='true')
                     .row
                         .col-md-8.mb-3
                             label(for='laboratorioProvenienzaInsert') Laboratorio di Provenienza
                             input#laboratorioProvenienzaInsert.form-control(type='text', placeholder='')
-                            .invalid-feedback
-                                | Inserisci Laboratorio di Provenienza
+                            small#laboratorioProvenienzaInvalid.form-text.text-muted.font-italic
                         .col-md-4.mb-3
                             label(for='fenotipoInsert') Fenotipo
                             input#fenotipoInsert.form-control(type='text', placeholder='')
-                            .invalid-feedback
-                                | Inserisci Fenotipo
+                            small#fenotipoInvalid.form-text.text-muted.font-italic
                     .md-12.mb-3
                         label(for='laboratorioAnalisiInsert') Laboratorio Analisi
                         input#laboratorioAnalisiInsert.form-control(type='text', placeholder='')
-                        .invalid-feedback
-                            | Inserisci Laboratorio Analisi
+                        small#laboratorioAnalisiInvalid.form-text.text-muted.font-italic
+                //FASE 3
                 .div#displayFase3(hidden='true')
                     .md-12.mb-3
                         label(for='tipoEmoderivatoInsert') Tipo Emoderivato
                         input#tipoEmoderivatoInsert.form-control(type='text', placeholder='')
-                        .invalid-feedback
-                            | Inserisci Tipo Emoderivato
+                        small#tipoEmoderivatoInvalid.form-text.text-muted.font-italic
                     .md-12.mb-3
                         label(for='tipoLavorazioneInsert') Tipo Lavorazione
                         input#tipoLavorazioneInsert.form-control(type='text', placeholder='')
-                        .invalid-feedback
-                            | Inserisci Tipo Lavorazione
+                        small#tipoLavorazioneInvalid.form-text.text-muted.font-italic
+                //FASE 4
                 .div#displayFase4(hidden='true')
                     .md-12.mb-3
                         label(for='dataScadenzaInsert')
                             | Data di scadenza
                         input#dataScadenzaInsert.form-control.datetimepicker-input(readonly="readonly", type='text', data-toggle='datetimepicker', data-target='#dataScadenzaInsert')
-                        .invalid-feedback
-                            | Inserisci data valida
+                        small#dataScadenzaInvalid.form-text.text-muted.font-italic
+                //FASE 5
                 .div#displayFase5(hidden='true')
                     .md-12.mb-3
                         label(for='dataSomministrazioneInsert')
                             | Data di Somministrazione
                         input#dataSomministrazioneInsert.form-control.datetimepicker-input(readonly="readonly", type='text', data-toggle='datetimepicker', data-target='#dataSomministrazioneInsert')
-                        .invalid-feedback
-                            | Inserisci data valida
+                        small#dataSomministrazioneInvalid.form-text.text-muted.font-italic
                     .row
                         .col-md-6.mb-3
-                            label(for='medicoResponsabileInsertInsert') Medico Responabile
-                            input#medicoResponsabileInsertInsert.form-control(type='text', placeholder='')
-                            .invalid-feedback
-                                | Inserisci Nome Medico responsabile
+                            label(for='medicoResponsabileInsert') Medico Responabile
+                            input#medicoResponsabileInsert.form-control(type='text', placeholder='')
+                            small#medicoResponsabileInvalid.form-text.text-muted.font-italic
                         .col-md-6.mb-3
                             label(for='infermiereResponsabileInsert') Infermiere Responsabile
                             input#infermiereResponsabileInsert.form-control(type='text', placeholder='')
-                            .invalid-feedback
-                                | Inserisci Nome Infermiere responsabile
+                            small#infermiereResponsabileInvalid.form-text.text-muted.font-italic
+
                     .md-12.mb-3
                         label(for='nosograficoPazienteInsert') Nosogragico Paziente
                         input#nosograficoPazienteInsert.form-control(type='text', placeholder='')
-                        .invalid-feedback
-                            | Inserisci Nosografico Paziente
-            .modal-footer
-                button.btn.btn-success CONTINUA
+                        small#nosograficoPazienteInvalid.form-text.text-muted.font-italic
 
+            .modal-footer
+                button#updateSacca.btn.btn-success.updateSacca CONTINUA
 
 block append javascript
     script(type='text/javascript', src = '/javascript/dettagliSacca.js')

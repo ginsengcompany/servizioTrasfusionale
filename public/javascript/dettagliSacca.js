@@ -141,6 +141,20 @@ $(document).ready(function () {
     });
 
     $(".aggiungiFase").click(function() {
+        //Fase 2
+        $('#laboratorioProvenienzaInvalid').fadeOut();
+        $('#fenotipoInvalid').fadeOut();
+        //Fase 3
+        $('#tipoEmoderivatoInvalid').fadeOut();
+        $('#tipoLavorazioneInvalid').fadeOut();
+        //Fase 4
+        $('#dataScadenzaInvalid').fadeOut();
+        //Fase 5
+        $('#dataSomministrazioneInvalid').fadeOut();
+        $('#medicoResponsabileInvalid').fadeOut();
+        $('#infermiereResponsabileInvalid').fadeOut();
+        $('#nosograficoPazienteInvalid').fadeOut();
+
         if(sacca.fase === 1){
             $('#titoloModal').text("INSERISCI DATI FASE 2");
             $('#displayFase2').removeAttr('hidden');
@@ -159,8 +173,142 @@ $(document).ready(function () {
         }
         modal.style.display = "block";
     });
-});
 
+    $('#updateSacca').click( function () {
+        let isValid = true;
+        if(sacca.fase === 1){
+            sacca.laboratorioProvenienza = $('#laboratorioProvenienzaInsert').val();
+            sacca.fenotipo = $('#fenotipoInsert').val();
+            sacca.laboratorioAnalisi = $('#laboratorioAnalisiInsert').val();
+            if(!sacca.laboratorioProvenienza){
+                $("#laboratorioProvenienzaInvalid").text("Attenzione, riempire il campo");
+                $('#laboratorioProvenienzaInvalid').fadeIn();
+                $('#laboratorioProvenienzaInvalid').addClass('red-text');
+                isValid=false;
+            }
+            else{
+                $('#laboratorioProvenienzaInvalid').fadeOut();
+            }
+            if(!sacca.fenotipo){
+                $("#fenotipoInvalid").text("Attenzione, riempire il campo");
+                $('#fenotipoInvalid').fadeIn();
+                $('#fenotipoInvalid').addClass('red-text');
+                isValid=false;
+            }
+            else{
+                $('#fenotipoInvalid').fadeOut();
+            }
+            if(!sacca.fenotipo){
+                $("#laboratorioAnalisiInvalid").text("Attenzione, riempire il campo");
+                $('#laboratorioAnalisiInvalid').fadeIn();
+                $('#laboratorioAnalisiInvalid').addClass('red-text');
+                isValid=false;
+            }
+            else{
+                $('#laboratorioAnalisiInvalid').fadeOut();
+            }
+        }
+        else if(sacca.fase === 2){
+            sacca.tipoEmoderivato = $('#tipoEmoderivatoInsert').val();
+            sacca.tipoLavorazione = $('#tipoLavorazioneInsert').val();
+            if(!sacca.tipoEmoderivato){
+                $("#tipoEmoderivatoInvalid").text("Attenzione, riempire il campo");
+                $('#tipoEmoderivatoInvalid').fadeIn();
+                $('#tipoEmoderivatoInvalid').addClass('red-text');
+                isValid=false;
+            }
+            else{
+                $('#tipoEmoderivatoInvalid').fadeOut();
+            }
+            if(!sacca.tipoLavorazione){
+                $("#tipoLavorazioneInvalid").text("Attenzione, riempire il campo");
+                $('#tipoLavorazioneInvalid').fadeIn();
+                $('#tipoLavorazioneInvalid').addClass('red-text');
+                isValid=false;
+            }
+            else{
+                $('#tipoLavorazioneInvalid').fadeOut();
+            }
+        }
+        else if(sacca.fase === 3){
+            sacca.dateScadenza = moment($('#dataScadenzaInsert').val(),"DD/MM/YYYY HH:mm").toDate();
+            console.log(sacca.dataScadenza);
+            if(!sacca.dateScadenza){
+                $("#dataScadenzaInvalid").text("Attenzione, riempire il campo");
+                $('#dataScadenzaInvalid').fadeIn();
+                $('#dataScadenzaInvalid').addClass('red-text');
+                isValid=false;
+            }
+            else{
+                $('#dataScadenzaInvalid').fadeOut();
+            }
+        }
+        else if(sacca.fase === 4){
+
+            sacca.dataSomministrazione = moment($('#dataSomministrazioneInsert').val(),"DD/MM/YYYY HH:mm").toDate();
+            sacca.medicoResponsabile = $('#medicoResponsabileInsert').val();
+            sacca.infermiereResponsabile = $('#infermiereResponsabileInsert').val();
+            sacca.nosograficoPaziente = $('#nosograficoPazienteInsert').val();
+            if(!sacca.dataSomministrazione){
+                $("#dataSomministrazioneInvalid").text("Attenzione, riempire il campo");
+                $('#dataSomministrazioneInvalid').fadeIn();
+                $('#dataSomministrazioneInvalid').addClass('red-text');
+                isValid=false;
+            }
+            else{
+                $('#dataSomministrazioneInvalid').fadeOut();
+            }
+            if(!sacca.medicoResponsabile){
+                $("#medicoResponsabileInvalid").text("Attenzione, riempire il campo");
+                $('#medicoResponsabileInvalid').fadeIn();
+                $('#medicoResponsabileInvalid').addClass('red-text');
+                isValid=false;
+            }
+            else{
+                $('#medicoResponsabileInvalid').fadeOut();
+            }
+            if(!sacca.infermiereResponsabile){
+                $("#infermiereResponsabileInvalid").text("Attenzione, riempire il campo");
+                $('#infermiereResponsabileInvalid').fadeIn();
+                $('#infermiereResponsabileInvalid').addClass('red-text');
+                isValid=false;
+            }
+            else{
+                $('#infermiereResponsabileInvalid').fadeOut();
+            }
+            if(!sacca.nosograficoPaziente){
+                $("#nosograficoPazienteInvalid").text("Attenzione, riempire il campo");
+                $('#nosograficoPazienteInvalid').fadeIn();
+                $('#nosograficoPazienteInvalid').addClass('red-text');
+                isValid=false;
+            }
+            else{
+                $('#nosograficoPazienteInvalid').fadeOut();
+            }
+        }
+        else{
+            alert( " Message: " + "Non esistono altre fasi di lavorazione");
+            isValid = false;
+        }
+        if(isValid){
+            $.ajax({
+                type: "POST",
+                data: JSON.stringify(sacca),
+                url: "/postModificaFase",
+                contentType: 'application/json',
+                dataType: "json",
+                success: function (data, textStatus, jqXHR) {
+                    console.log(data);
+                    location.reload();
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    let responseText = jQuery.parseJSON(jqXHR.responseText);
+                    alert( "Request failed: " +responseText.code + " Message: " + responseText.errmsg);
+                },
+            });
+        }
+    });
+});
 function GetURLParameter(sParam) {
     let sPageURL = window.location.search.substring(1);
     let sURLVariables = sPageURL.split('&');
