@@ -4,6 +4,7 @@ $(document).ready(function () {
 
     $("#homeAncor").attr("href","home?token="+token+"&uid="+uid);
     $("#NuovaSacca").attr("href","nuovaSacca?token="+token+ "&uid="+uid);
+    $("#Trasfusioni").attr("href","trasfusioni?token="+token+ "&uid="+uid);
 
     function GetURLParameter(sParam) {
         let sPageURL = window.location.search.substring(1);
