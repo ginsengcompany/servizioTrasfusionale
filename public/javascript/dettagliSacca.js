@@ -61,7 +61,6 @@ $(document).ready(function () {
             $('#conservante').val(sacca.conservante);
             $('#volumeEmocomponenti').val(sacca.volumeEmocomponenti);
             let a = moment(sacca.dateStamp).format('DD-MM-YYYY HH:mm ');
-            console.log(a);
             $('#dateStamp').val(a);
             $('#durata').val(sacca.durata);
             $('#codiceFiscaleDonatore').val(sacca.codiceFiscaleDonatore);
@@ -75,9 +74,8 @@ $(document).ready(function () {
             $('#tipoEmoderivato').val(sacca.tipoEmoderivato);
             $('#tipoLavorazione').val(sacca.tipoLavorazione);
             /*fase4*/
-            if(sacca.dataScadenza){
-                let dataScadenza = moment(sacca.dataScadenza).format('DD-MM-YYYY');
-                console.log(dataScadenza);
+            if(sacca.dateScadenza){
+                let dataScadenza = moment(sacca.dateScadenza).format('DD-MM-YYYY');
                 $('#dataScadenza').val(dataScadenza);
             }
             else
@@ -85,7 +83,6 @@ $(document).ready(function () {
             /*fase5*/
             if(sacca.dataSomministrazione){
                 let dataSomministrazione = moment(sacca.dataSomministrazione).format('DD-MM-YYYY HH:mm');
-                console.log(dataSomministrazione);
                 $('#dataSomministrazione').val(dataSomministrazione);
             }
             else
@@ -231,8 +228,7 @@ $(document).ready(function () {
             }
         }
         else if(sacca.fase === 3){
-            sacca.dateScadenza = moment($('#dataScadenzaInsert').val(),"DD/MM/YYYY HH:mm").toDate();
-            console.log(sacca.dataScadenza);
+            sacca.dateScadenza =  moment($('#dataScadenzaInsert').val(),"DD/MM/YYYY HH:mm").toDate();
             if(!sacca.dateScadenza){
                 $("#dataScadenzaInvalid").text("Attenzione, riempire il campo");
                 $('#dataScadenzaInvalid').fadeIn();

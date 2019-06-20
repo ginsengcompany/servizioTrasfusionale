@@ -28,7 +28,7 @@ let saccheSchema = new mongoose.Schema({
         tipoLavorazione : String,
 
     /*fase4*/
-        dataScadenza : Date,
+        dateScadenza : Date,
     /*fase5*/
         dataSomministrazione : String,
         medicoResponsabile : String,

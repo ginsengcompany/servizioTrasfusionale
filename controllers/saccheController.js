@@ -80,7 +80,7 @@ exports.postModificaFase = function(req,res) {
     else if(req.body.fase === 4){
         sacca.update({
             fase: req.body.fase,
-            dataScadenza: req.body.dataScadenza
+            dateScadenza: req.body.dateScadenza
         }, function (err, affected, resp) {
             if (err)
                 return res.status(400).send(err);
