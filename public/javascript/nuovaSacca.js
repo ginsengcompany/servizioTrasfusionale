@@ -183,7 +183,6 @@ $('#dataSomministrazione').datetimepicker({
                     },
                 });
             }
-
     });
 
 

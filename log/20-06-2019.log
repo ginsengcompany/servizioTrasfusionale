@@ -1387,3 +1387,112 @@
 
 11:54:47 AM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 785 - 36.083 ms
 
+12:08:55 PM - info: ::1 - GET / HTTP/1.1 200 1655 - 340.467 ms
+
+12:08:55 PM - info: ::1 - GET /javascript/login.js HTTP/1.1 200 698 - 17.296 ms
+
+12:08:55 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 6.677 ms
+
+12:08:55 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 7.498 ms
+
+12:08:55 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 13.987 ms
+
+12:08:56 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 4066 - 64.497 ms
+
+12:09:11 PM - info: uid: 3B33A159 auth: true
+12:09:11 PM - info: ::1 - POST /loginMethod HTTP/1.1 200 148 - 32.237 ms
+
+12:09:12 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAyNTM1MX0.SXgVB2Y516-goRDs-irMr3Q8zhNUUUZ2R97uZYCwvrU&uid=3B33A159 HTTP/1.1 200 2509 - 51.647 ms
+
+12:09:12 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 1.599 ms
+
+12:09:12 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 200 2775 - 4.658 ms
+
+12:09:12 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.738 ms
+
+12:09:12 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 200 663 - 4.863 ms
+
+12:09:12 PM - info: ::1 - GET /favicon.ico HTTP/1.1 - - - - ms
+
+12:09:12 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 2906 - 8.293 ms
+
+12:09:16 PM - info: ::1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAyNTM1MX0.SXgVB2Y516-goRDs-irMr3Q8zhNUUUZ2R97uZYCwvrU&uid=3B33A159&uidSacca=222 HTTP/1.1 200 14677 - 148.749 ms
+
+12:09:16 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.673 ms
+
+12:09:16 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.207 ms
+
+12:09:16 PM - info: ::1 - GET /stylesheets/modalStyle.css HTTP/1.1 200 1874 - 7.062 ms
+
+12:09:16 PM - info: ::1 - GET /javascript/dettagliSacca.js HTTP/1.1 200 13190 - 6.590 ms
+
+12:09:16 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.904 ms
+
+12:09:16 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 4066 - 23.297 ms
+
+12:09:16 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 430 - 4.162 ms
+
+12:09:27 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAyNTM1MX0.SXgVB2Y516-goRDs-irMr3Q8zhNUUUZ2R97uZYCwvrU&uid=3B33A159 HTTP/1.1 304 - - 20.838 ms
+
+12:09:27 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.166 ms
+
+12:09:27 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.281 ms
+
+12:09:27 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 2.232 ms
+
+12:09:27 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.129 ms
+
+12:09:27 PM - info: ::1 - GET /favicon.ico HTTP/1.1 - - - - ms
+
+12:09:27 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 2906 - 3.622 ms
+
+12:09:31 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAyNTM1MX0.SXgVB2Y516-goRDs-irMr3Q8zhNUUUZ2R97uZYCwvrU&uid=3B33A159 HTTP/1.1 200 6656 - 72.025 ms
+
+12:09:31 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.617 ms
+
+12:09:31 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.992 ms
+
+12:09:31 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.612 ms
+
+12:09:31 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 200 8156 - 1.612 ms
+
+12:09:31 PM - info: ::1 - GET /favicon.ico HTTP/1.1 - - - - ms
+
+12:09:40 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAyNTM1MX0.SXgVB2Y516-goRDs-irMr3Q8zhNUUUZ2R97uZYCwvrU&uid=3B33A159 HTTP/1.1 200 2509 - 19.292 ms
+
+12:09:40 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.975 ms
+
+12:09:40 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.378 ms
+
+12:09:40 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.471 ms
+
+12:09:40 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 1.799 ms
+
+12:09:40 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 2906 - 5.134 ms
+
+12:09:42 PM - info: ::1 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAyNTM1MX0.SXgVB2Y516-goRDs-irMr3Q8zhNUUUZ2R97uZYCwvrU&uid=3B33A159 HTTP/1.1 200 6656 - 49.624 ms
+
+12:09:42 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.851 ms
+
+12:09:42 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.027 ms
+
+12:09:42 PM - info: ::1 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 3.191 ms
+
+12:09:42 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 1.718 ms
+
+12:10:09 PM - info: ::1 - POST /postNuovaSacca HTTP/1.1 200 391 - 14.231 ms
+
+12:10:22 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAyNTM1MX0.SXgVB2Y516-goRDs-irMr3Q8zhNUUUZ2R97uZYCwvrU&uid=3B33A159 HTTP/1.1 200 2509 - 14.685 ms
+
+12:10:22 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.922 ms
+
+12:10:22 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.912 ms
+
+12:10:22 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 1.896 ms
+
+12:10:22 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 3.645 ms
+
+12:10:22 PM - info: ::1 - GET /favicon.ico HTTP/1.1 - - - - ms
+
+12:10:22 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 4.579 ms
+
