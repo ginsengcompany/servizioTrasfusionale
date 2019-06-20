@@ -1,0 +1,22 @@
+extends layout
+
+block title
+    title Trasfusioni in Corso
+block append style
+    link(rel='stylesheet', href='https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css')
+block content
+    body
+        .Home
+            h1.h4.mb-3 Trasfusioni in corso...
+            .container
+                .col-md-12.order-md-1
+                    .card
+                        .card-header
+                            h2.h4.mb-3 Trasfusioni
+                        .card-body
+                            .container#TabHome
+                                table#tabSacche.table.table-striped.table-bordered.dt-responsive
+
+
+block append javascript
+    script(type='text/javascript', src = '/javascript/trasfusioniInCorso.js')
