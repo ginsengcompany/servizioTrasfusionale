@@ -1501,3 +1501,21 @@
 
 12:25:05 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 40 - 0.930 ms
 
+3:03:42 PM - info: ::1 - GET /trasfusioni/listaPerReparto HTTP/1.1 404 3680 - 515.016 ms
+
+3:03:42 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 200 740 - 11.149 ms
+
+3:03:42 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 200 88147 - 23.472 ms
+
+3:03:42 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 42.134 ms
+
+3:03:42 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 3680 - 43.111 ms
+
+3:04:00 PM - info: ::ffff:192.168.125.97 - GET /trasfusioni/aggiornamentoDopoLaTrasfusione HTTP/1.1 404 3680 - 44.907 ms
+
+3:04:00 PM - info: ::ffff:192.168.125.97 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 0.904 ms
+
+3:04:00 PM - info: ::ffff:192.168.125.97 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 200 88147 - 0.824 ms
+
+3:04:00 PM - info: ::ffff:192.168.125.97 - GET /javascript/Menu.js HTTP/1.1 200 740 - 0.709 ms
+

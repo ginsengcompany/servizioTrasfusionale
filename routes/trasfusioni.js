@@ -6,4 +6,6 @@ router.use(bodyParser.json());
 let trasfusioniController = require('../controllers/trasfusioniController');
 
 router.get('/trasfusioni',trasfusioniController.getTrasfusioni);
+router.post('/postTrasfusioni',trasfusioniController.postTrasfusioni);
+
 module.exports = router;
