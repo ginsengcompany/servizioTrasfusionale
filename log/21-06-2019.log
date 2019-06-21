@@ -1,0 +1,66 @@
+9:31:51 AM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 304 - - 580.952 ms
+
+9:31:51 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.865 ms
+
+9:31:51 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.812 ms
+
+9:31:51 AM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.471 ms
+
+9:31:51 AM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 200 2981 - 14.303 ms
+
+9:31:51 AM - info: ::ffff:127.0.0.1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 61.688 ms
+
+9:31:58 AM - info: ::ffff:127.0.0.1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159&uidSacca=222 HTTP/1.1 200 14755 - 202.592 ms
+
+9:31:58 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.376 ms
+
+9:31:58 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.119 ms
+
+9:31:58 AM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.492 ms
+
+9:31:58 AM - info: ::ffff:127.0.0.1 - GET /javascript/dettagliSacca.js HTTP/1.1 304 - - 0.361 ms
+
+9:31:58 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/modalStyle.css HTTP/1.1 304 - - 8.157 ms
+
+9:31:58 AM - info: ::ffff:127.0.0.1 - POST /sacche/datiSacca HTTP/1.1 200 430 - 32.473 ms
+
+9:32:05 AM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 304 - - 46.062 ms
+
+9:32:05 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.975 ms
+
+9:32:05 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.887 ms
+
+9:32:05 AM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.663 ms
+
+9:32:05 AM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 304 - - 1.966 ms
+
+9:32:05 AM - info: ::ffff:127.0.0.1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 5.109 ms
+
+9:32:08 AM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 500 3973 - 49.315 ms
+
+9:32:08 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.780 ms
+
+9:32:08 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.834 ms
+
+9:32:08 AM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.674 ms
+
+9:32:10 AM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 500 3973 - 35.793 ms
+
+9:32:10 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.236 ms
+
+9:32:10 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.596 ms
+
+9:32:10 AM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.851 ms
+
+9:43:04 AM - info: ::ffff:127.0.0.1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 304 - - 28.670 ms
+
+9:43:04 AM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.034 ms
+
+9:43:04 AM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.448 ms
+
+9:43:04 AM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.486 ms
+
+9:43:04 AM - info: ::ffff:127.0.0.1 - GET /javascript/home.js HTTP/1.1 304 - - 0.722 ms
+
+9:43:04 AM - info: ::ffff:127.0.0.1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 7.927 ms
+

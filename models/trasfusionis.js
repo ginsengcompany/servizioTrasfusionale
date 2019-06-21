@@ -16,6 +16,11 @@ let trasfusioniSchema = new mongoose.Schema({
         frequenzaCardiaca : Number,
         pressioneArteriosa : Number
     },
+    datiDopoTrasfusione : {
+        temperatura : Number,
+        frequenzaCardiaca : Number,
+        pressioneArteriosa : Number
+    },
     trasfusioneEseguita : Boolean,
     note : String,
     inizioTrasfusione : Date,

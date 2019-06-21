@@ -34,7 +34,11 @@ $(document).ready(function () {
                     },
                     {
                         title: "DATA CREAZIONE",
-                        data: 'dateStamp'
+                        data: null,
+                        render: function (data, type, row) {
+                            let date = moment(data).format("DD/MM/YYYY hh:mm");
+                            return date;
+                        }
                     },
                     { //prima colonna per aprire la riga e visualizzare i dati del contatto selezionato
                         orderable: false,

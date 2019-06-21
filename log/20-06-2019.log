@@ -59,3 +59,127 @@
 
 3:04:00 PM - info: ::ffff:192.168.125.97 - GET /javascript/Menu.js HTTP/1.1 200 740 - 0.709 ms
 
+4:05:12 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 500 3973 - 295.019 ms
+
+4:05:12 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 9.958 ms
+
+4:05:12 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 8.131 ms
+
+4:05:12 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 200 740 - 10.772 ms
+
+4:05:13 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 304 - - 51.319 ms
+
+4:05:13 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.379 ms
+
+4:05:13 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.782 ms
+
+4:05:13 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.079 ms
+
+4:05:13 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 0.309 ms
+
+4:05:13 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 81.873 ms
+
+4:08:06 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 304 - - 49.496 ms
+
+4:08:06 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.710 ms
+
+4:08:06 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.832 ms
+
+4:08:06 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 200 2990 - 2.503 ms
+
+4:08:06 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 200 740 - 2.928 ms
+
+4:08:06 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 6.016 ms
+
+4:08:30 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 304 - - 33.471 ms
+
+4:08:30 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.410 ms
+
+4:08:30 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.556 ms
+
+4:08:30 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.762 ms
+
+4:08:30 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 200 2972 - 2.367 ms
+
+4:08:30 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 4.594 ms
+
+4:08:50 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 304 - - 27.598 ms
+
+4:08:50 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.764 ms
+
+4:08:50 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.593 ms
+
+4:08:50 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.040 ms
+
+4:08:50 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 200 3040 - 1.791 ms
+
+4:08:50 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 5.607 ms
+
+4:10:52 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 304 - - 26.197 ms
+
+4:10:53 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.224 ms
+
+4:10:53 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.114 ms
+
+4:10:53 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.877 ms
+
+4:10:53 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 200 2965 - 3.220 ms
+
+4:10:53 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 5.110 ms
+
+4:11:06 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 304 - - 21.716 ms
+
+4:11:06 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.917 ms
+
+4:11:06 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.651 ms
+
+4:11:06 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.543 ms
+
+4:11:06 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 200 2984 - 2.507 ms
+
+4:11:07 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 10.895 ms
+
+4:11:14 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 304 - - 22.446 ms
+
+4:11:14 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.229 ms
+
+4:11:14 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.122 ms
+
+4:11:14 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.367 ms
+
+4:11:14 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 200 2984 - 4.231 ms
+
+4:11:15 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 7.960 ms
+
+4:11:29 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 304 - - 21.169 ms
+
+4:11:29 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.069 ms
+
+4:11:29 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.182 ms
+
+4:11:29 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.858 ms
+
+4:11:29 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 200 2984 - 2.356 ms
+
+4:11:29 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 4.718 ms
+
+4:12:57 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MDkzMTYxOX0.HEeVDxkyev5Vx6H6P_igtVg0F-JOCOpglogo9mR15gw&uid=3B33A159 HTTP/1.1 304 - - 18.003 ms
+
+4:12:57 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.851 ms
+
+4:12:57 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.986 ms
+
+4:12:57 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.676 ms
+
+4:12:57 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 200 2981 - 1.575 ms
+
+4:12:57 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 4.030 ms
+
+4:16:43 PM - info: ::1 - GET /trasfusioni/listaPerReparto HTTP/1.1 404 3680 - 33.637 ms
+
+4:16:43 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.958 ms
+
+4:16:43 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.187 ms
+
+4:16:43 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.562 ms
+
