@@ -59,3 +59,646 @@
 
 3:04:00 PM - info: ::ffff:192.168.125.97 - GET /javascript/Menu.js HTTP/1.1 200 740 - 0.709 ms
 
+3:27:41 PM - info: ::1 - GET / HTTP/1.1 304 - - 282.841 ms
+
+3:27:41 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 13.722 ms
+
+3:27:41 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 13.899 ms
+
+3:27:41 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 12.887 ms
+
+3:27:41 PM - info: ::1 - GET /javascript/login.js HTTP/1.1 304 - - 0.362 ms
+
+3:27:41 PM - info: ::1 - GET /favicon.ico HTTP/1.1 - - - - ms
+
+3:27:50 PM - info: ::1 - POST /loginMethod HTTP/1.1 404 18 - 21.913 ms
+
+3:27:57 PM - info: uid: 3B33A159 auth: true
+3:27:57 PM - info: ::1 - POST /loginMethod HTTP/1.1 200 148 - 6.898 ms
+
+3:27:57 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2587 - 47.783 ms
+
+3:27:57 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.598 ms
+
+3:27:57 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.406 ms
+
+3:27:57 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 2.819 ms
+
+3:27:57 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.451 ms
+
+3:27:58 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 4144 - 47.287 ms
+
+3:27:58 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 12.190 ms
+
+3:28:02 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 500 4495 - 30.930 ms
+
+3:28:02 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.361 ms
+
+3:28:02 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.612 ms
+
+3:28:02 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.728 ms
+
+3:28:02 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 4144 - 36.427 ms
+
+3:28:16 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 500 4495 - 24.162 ms
+
+3:28:16 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.977 ms
+
+3:28:16 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.049 ms
+
+3:28:16 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.475 ms
+
+3:28:28 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 500 4495 - 22.996 ms
+
+3:28:28 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.691 ms
+
+3:28:28 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.307 ms
+
+3:28:28 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 3.152 ms
+
+3:28:28 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 4144 - 29.865 ms
+
+3:29:22 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 500 4495 - 20.503 ms
+
+3:29:22 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.644 ms
+
+3:29:22 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.145 ms
+
+3:29:22 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 1.068 ms
+
+3:29:23 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 4144 - 21.745 ms
+
+3:30:35 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2536 - 339.357 ms
+
+3:30:35 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.019 ms
+
+3:30:35 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.425 ms
+
+3:30:35 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 2.470 ms
+
+3:30:35 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 40 - 0.724 ms
+
+3:30:35 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 4144 - 48.992 ms
+
+3:31:38 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2536 - 318.635 ms
+
+3:31:38 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 12.337 ms
+
+3:31:38 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 4.443 ms
+
+3:31:38 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 21.509 ms
+
+3:31:38 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2899 - 27.393 ms
+
+3:31:38 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 4144 - 54.885 ms
+
+3:31:38 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3298 - 27.722 ms
+
+3:33:54 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 305.316 ms
+
+3:33:54 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 10.334 ms
+
+3:33:54 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 18.241 ms
+
+3:33:54 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 32.293 ms
+
+3:33:54 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2909 - 35.352 ms
+
+3:33:54 PM - info: ::1 - GET /favicon.ico HTTP/1.1 - - - - ms
+
+3:33:54 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 24.580 ms
+
+3:36:31 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 321.134 ms
+
+3:36:31 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 15.307 ms
+
+3:36:31 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 20.471 ms
+
+3:36:31 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 200 740 - 26.921 ms
+
+3:36:31 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2464 - 28.183 ms
+
+3:36:31 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 31.517 ms
+
+3:36:48 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 303.799 ms
+
+3:36:48 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.316 ms
+
+3:36:48 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.144 ms
+
+3:36:48 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.499 ms
+
+3:36:48 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2441 - 5.337 ms
+
+3:36:49 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 33.487 ms
+
+3:36:49 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 4144 - 57.312 ms
+
+3:37:05 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 305.578 ms
+
+3:37:05 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 11.733 ms
+
+3:37:05 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 10.484 ms
+
+3:37:05 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 17.674 ms
+
+3:37:05 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2460 - 18.337 ms
+
+3:37:05 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 31.633 ms
+
+3:37:32 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 293.666 ms
+
+3:37:32 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.174 ms
+
+3:37:32 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.842 ms
+
+3:37:32 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.182 ms
+
+3:37:32 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2497 - 5.956 ms
+
+3:37:32 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 31.326 ms
+
+3:39:55 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 312.797 ms
+
+3:39:55 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 6.555 ms
+
+3:39:55 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 6.997 ms
+
+3:39:55 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2463 - 10.636 ms
+
+3:39:55 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 14.034 ms
+
+3:39:56 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 4144 - 59.539 ms
+
+3:39:56 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 24.782 ms
+
+3:42:35 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 44.505 ms
+
+3:42:35 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.067 ms
+
+3:42:35 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.573 ms
+
+3:42:35 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2535 - 2.337 ms
+
+3:42:35 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 2.590 ms
+
+3:42:35 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 4144 - 47.811 ms
+
+3:42:35 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 4.410 ms
+
+3:43:32 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 34.084 ms
+
+3:43:32 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.388 ms
+
+3:43:32 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.615 ms
+
+3:43:32 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2576 - 1.584 ms
+
+3:43:32 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 1.922 ms
+
+3:43:32 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 4144 - 36.965 ms
+
+3:43:32 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 3.767 ms
+
+3:43:53 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 20.120 ms
+
+3:43:53 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.583 ms
+
+3:43:53 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.779 ms
+
+3:43:53 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.010 ms
+
+3:43:53 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2628 - 1.344 ms
+
+3:43:53 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 3.648 ms
+
+3:44:21 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 23.858 ms
+
+3:44:21 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.498 ms
+
+3:44:21 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.713 ms
+
+3:44:21 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.111 ms
+
+3:44:21 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2637 - 1.720 ms
+
+3:44:22 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 4.684 ms
+
+3:44:54 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 301.144 ms
+
+3:44:54 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 12.008 ms
+
+3:44:54 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 10.107 ms
+
+3:44:54 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 10.532 ms
+
+3:44:54 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2681 - 21.520 ms
+
+3:44:55 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 28.973 ms
+
+3:45:59 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 47.554 ms
+
+3:45:59 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.708 ms
+
+3:45:59 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.619 ms
+
+3:45:59 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.011 ms
+
+3:45:59 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2648 - 0.849 ms
+
+3:45:59 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 6.083 ms
+
+3:46:17 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 32.069 ms
+
+3:46:17 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.537 ms
+
+3:46:17 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.415 ms
+
+3:46:17 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.173 ms
+
+3:46:17 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2608 - 3.064 ms
+
+3:46:17 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 2.932 ms
+
+3:48:13 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 318.661 ms
+
+3:48:13 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 4.403 ms
+
+3:48:13 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.864 ms
+
+3:48:13 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 4.133 ms
+
+3:48:13 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2754 - 2.243 ms
+
+3:48:13 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 29.085 ms
+
+3:51:23 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 50.204 ms
+
+3:51:23 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.219 ms
+
+3:51:23 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.635 ms
+
+3:51:23 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.499 ms
+
+3:51:23 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2786 - 2.934 ms
+
+3:51:24 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 6.338 ms
+
+3:53:51 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 30.258 ms
+
+3:53:51 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.385 ms
+
+3:53:51 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.451 ms
+
+3:53:51 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.042 ms
+
+3:53:51 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 2785 - 1.232 ms
+
+3:53:51 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 5.879 ms
+
+3:54:34 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 304.256 ms
+
+3:54:34 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 5.993 ms
+
+3:54:34 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 6.484 ms
+
+3:54:34 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.736 ms
+
+3:54:34 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 304 - - 1.026 ms
+
+3:54:35 PM - info: ::1 - POST /postTrasfusioni HTTP/1.1 200 461 - 25.880 ms
+
+3:54:43 PM - info: ::1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 1261.360 ms
+
+3:54:43 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.203 ms
+
+3:54:43 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.139 ms
+
+3:54:44 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.817 ms
+
+3:54:44 PM - info: ::1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 304 - - 1.186 ms
+
+3:58:23 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 312.524 ms
+
+3:58:24 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 4.170 ms
+
+3:58:24 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 9.197 ms
+
+3:58:24 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 304 - - 0.694 ms
+
+3:58:24 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.543 ms
+
+3:58:24 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 31.421 ms
+
+4:01:37 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 48.929 ms
+
+4:01:37 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.787 ms
+
+4:01:37 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.628 ms
+
+4:01:37 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.044 ms
+
+4:01:37 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 3044 - 5.240 ms
+
+4:01:37 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 5.214 ms
+
+4:01:45 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 32.628 ms
+
+4:01:45 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.657 ms
+
+4:01:45 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.750 ms
+
+4:01:45 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.262 ms
+
+4:01:45 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 3041 - 3.323 ms
+
+4:01:46 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.369 ms
+
+4:02:58 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 26.832 ms
+
+4:02:58 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.210 ms
+
+4:02:58 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.198 ms
+
+4:02:58 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.532 ms
+
+4:02:58 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 3107 - 1.181 ms
+
+4:02:58 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.003 ms
+
+4:03:22 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 24.461 ms
+
+4:03:22 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.587 ms
+
+4:03:22 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.084 ms
+
+4:03:22 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.144 ms
+
+4:03:22 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 3114 - 1.946 ms
+
+4:03:22 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 4.474 ms
+
+4:04:03 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 19.586 ms
+
+4:04:03 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.874 ms
+
+4:04:03 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.264 ms
+
+4:04:03 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.156 ms
+
+4:04:03 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 3114 - 3.152 ms
+
+4:04:03 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.489 ms
+
+4:05:38 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 19.090 ms
+
+4:05:38 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.794 ms
+
+4:05:38 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.738 ms
+
+4:05:38 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.177 ms
+
+4:05:38 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 3258 - 2.672 ms
+
+4:05:38 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 2.844 ms
+
+4:07:51 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 17.695 ms
+
+4:07:51 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 4.050 ms
+
+4:07:51 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.777 ms
+
+4:07:51 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 4.082 ms
+
+4:07:51 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 3114 - 5.155 ms
+
+4:07:51 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 4.201 ms
+
+4:08:28 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 19.806 ms
+
+4:08:28 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.548 ms
+
+4:08:28 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.475 ms
+
+4:08:28 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.586 ms
+
+4:08:28 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 3574 - 1.962 ms
+
+4:08:28 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.374 ms
+
+4:09:48 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 17.320 ms
+
+4:09:48 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.652 ms
+
+4:09:48 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.083 ms
+
+4:09:48 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.235 ms
+
+4:09:48 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 3601 - 1.639 ms
+
+4:09:48 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 2.757 ms
+
+4:10:24 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 19.164 ms
+
+4:10:24 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.045 ms
+
+4:10:24 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.048 ms
+
+4:10:24 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.040 ms
+
+4:10:24 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 3843 - 1.502 ms
+
+4:10:24 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.217 ms
+
+4:10:43 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 15.044 ms
+
+4:10:43 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.696 ms
+
+4:10:43 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.631 ms
+
+4:10:43 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.074 ms
+
+4:10:43 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 3915 - 3.268 ms
+
+4:10:43 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 5.295 ms
+
+4:11:45 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 15.927 ms
+
+4:11:45 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.473 ms
+
+4:11:45 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.689 ms
+
+4:11:45 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.964 ms
+
+4:11:45 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 4227 - 1.870 ms
+
+4:11:46 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.923 ms
+
+4:17:12 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 17.796 ms
+
+4:17:12 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 4.747 ms
+
+4:17:12 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 3.699 ms
+
+4:17:12 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.753 ms
+
+4:17:12 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 4462 - 2.079 ms
+
+4:17:12 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.178 ms
+
+4:17:24 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 16.264 ms
+
+4:17:24 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.438 ms
+
+4:17:24 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.366 ms
+
+4:17:24 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.318 ms
+
+4:17:24 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 4480 - 1.573 ms
+
+4:17:24 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.407 ms
+
+4:18:28 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 14.810 ms
+
+4:18:28 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.476 ms
+
+4:18:28 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.374 ms
+
+4:18:28 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.797 ms
+
+4:18:28 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 4540 - 1.381 ms
+
+4:18:28 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.502 ms
+
+4:20:07 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 16.537 ms
+
+4:20:08 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.505 ms
+
+4:20:08 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.489 ms
+
+4:20:08 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.772 ms
+
+4:20:08 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 4500 - 0.734 ms
+
+4:20:08 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.440 ms
+
+4:20:18 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 13.002 ms
+
+4:20:18 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.535 ms
+
+4:20:18 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.619 ms
+
+4:20:18 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.545 ms
+
+4:20:18 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 4498 - 4.187 ms
+
+4:20:18 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 4.533 ms
+
+4:23:02 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 17.451 ms
+
+4:23:02 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.581 ms
+
+4:23:02 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.506 ms
+
+4:23:02 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.896 ms
+
+4:23:02 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 4805 - 11.308 ms
+
+4:23:03 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 4.336 ms
+
+4:24:00 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 23.113 ms
+
+4:24:00 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.525 ms
+
+4:24:00 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.743 ms
+
+4:24:00 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.924 ms
+
+4:24:00 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 4777 - 1.730 ms
+
+4:24:00 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 6.116 ms
+
+4:24:27 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 25.238 ms
+
+4:24:27 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.994 ms
+
+4:24:27 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.564 ms
+
+4:24:27 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.141 ms
+
+4:24:27 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 4537 - 1.258 ms
+
+4:24:27 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.162 ms
+
+4:25:14 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 20.340 ms
+
+4:25:14 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.145 ms
+
+4:25:14 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.434 ms
+
+4:25:14 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.665 ms
+
+4:25:14 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 4375 - 0.502 ms
+
+4:25:14 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.502 ms
+
+4:25:55 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 200 2548 - 15.317 ms
+
+4:25:55 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.684 ms
+
+4:25:55 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.398 ms
+
+4:25:55 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.344 ms
+
+4:25:55 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 4346 - 1.676 ms
+
+4:25:56 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 6.133 ms
+
+4:26:09 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 16.159 ms
+
+4:26:09 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.390 ms
+
+4:26:09 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.582 ms
+
+4:26:09 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.381 ms
+
+4:26:09 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 4347 - 1.123 ms
+
+4:26:09 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 7.871 ms
+
+4:26:10 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 13.207 ms
+
+4:26:10 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.445 ms
+
+4:26:10 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.270 ms
+
+4:26:10 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.595 ms
+
+4:26:10 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 304 - - 0.738 ms
+
+4:26:10 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.098 ms
+
+4:26:11 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 18.202 ms
+
+4:26:11 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.291 ms
+
+4:26:11 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.394 ms
+
+4:26:11 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.412 ms
+
+4:26:11 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 304 - - 0.616 ms
+
+4:26:11 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.281 ms
+
+4:26:16 PM - info: ::ffff:127.0.0.1 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTAzNzI3N30.3AW2cHbZM5GB-7yIv5yy0q3ppvOpDufggDV60TBupwM&uid=3B33A159 HTTP/1.1 304 - - 15.209 ms
+
+4:26:16 PM - info: ::ffff:127.0.0.1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.229 ms
+
+4:26:16 PM - info: ::ffff:127.0.0.1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.881 ms
+
+4:26:16 PM - info: ::ffff:127.0.0.1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.871 ms
+
+4:26:16 PM - info: ::ffff:127.0.0.1 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 4345 - 1.308 ms
+
+4:26:17 PM - info: ::ffff:127.0.0.1 - POST /postTrasfusioni HTTP/1.1 200 508 - 3.951 ms
+
