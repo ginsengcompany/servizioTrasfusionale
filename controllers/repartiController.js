@@ -2,7 +2,7 @@ let jwt = require('jsonwebtoken');
 let bcrypt = require('bcryptjs');
 let seedTok = "proviamo";
 let log = require('../utils/logger');
-let reparti = require('../models/reparti');
+let reparti = require('../models/repartis');
 let moment = require('moment');
 
 exports.listaReparti = function (req, res) {

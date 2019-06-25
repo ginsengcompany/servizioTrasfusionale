@@ -3,9 +3,8 @@ let router = express.Router();
 let bodyParser = require('body-parser');
 router.use(bodyParser.urlencoded({extended: true}));
 router.use(bodyParser.json());
-let pazienteController = require('../controllers/pazienteController');
+let repartiController = require('../controllers/repartiController');
 
-router.post('/datiPaziente', pazienteController.datiPaziente);
+router.get('/reparti',repartiController.listaReparti);
 
-router.get('/datiPaziente', pazienteController.datiPazienteGet);
 module.exports = router;

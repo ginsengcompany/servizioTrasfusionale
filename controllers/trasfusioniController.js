@@ -26,6 +26,7 @@ exports.postTrasfusioni = function(req,res){
     });
 };
 
+//Da modificare con Json
 exports.insertTrasfusione = function (req, res) {
     if (!req.headers.hasOwnProperty('access-token') || !req.body.hasOwnProperty('uidInfermiere') || !req.body.hasOwnProperty('uidMedico') || !req.body.hasOwnProperty('uidSacca')
         || !req.body.hasOwnProperty('paziente') || !req.body.paziente.hasOwnProperty('reparto') || !req.body.paziente.hasOwnProperty('letto') || !req.body.hasOwnProperty('datiPrimaTrasfusione'))
