@@ -1,0 +1,1056 @@
+11:51:31 AM - info: ::ffff:192.168.125.97 - GET /getPrelievoRotte HTTP/1.1 200 798 - 35.555 ms
+
+11:51:32 AM - info: ::ffff:192.168.125.97 - GET /favicon.ico HTTP/1.1 404 3680 - 800.026 ms
+
+11:57:49 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 879 - 3.552 ms
+
+11:57:58 AM - info: uid: 3B33A159 auth: true
+11:57:58 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 51.352 ms
+
+11:58:20 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 879 - 4.985 ms
+
+11:58:28 AM - info: uid: 3B33A159 auth: true
+11:58:28 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 41.074 ms
+
+11:58:49 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 879 - 3.005 ms
+
+11:58:58 AM - info: uid: 3B33A159 auth: true
+11:58:58 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 5.133 ms
+
+11:59:40 AM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 74 - 18.276 ms
+
+11:59:40 AM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 404 20 - 8.985 ms
+
+11:59:54 AM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 404 20 - 96.114 ms
+
+11:59:59 AM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 74 - 3.129 ms
+
+11:59:59 AM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 404 20 - 3.101 ms
+
+12:00:16 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 74 - 8.797 ms
+
+12:00:16 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 404 20 - 6.856 ms
+
+12:00:49 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 74 - 31.233 ms
+
+12:01:09 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 404 20 - 3.179 ms
+
+12:02:52 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 879 - 4.652 ms
+
+12:03:01 PM - info: uid: 3B33A159 auth: true
+12:03:01 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 2.748 ms
+
+12:03:15 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 404 20 - 6.210 ms
+
+12:03:31 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 74 - 54.601 ms
+
+12:03:31 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 10.416 ms
+
+12:04:52 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 879 - 2.387 ms
+
+12:05:19 PM - info: uid: 3B33A159 auth: true
+12:05:19 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 11.163 ms
+
+12:05:31 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 74 - 7.151 ms
+
+12:05:31 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 6.654 ms
+
+12:05:54 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 42.371 ms
+
+12:05:56 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 8.344 ms
+
+12:06:04 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 2.943 ms
+
+12:06:28 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.270 ms
+
+12:07:45 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 2.791 ms
+
+12:09:22 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 879 - 17.499 ms
+
+12:09:41 PM - info: uid: 3B33A159 auth: true
+12:09:41 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 44.903 ms
+
+12:18:07 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 879 - 15.429 ms
+
+12:18:15 PM - info: uid: 3B33A159 auth: true
+12:18:15 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 32.822 ms
+
+12:18:25 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 12.896 ms
+
+12:18:31 PM - info: uid: 3B33A159 auth: true
+12:18:31 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 3.375 ms
+
+12:21:36 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 879 - 3.311 ms
+
+12:23:22 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 879 - 5.102 ms
+
+12:23:30 PM - info: uid: 3B33A159 auth: true
+12:23:30 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 2.689 ms
+
+12:23:41 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 3.877 ms
+
+12:23:41 PM - info: uid: 3B33A159 auth: true
+12:23:41 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 7.918 ms
+
+12:24:23 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 879 - 2.075 ms
+
+12:24:33 PM - info: uid: 3B33A159 auth: true
+12:24:33 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 7.046 ms
+
+12:24:43 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 3.234 ms
+
+12:24:43 PM - info: uid: 3B33A159 auth: true
+12:24:43 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 25.197 ms
+
+12:25:16 PM - info: uid: ADF365D9 auth: true
+12:25:16 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 10.807 ms
+
+12:25:16 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 3.875 ms
+
+12:26:30 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 879 - 4.767 ms
+
+12:26:44 PM - info: uid: 3B33A159 auth: true
+12:26:44 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 9.467 ms
+
+12:26:57 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 3.312 ms
+
+12:26:57 PM - info: uid: 3B33A159 auth: true
+12:26:57 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 2.851 ms
+
+12:27:19 PM - info: uid: ADF365D9 auth: true
+12:27:19 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 3.715 ms
+
+12:27:19 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 2.665 ms
+
+12:29:56 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 879 - 16.014 ms
+
+12:30:09 PM - info: uid: 3B33A159 auth: true
+12:30:09 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 46.271 ms
+
+12:30:19 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 9.649 ms
+
+12:30:19 PM - info: uid: 3B33A159 auth: true
+12:30:19 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 4.885 ms
+
+12:30:40 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 404 18 - 39.273 ms
+
+12:30:40 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 400 38 - 0.663 ms
+
+12:30:43 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 404 18 - 8.288 ms
+
+12:30:43 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 400 38 - 0.806 ms
+
+12:30:47 PM - info: uid: ADF365D9 auth: true
+12:30:47 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 4.270 ms
+
+12:30:47 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 3.202 ms
+
+12:33:14 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 879 - 21.482 ms
+
+12:33:21 PM - info: uid: 3B33A159 auth: true
+12:33:21 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 53.581 ms
+
+12:33:31 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 16.475 ms
+
+12:33:31 PM - info: uid: 3B33A159 auth: true
+12:33:31 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 7.384 ms
+
+12:33:44 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 401 57 - 9.358 ms
+
+12:33:44 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 400 38 - 0.475 ms
+
+12:34:05 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 404 18 - 8.074 ms
+
+12:34:05 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 400 38 - 1.300 ms
+
+12:34:05 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 404 18 - 7.477 ms
+
+12:34:05 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 400 38 - 0.682 ms
+
+12:34:11 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 404 18 - 7.074 ms
+
+12:34:11 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 400 38 - 1.141 ms
+
+12:34:18 PM - info: uid: ADF365D9 auth: true
+12:34:18 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 9.862 ms
+
+12:34:18 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 4.589 ms
+
+12:37:09 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 879 - 5.134 ms
+
+12:37:26 PM - info: uid: 3B33A159 auth: true
+12:37:26 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 37.040 ms
+
+12:37:35 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 8.802 ms
+
+12:37:35 PM - info: uid: 3B33A159 auth: true
+12:37:35 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 3.263 ms
+
+12:37:51 PM - info: uid: ADF365D9 auth: true
+12:37:51 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 4.192 ms
+
+12:37:51 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 3.483 ms
+
+12:39:25 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 878 - 14.860 ms
+
+12:39:36 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 38.973 ms
+
+12:39:38 PM - info: uid: 3B33A159 auth: true
+12:39:38 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 11.211 ms
+
+12:39:49 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 5.561 ms
+
+12:39:49 PM - info: uid: 3B33A159 auth: true
+12:39:49 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 3.247 ms
+
+12:40:13 PM - info: uid: ADF365D9 auth: true
+12:40:13 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 8.460 ms
+
+12:40:13 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 4.832 ms
+
+12:40:24 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 3.119 ms
+
+12:40:59 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 404 17 - 28.071 ms
+
+12:41:03 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 10.447 ms
+
+12:41:18 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 74 - 8.177 ms
+
+12:41:21 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 7.054 ms
+
+12:41:38 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.866 ms
+
+12:41:38 PM - info: uid: 3B33A159 auth: true
+12:41:38 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 6.013 ms
+
+12:41:45 PM - info: uid: ADF365D9 auth: true
+12:41:45 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 7.705 ms
+
+12:41:45 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 2.741 ms
+
+12:41:50 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 3.206 ms
+
+12:41:52 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 404 17 - 5.550 ms
+
+12:41:55 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 404 20 - 6.036 ms
+
+12:41:58 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 404 20 - 5.246 ms
+
+12:42:01 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 7.543 ms
+
+12:44:27 PM - info: ::1 - GET / HTTP/1.1 304 - - 306.795 ms
+
+12:44:27 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 33.243 ms
+
+12:44:27 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 19.366 ms
+
+12:44:27 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 200 740 - 44.975 ms
+
+12:44:27 PM - info: ::1 - GET /javascript/login.js HTTP/1.1 200 698 - 49.012 ms
+
+12:44:27 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 3680 - 56.334 ms
+
+12:44:35 PM - info: uid: 3B33A159 auth: true
+12:44:35 PM - info: ::1 - POST /loginMethod HTTP/1.1 200 148 - 3.144 ms
+
+12:44:35 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTYzMjI3NX0.NYlJ3DBlZR6I-qy3z7VUqchF1WgxyHyMhGdHEPmob3Q&uid=3B33A159 HTTP/1.1 200 2587 - 57.920 ms
+
+12:44:35 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.954 ms
+
+12:44:35 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.388 ms
+
+12:44:35 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.513 ms
+
+12:44:35 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 0.645 ms
+
+12:44:35 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3278 - 6.965 ms
+
+12:44:39 PM - info: ::1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTYzMjI3NX0.NYlJ3DBlZR6I-qy3z7VUqchF1WgxyHyMhGdHEPmob3Q&uid=3B33A159&uidSacca=PROVA HTTP/1.1 200 14755 - 180.158 ms
+
+12:44:39 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.970 ms
+
+12:44:39 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.740 ms
+
+12:44:39 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.114 ms
+
+12:44:39 PM - info: ::1 - GET /stylesheets/modalStyle.css HTTP/1.1 304 - - 0.421 ms
+
+12:44:39 PM - info: ::1 - GET /javascript/dettagliSacca.js HTTP/1.1 200 13190 - 1.788 ms
+
+12:44:39 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 826 - 2.924 ms
+
+12:45:17 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTYzMjI3NX0.NYlJ3DBlZR6I-qy3z7VUqchF1WgxyHyMhGdHEPmob3Q&uid=3B33A159 HTTP/1.1 304 - - 24.050 ms
+
+12:45:17 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.093 ms
+
+12:45:17 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.661 ms
+
+12:45:17 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.674 ms
+
+12:45:17 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 1.912 ms
+
+12:45:18 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3278 - 8.064 ms
+
+12:46:48 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.819 ms
+
+12:46:48 PM - info: uid: 3B33A159 auth: true
+12:46:48 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 3.670 ms
+
+12:47:04 PM - info: uid: ADF365D9 auth: true
+12:47:04 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 3.059 ms
+
+12:47:04 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 3.029 ms
+
+12:47:11 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 1.034 ms
+
+12:47:15 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 404 17 - 2.843 ms
+
+12:47:17 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 404 17 - 2.962 ms
+
+12:47:20 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 851 - 3.231 ms
+
+12:47:22 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 7.015 ms
+
+12:47:36 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 851 - 8.569 ms
+
+12:47:43 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 3.143 ms
+
+2:23:16 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 878 - 4245.688 ms
+
+2:23:36 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 11.268 ms
+
+2:23:41 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 3.252 ms
+
+2:23:50 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 4.833 ms
+
+2:23:56 PM - info: uid: 3B33A159 auth: true
+2:23:56 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 5.242 ms
+
+2:24:14 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 878 - 2.092 ms
+
+2:24:24 PM - info: uid: 3B33A159 auth: true
+2:24:24 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 21.980 ms
+
+2:24:46 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 74 - 3.419 ms
+
+2:24:46 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 3.074 ms
+
+2:42:59 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTYzMjI3NX0.NYlJ3DBlZR6I-qy3z7VUqchF1WgxyHyMhGdHEPmob3Q&uid=3B33A159 HTTP/1.1 200 2589 - 51.109 ms
+
+2:42:59 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 4.221 ms
+
+2:42:59 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 1.983 ms
+
+2:42:59 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 5.014 ms
+
+2:42:59 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 4.309 ms
+
+2:43:00 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3303 - 4.437 ms
+
+2:43:16 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTYzMjI3NX0.NYlJ3DBlZR6I-qy3z7VUqchF1WgxyHyMhGdHEPmob3Q&uid=3B33A159 HTTP/1.1 304 - - 20.614 ms
+
+2:43:16 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.891 ms
+
+2:43:16 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 2.342 ms
+
+2:43:16 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 0.507 ms
+
+2:43:16 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6932 - 1.293 ms
+
+2:43:16 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3303 - 4.478 ms
+
+2:43:25 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTYzMjI3NX0.NYlJ3DBlZR6I-qy3z7VUqchF1WgxyHyMhGdHEPmob3Q&uid=3B33A159 HTTP/1.1 304 - - 18.223 ms
+
+2:43:25 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 2.901 ms
+
+2:43:25 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 3.174 ms
+
+2:43:25 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 304 - - 1.764 ms
+
+2:43:25 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6937 - 7.221 ms
+
+2:43:25 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3303 - 4.039 ms
+
+2:46:16 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 878 - 6.392 ms
+
+2:47:20 PM - info: uid: 3B33A159 auth: true
+2:47:20 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 14.257 ms
+
+2:47:45 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 7.067 ms
+
+2:47:45 PM - info: uid: 3B33A159 auth: true
+2:47:45 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 2.929 ms
+
+2:48:06 PM - info: uid: ADF365D9 auth: true
+2:48:06 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 3.772 ms
+
+2:48:06 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 2.685 ms
+
+2:48:10 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 3.055 ms
+
+2:48:14 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 404 17 - 6.248 ms
+
+2:48:17 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 851 - 9.694 ms
+
+2:48:27 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 404 20 - 3.509 ms
+
+2:48:29 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 5.463 ms
+
+2:48:33 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 851 - 5.755 ms
+
+2:53:25 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 878 - 4.293 ms
+
+2:53:41 PM - info: uid: 3B33A159 auth: true
+2:53:41 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 18.907 ms
+
+2:53:50 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 3.431 ms
+
+2:53:50 PM - info: uid: 3B33A159 auth: true
+2:53:50 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 3.224 ms
+
+2:53:58 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 404 18 - 4.215 ms
+
+2:53:58 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 400 38 - 0.403 ms
+
+2:54:02 PM - info: uid: ADF365D9 auth: true
+2:54:02 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 6.718 ms
+
+2:54:02 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 3.191 ms
+
+2:54:07 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 4.491 ms
+
+2:55:07 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 878 - 2.260 ms
+
+2:55:43 PM - info: uid: 3B33A159 auth: true
+2:55:43 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 6.932 ms
+
+2:55:53 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.429 ms
+
+2:55:53 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 27.762 ms
+
+2:55:57 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 10.277 ms
+
+2:55:57 PM - info: uid: 3B33A159 auth: true
+2:55:57 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 3.416 ms
+
+2:56:05 PM - info: uid: ADF365D9 auth: true
+2:56:05 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 8.740 ms
+
+2:56:05 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 6.424 ms
+
+2:56:10 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 2.294 ms
+
+2:56:36 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 851 - 5.184 ms
+
+2:59:06 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 878 - 2.313 ms
+
+3:01:26 PM - info: uid: 3B33A159 auth: true
+3:01:26 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 9.799 ms
+
+3:01:39 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 9.527 ms
+
+3:01:39 PM - info: uid: 3B33A159 auth: true
+3:01:39 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 36.588 ms
+
+3:01:58 PM - info: uid: ADF365D9 auth: true
+3:01:58 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 4.857 ms
+
+3:01:58 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 2.859 ms
+
+3:02:03 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 2.231 ms
+
+3:02:17 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 851 - 4.935 ms
+
+3:02:46 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 851 - 4.508 ms
+
+3:03:06 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 851 - 4.224 ms
+
+3:03:42 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 878 - 4.552 ms
+
+3:03:51 PM - info: uid: 3B33A159 auth: true
+3:03:51 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 14.218 ms
+
+3:04:02 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 8.410 ms
+
+3:04:02 PM - info: uid: 3B33A159 auth: true
+3:04:02 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 6.520 ms
+
+3:04:12 PM - info: uid: ADF365D9 auth: true
+3:04:12 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 4.259 ms
+
+3:04:12 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 2.789 ms
+
+3:04:17 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 23.050 ms
+
+3:04:25 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 851 - 4.623 ms
+
+3:04:40 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 404 20 - 3.006 ms
+
+3:04:44 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 2.976 ms
+
+3:06:39 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 878 - 4.120 ms
+
+3:08:23 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 29.947 ms
+
+3:08:25 PM - info: uid: 3B33A159 auth: true
+3:08:25 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 2.938 ms
+
+3:08:37 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 3.010 ms
+
+3:08:37 PM - info: uid: 3B33A159 auth: true
+3:08:37 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 3.391 ms
+
+3:08:50 PM - info: uid: ADF365D9 auth: true
+3:08:50 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 7.441 ms
+
+3:08:50 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 5.577 ms
+
+3:08:54 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 5 - 5.136 ms
+
+3:12:44 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.557 ms
+
+3:12:44 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 5.300 ms
+
+3:12:49 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 8.029 ms
+
+3:12:49 PM - info: uid: 3B33A159 auth: true
+3:12:49 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 4.389 ms
+
+3:12:57 PM - info: uid: ADF365D9 auth: true
+3:12:57 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 3.181 ms
+
+3:12:57 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 2.196 ms
+
+3:13:02 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 2.858 ms
+
+3:13:12 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 851 - 5.711 ms
+
+3:13:18 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 2.398 ms
+
+3:14:36 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 878 - 2.607 ms
+
+3:14:50 PM - info: uid: 3B33A159 auth: true
+3:14:50 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 78.013 ms
+
+3:15:01 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.229 ms
+
+3:15:01 PM - info: uid: 3B33A159 auth: true
+3:15:01 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 2.810 ms
+
+3:15:13 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 404 18 - 5.534 ms
+
+3:15:13 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 400 38 - 1.108 ms
+
+3:15:17 PM - info: uid: ADF365D9 auth: true
+3:15:17 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 2.738 ms
+
+3:15:17 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 3.476 ms
+
+3:15:22 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 1.366 ms
+
+3:15:25 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 851 - 6.739 ms
+
+3:15:31 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 5.730 ms
+
+3:18:21 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 878 - 2.264 ms
+
+3:22:27 PM - info: uid: 3B33A159 auth: true
+3:22:27 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 13.872 ms
+
+3:22:36 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 2.329 ms
+
+3:22:36 PM - info: uid: 3B33A159 auth: true
+3:22:36 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 26.068 ms
+
+3:22:42 PM - info: uid: ADF365D9 auth: true
+3:22:42 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 7.960 ms
+
+3:22:42 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 6.429 ms
+
+3:22:48 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 6.318 ms
+
+3:22:50 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 851 - 7.092 ms
+
+3:22:53 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 404 20 - 5.602 ms
+
+3:22:57 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 3.329 ms
+
+3:23:05 PM - info: ::ffff:192.168.125.19 - POST /trasfusioni/inserisciTrasfusione HTTP/1.1 404 3682 - 64.226 ms
+
+3:23:14 PM - info: ::ffff:192.168.125.19 - POST /trasfusioni/inserisciTrasfusione HTTP/1.1 404 3682 - 43.930 ms
+
+3:23:21 PM - info: ::ffff:192.168.125.19 - POST /trasfusioni/inserisciTrasfusione HTTP/1.1 404 3682 - 35.784 ms
+
+3:23:40 PM - info: ::ffff:192.168.125.19 - POST /trasfusioni/inserisciTrasfusione HTTP/1.1 404 3682 - 28.986 ms
+
+3:24:44 PM - info: ::ffff:192.168.125.19 - POST /trasfusioni/inserisciTrasfusione HTTP/1.1 404 3682 - 923.957 ms
+
+3:26:43 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 868 - 16.195 ms
+
+3:26:55 PM - info: uid: 3B33A159 auth: true
+3:26:55 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 34.006 ms
+
+3:27:04 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.068 ms
+
+3:27:05 PM - info: uid: 3B33A159 auth: true
+3:27:05 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 45.890 ms
+
+3:27:18 PM - info: uid: ADF365D9 auth: true
+3:27:18 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 9.048 ms
+
+3:27:18 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 4.841 ms
+
+3:27:23 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 2.489 ms
+
+3:27:26 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 851 - 4.269 ms
+
+3:27:33 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 3.971 ms
+
+3:27:40 PM - info: ::ffff:192.168.125.19 - POST /trasfusioni/insertTrasfusione HTTP/1.1 404 3682 - 311.989 ms
+
+3:30:11 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.269 ms
+
+3:30:11 PM - info: uid: 3B33A159 auth: true
+3:30:11 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 6.545 ms
+
+3:30:20 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 404 18 - 3.555 ms
+
+3:30:20 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 400 38 - 1.440 ms
+
+3:30:28 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 404 18 - 5.364 ms
+
+3:30:28 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 400 38 - 0.746 ms
+
+3:30:33 PM - info: uid: ADF365D9 auth: true
+3:30:33 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 4.435 ms
+
+3:30:33 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 3.330 ms
+
+4:02:51 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 937 - 16.453 ms
+
+4:03:25 PM - info: uid: 3B33A159 auth: true
+4:03:25 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 46.492 ms
+
+4:03:28 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 7.517 ms
+
+4:03:28 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 404 3682 - 313.764 ms
+
+4:03:35 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 8.801 ms
+
+4:03:36 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 404 3682 - 38.057 ms
+
+4:04:01 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 3.654 ms
+
+4:04:01 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 404 3682 - 33.451 ms
+
+4:05:05 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 25.441 ms
+
+4:05:06 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 404 3682 - 308.837 ms
+
+4:05:18 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 10.857 ms
+
+4:05:18 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 404 3682 - 61.050 ms
+
+4:06:04 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 937 - 19.000 ms
+
+4:06:15 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 28.941 ms
+
+4:06:17 PM - info: uid: 3B33A159 auth: true
+4:06:17 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 10.493 ms
+
+4:06:20 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.031 ms
+
+4:06:21 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 404 3682 - 1002.105 ms
+
+4:06:43 PM - info: ::ffff:192.168.125.97 - GET /reparti/listareparti HTTP/1.1 404 3682 - 413.331 ms
+
+4:06:44 PM - info: ::ffff:192.168.125.97 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 200 88147 - 45.626 ms
+
+4:06:44 PM - info: ::ffff:192.168.125.97 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 88.244 ms
+
+4:06:44 PM - info: ::ffff:192.168.125.97 - GET /javascript/Menu.js HTTP/1.1 200 740 - 28.722 ms
+
+4:06:44 PM - info: ::ffff:192.168.125.97 - GET /favicon.ico HTTP/1.1 404 3682 - 343.433 ms
+
+4:07:24 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 21.118 ms
+
+4:07:24 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 7.402 ms
+
+4:07:34 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/listaPerReparto HTTP/1.1 404 3682 - 335.044 ms
+
+4:07:46 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/listaPerReparto HTTP/1.1 404 3682 - 62.024 ms
+
+4:07:49 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/listaPerReparto HTTP/1.1 404 3682 - 28.794 ms
+
+4:08:33 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/listaPerReparto HTTP/1.1 404 3682 - 28.532 ms
+
+4:09:34 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 3.711 ms
+
+4:09:42 PM - info: uid: 3B33A159 auth: true
+4:09:42 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 18.338 ms
+
+4:09:49 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.839 ms
+
+4:09:49 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 13.214 ms
+
+4:10:03 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 3682 - 31.670 ms
+
+4:10:50 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 23.416 ms
+
+4:10:50 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 5.385 ms
+
+4:10:57 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 7.569 ms
+
+4:10:57 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 3.694 ms
+
+4:10:59 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 5.724 ms
+
+4:11:36 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 15.976 ms
+
+4:11:36 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 18.008 ms
+
+4:11:38 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 10.631 ms
+
+4:12:48 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 4.238 ms
+
+4:13:09 PM - info: ::ffff:192.168.125.97 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 400 38 - 0.630 ms
+
+4:14:24 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 2.826 ms
+
+4:14:43 PM - info: uid: 3B33A159 auth: true
+4:14:43 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 46.031 ms
+
+4:14:46 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 17.302 ms
+
+4:14:55 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 8713.570 ms
+
+4:16:05 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 66331.300 ms
+
+4:16:36 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 31021.239 ms
+
+4:16:36 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 31024.201 ms
+
+4:18:09 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 92866.321 ms
+
+4:18:09 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 - - - - ms
+
+4:19:57 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 17.297 ms
+
+4:20:01 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 8.031 ms
+
+4:20:31 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 7084.297 ms
+
+4:21:39 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 17.294 ms
+
+4:21:47 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 46.791 ms
+
+4:21:51 PM - info: uid: 3B33A159 auth: true
+4:21:51 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 13.186 ms
+
+4:21:54 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 7.562 ms
+
+4:21:54 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 5.623 ms
+
+4:23:18 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 17.405 ms
+
+4:23:29 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 40.103 ms
+
+4:23:31 PM - info: uid: 3B33A159 auth: true
+4:23:31 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 10.486 ms
+
+4:23:35 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 11.636 ms
+
+4:23:35 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 12.105 ms
+
+4:23:37 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 3.783 ms
+
+4:23:44 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 2.767 ms
+
+4:23:44 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 3.617 ms
+
+4:25:19 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 18.686 ms
+
+4:25:27 PM - info: uid: 3B33A159 auth: true
+4:25:27 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 42.009 ms
+
+4:25:29 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 9.717 ms
+
+4:25:29 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 6.380 ms
+
+4:25:31 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 9.302 ms
+
+4:25:44 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 3.292 ms
+
+4:25:44 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 5.905 ms
+
+4:25:50 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 6.097 ms
+
+4:26:19 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 4822.280 ms
+
+4:26:28 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 5664.651 ms
+
+4:26:40 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 2400.440 ms
+
+4:27:48 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 63935.368 ms
+
+4:30:32 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 9.765 ms
+
+4:30:32 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 8.029 ms
+
+4:30:35 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 8.959 ms
+
+4:30:45 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.316 ms
+
+4:30:45 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 13.557 ms
+
+4:32:24 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 84491.376 ms
+
+4:32:28 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 4.921 ms
+
+4:32:28 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 4.113 ms
+
+4:32:51 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 21375.619 ms
+
+4:33:02 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 5.320 ms
+
+4:33:02 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 4.765 ms
+
+4:33:37 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 12426.083 ms
+
+4:33:43 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 24.685 ms
+
+4:33:43 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 5.217 ms
+
+4:33:57 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 12909.883 ms
+
+4:35:13 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 23.841 ms
+
+4:35:13 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 8.044 ms
+
+4:35:23 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 59 - 8078.353 ms
+
+4:41:50 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 15.436 ms
+
+4:42:09 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 41.014 ms
+
+4:42:19 PM - info: uid: 3B33A159 auth: true
+4:42:19 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 6.717 ms
+
+4:42:25 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 9.418 ms
+
+4:42:25 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 10.305 ms
+
+4:42:38 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 11291.629 ms
+
+4:44:19 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 25.289 ms
+
+4:44:19 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 7.088 ms
+
+4:44:26 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 4716.394 ms
+
+4:45:47 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 24.871 ms
+
+4:45:48 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 5.801 ms
+
+4:45:56 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 508 - 7150.527 ms
+
+4:51:38 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 23.915 ms
+
+4:51:53 PM - info: uid: 3B33A159 auth: true
+4:51:53 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 42.467 ms
+
+4:51:58 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.949 ms
+
+4:51:58 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 6.176 ms
+
+4:52:00 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 503 46 - 7.462 ms
+
+4:52:05 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 3.049 ms
+
+4:52:05 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 11.776 ms
+
+4:52:15 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 503 46 - 5359.915 ms
+
+4:53:12 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 25.440 ms
+
+4:53:12 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 5.403 ms
+
+4:53:21 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 485 - 7627.705 ms
+
+4:55:08 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 15.447 ms
+
+4:55:25 PM - info: uid: 3B33A159 auth: true
+4:55:25 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 28.276 ms
+
+4:55:33 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 18.112 ms
+
+4:55:33 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 6.681 ms
+
+4:55:42 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 508 - 6487.045 ms
+
+4:56:23 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 3.395 ms
+
+4:56:37 PM - info: uid: 3B33A159 auth: true
+4:56:37 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 19.741 ms
+
+4:56:43 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 4.612 ms
+
+4:56:43 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 10.816 ms
+
+4:56:55 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 508 - 8480.895 ms
+
+4:57:25 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 8.230 ms
+
+4:57:36 PM - info: uid: 3B33A159 auth: true
+4:57:36 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 28.339 ms
+
+4:57:39 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 11.208 ms
+
+4:57:39 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 14.999 ms
+
+4:57:41 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 508 - 6.859 ms
+
+4:58:10 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 3.519 ms
+
+5:01:49 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 6.226 ms
+
+5:02:14 PM - info: uid: 3B33A159 auth: true
+5:02:14 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 16.474 ms
+
+5:02:21 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 7.565 ms
+
+5:02:21 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 8.130 ms
+
+5:02:23 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 508 - 5.260 ms
+
+5:02:43 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 503 36 - 22.725 ms
+
+5:02:57 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 503 36 - 7.435 ms
+
+5:05:11 PM - info: ::ffff:192.168.125.88 - GET / HTTP/1.1 200 1655 - 280.665 ms
+
+5:05:11 PM - info: ::ffff:192.168.125.88 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 10.385 ms
+
+5:05:11 PM - info: ::ffff:192.168.125.88 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 200 88147 - 11.266 ms
+
+5:05:11 PM - info: ::ffff:192.168.125.88 - GET /javascript/Menu.js HTTP/1.1 200 740 - 2.984 ms
+
+5:05:11 PM - info: ::ffff:192.168.125.88 - GET /javascript/login.js HTTP/1.1 200 698 - 37.190 ms
+
+5:05:11 PM - info: ::ffff:192.168.125.88 - GET /favicon.ico HTTP/1.1 404 3682 - 60.915 ms
+
+5:06:03 PM - info: ::ffff:192.168.125.88 - POST /loginMethod HTTP/1.1 404 18 - 53.227 ms
+
+5:06:12 PM - info: uid: 3B33A159 auth: true
+5:06:12 PM - info: ::ffff:192.168.125.88 - POST /loginMethod HTTP/1.1 200 148 - 7.061 ms
+
+5:06:12 PM - info: ::ffff:192.168.125.88 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTY0Nzk3Mn0.d6z6EshLRL30JPBNZW5lr-NuoofLinNB7btT0rlcqf4&uid=3B33A159 HTTP/1.1 200 2589 - 67.136 ms
+
+5:06:12 PM - info: ::ffff:192.168.125.88 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.818 ms
+
+5:06:12 PM - info: ::ffff:192.168.125.88 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 0.850 ms
+
+5:06:12 PM - info: ::ffff:192.168.125.88 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.691 ms
+
+5:06:12 PM - info: ::ffff:192.168.125.88 - GET /javascript/home.js HTTP/1.1 200 2981 - 11.346 ms
+
+5:06:12 PM - info: ::ffff:192.168.125.88 - GET /favicon.ico HTTP/1.1 - - - - ms
+
+5:06:12 PM - info: ::ffff:192.168.125.88 - POST /sacche/datiSacche HTTP/1.1 200 3303 - 8.133 ms
+
+5:06:52 PM - info: ::ffff:192.168.125.88 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTY0Nzk3Mn0.d6z6EshLRL30JPBNZW5lr-NuoofLinNB7btT0rlcqf4&uid=3B33A159 HTTP/1.1 200 6736 - 128.506 ms
+
+5:06:52 PM - info: ::ffff:192.168.125.88 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.877 ms
+
+5:06:52 PM - info: ::ffff:192.168.125.88 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 1.355 ms
+
+5:06:52 PM - info: ::ffff:192.168.125.88 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.948 ms
+
+5:06:52 PM - info: ::ffff:192.168.125.88 - GET /javascript/nuovaSacca.js HTTP/1.1 200 8154 - 3.396 ms
+
+5:06:52 PM - info: ::ffff:192.168.125.88 - GET /favicon.ico HTTP/1.1 - - - - ms
+
+5:07:42 PM - info: ::ffff:192.168.125.88 - GET /trasfusioni?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTY0Nzk3Mn0.d6z6EshLRL30JPBNZW5lr-NuoofLinNB7btT0rlcqf4&uid=3B33A159 HTTP/1.1 200 2550 - 67.156 ms
+
+5:07:42 PM - info: ::ffff:192.168.125.88 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 0.918 ms
+
+5:07:42 PM - info: ::ffff:192.168.125.88 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.461 ms
+
+5:07:42 PM - info: ::ffff:192.168.125.88 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.438 ms
+
+5:07:42 PM - info: ::ffff:192.168.125.88 - GET /javascript/trasfusioniInCorso.js HTTP/1.1 200 4345 - 5.953 ms
+
+5:07:42 PM - info: ::ffff:192.168.125.88 - GET /favicon.ico HTTP/1.1 - - - - ms
+
+5:07:42 PM - info: ::ffff:192.168.125.88 - POST /postTrasfusioni HTTP/1.1 200 508 - 4.493 ms
+
+5:08:02 PM - info: ::ffff:192.168.125.88 - GET /nuovaSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTY0Nzk3Mn0.d6z6EshLRL30JPBNZW5lr-NuoofLinNB7btT0rlcqf4&uid=3B33A159 HTTP/1.1 200 6736 - 73.211 ms
+
+5:08:02 PM - info: ::ffff:192.168.125.88 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.386 ms
+
+5:08:02 PM - info: ::ffff:192.168.125.88 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.294 ms
+
+5:08:02 PM - info: ::ffff:192.168.125.88 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.559 ms
+
+5:08:02 PM - info: ::ffff:192.168.125.88 - GET /javascript/nuovaSacca.js HTTP/1.1 304 - - 0.810 ms
+
+5:08:05 PM - info: ::ffff:192.168.125.88 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTY0Nzk3Mn0.d6z6EshLRL30JPBNZW5lr-NuoofLinNB7btT0rlcqf4&uid=3B33A159 HTTP/1.1 200 2589 - 30.781 ms
+
+5:08:05 PM - info: ::ffff:192.168.125.88 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.384 ms
+
+5:08:05 PM - info: ::ffff:192.168.125.88 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.334 ms
+
+5:08:05 PM - info: ::ffff:192.168.125.88 - GET /javascript/home.js HTTP/1.1 304 - - 0.314 ms
+
+5:08:06 PM - info: ::ffff:192.168.125.88 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 0.615 ms
+
+5:08:06 PM - info: ::ffff:192.168.125.88 - GET /favicon.ico HTTP/1.1 404 3682 - 28.607 ms
+
+5:08:06 PM - info: ::ffff:192.168.125.88 - POST /sacche/datiSacche HTTP/1.1 200 3303 - 8.218 ms
+
+5:09:24 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 5.916 ms
+
+5:09:32 PM - info: uid: 3B33A159 auth: true
+5:09:32 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 22.794 ms
+
+5:12:39 PM - info: ::1 - GET / HTTP/1.1 200 1655 - 37.815 ms
+
+5:12:39 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 0.744 ms
+
+5:12:39 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 200 6927 - 2.742 ms
+
+5:12:39 PM - info: ::1 - GET /javascript/login.js HTTP/1.1 200 698 - 3.193 ms
+
+5:12:39 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 0.369 ms
+
+5:12:40 PM - info: ::1 - GET /favicon.ico HTTP/1.1 404 3682 - 47.256 ms
+
+5:12:46 PM - info: uid: 3B33A159 auth: true
+5:12:46 PM - info: ::1 - POST /loginMethod HTTP/1.1 200 148 - 2.373 ms
+
+5:12:46 PM - info: ::1 - GET /home?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTY0ODM2Nn0.TzUZib0SfhVaPs-r9dtxG6KhYVGQQI05BUUKwMdjXTU&uid=3B33A159 HTTP/1.1 200 2589 - 37.226 ms
+
+5:12:46 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.799 ms
+
+5:12:46 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 1.193 ms
+
+5:12:46 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 1.428 ms
+
+5:12:46 PM - info: ::1 - GET /javascript/home.js HTTP/1.1 200 2981 - 5.322 ms
+
+5:12:46 PM - info: ::1 - POST /sacche/datiSacche HTTP/1.1 200 3303 - 5.218 ms
+
+5:12:49 PM - info: ::1 - GET /dettagliSacca?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYjhiMTMzZDNlNzZkODFlN2QxYjdkNSIsImlhdCI6MTU2MTY0ODM2Nn0.TzUZib0SfhVaPs-r9dtxG6KhYVGQQI05BUUKwMdjXTU&uid=3B33A159&uidSacca=PROVA HTTP/1.1 200 14757 - 174.293 ms
+
+5:12:49 PM - info: ::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 2.972 ms
+
+5:12:49 PM - info: ::1 - GET /javascript/jquery-3.4.1.min.js HTTP/1.1 304 - - 4.893 ms
+
+5:12:49 PM - info: ::1 - GET /javascript/Menu.js HTTP/1.1 304 - - 8.281 ms
+
+5:12:49 PM - info: ::1 - GET /stylesheets/modalStyle.css HTTP/1.1 200 1874 - 14.460 ms
+
+5:12:49 PM - info: ::1 - GET /javascript/dettagliSacca.js HTTP/1.1 200 13190 - 15.719 ms
+
+5:12:50 PM - info: ::1 - POST /sacche/datiSacca HTTP/1.1 200 851 - 4.805 ms
+

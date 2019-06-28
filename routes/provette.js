@@ -6,5 +6,5 @@ router.use(bodyParser.json());
 let provetteController = require('../controllers/provetteController');
 
 router.post('/datiprovetta',provetteController.datiProvetta);
-
+router.post('/prelievoEseguito',provetteController.prelievoEseguito);
 module.exports = router;

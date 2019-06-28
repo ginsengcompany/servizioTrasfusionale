@@ -11,5 +11,5 @@ router.get('/fineTrasfusione',trasfusioniController.fineTrasfusione);
 
 router.post('/updateDopoLaTrasfusione',trasfusioniController.updateDopoLaTrasfusione);
 router.post('/postTrasfusioni',trasfusioniController.postTrasfusioni);
-router.post('/insertTrasfusione',trasfusioniController.insertTrasfusione);
+router.post('/insertTrasfusione',trasfusioniController.insertTrasfusioneJson);
 module.exports = router;

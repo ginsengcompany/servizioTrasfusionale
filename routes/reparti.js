@@ -5,6 +5,6 @@ router.use(bodyParser.urlencoded({extended: true}));
 router.use(bodyParser.json());
 let repartiController = require('../controllers/repartiController');
 
-router.get('/reparti',repartiController.listaReparti);
+router.get('/listareparti',repartiController.listaReparti);
 
 module.exports = router;

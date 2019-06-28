@@ -18,7 +18,7 @@ exports.loginMethod = function (req,res) {
         if (err) return res.status(503).send('Il servizio non è momentaneamente disponibile');
         if (!user || user.password !== req.body.password) return res.status(404).send('Utente non trovato');
         if (!user.abilitato) return res.status(401).send("Accesso negato");
-        let token = jwt.sign({id: user._id}, seedTok,{
+        let token = jwt.sign({id: user._id , uidOperatore: user.uid}, seedTok,{
             //expiresIn: 86400 // expires in 24 hours
         });
         let messageLog = "uid: " + req.body.uid + " auth: true";

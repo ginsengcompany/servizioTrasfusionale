@@ -43,7 +43,9 @@ app.use('/', login);
 app.use('/home', home);
 app.use('/', sacche);
 app.use('/', reparti);
+app.use('/reparti', reparti);
 app.use('/', trasfusioni);
+app.use('/trasfusioni', trasfusioni);
 app.use('/', rotte);
 
 // catch 404 and forward to error handler

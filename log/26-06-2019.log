@@ -1,0 +1,62 @@
+9:58:24 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 281 - 26.338 ms
+
+9:58:38 AM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 401 14 - 65.608 ms
+
+10:11:27 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 281 - 3.410 ms
+
+10:12:41 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 281 - 2.299 ms
+
+10:13:07 AM - info: uid: 3B33A159 auth: true
+10:13:07 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 20.312 ms
+
+12:09:59 PM - info: ::ffff:192.168.125.15 - GET /paziente/datiPaziente?uid=C83D68D9 HTTP/1.1 200 193 - 33.361 ms
+
+12:13:09 PM - info: ::ffff:192.168.125.15 - GET /paziente/datiPaziente?uid=C83D68D9 HTTP/1.1 200 193 - 4.188 ms
+
+12:18:08 PM - info: ::ffff:192.168.125.15 - GET /paziente/datiPaziente?uid=C83D68D9 HTTP/1.1 304 - - 6.180 ms
+
+12:21:20 PM - info: ::ffff:192.168.125.15 - GET /paziente/datiPaziente?uid=C83D68D9 HTTP/1.1 200 199 - 4.399 ms
+
+12:22:01 PM - info: ::ffff:192.168.125.15 - GET /paziente/datiPaziente?uid=C83D68D9 HTTP/1.1 304 - - 4.764 ms
+
+12:22:44 PM - info: ::ffff:192.168.125.15 - GET /paziente/datiPaziente?uid=C83D68D9 HTTP/1.1 200 244 - 11.958 ms
+
+12:23:09 PM - info: ::ffff:192.168.125.15 - GET /paziente/datiPaziente?uid=C83D68D9 HTTP/1.1 200 244 - 1.861 ms
+
+12:25:56 PM - info: ::ffff:192.168.125.15 - GET /paziente/datiPaziente?uid=c83d68d9 HTTP/1.1 404 20 - 1.977 ms
+
+12:26:38 PM - info: ::ffff:192.168.125.53 - GET /paziente/datiPaziente?uid=C83D68D9 HTTP/1.1 200 244 - 2.497 ms
+
+12:27:30 PM - info: ::ffff:192.168.125.53 - GET /paziente/datiPaziente?uid=C83D68D9 HTTP/1.1 304 - - 4.228 ms
+
+3:13:38 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 740 - 12.029 ms
+
+3:14:04 PM - info: uid: 3B33A159 auth: true
+3:14:04 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 117.929 ms
+
+3:14:53 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 404 20 - 10.621 ms
+
+3:15:55 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 404 20 - 69.149 ms
+
+3:16:24 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 74 - 4.845 ms
+
+3:16:24 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 404 20 - 3.127 ms
+
+3:16:56 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 74 - 13.505 ms
+
+3:18:30 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 740 - 2.520 ms
+
+3:26:34 PM - info: uid: 3B33A159 auth: true
+3:26:34 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 15.380 ms
+
+3:26:47 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 51.131 ms
+
+3:26:51 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 3.569 ms
+
+3:26:58 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 2.329 ms
+
+3:29:55 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 740 - 6.265 ms
+
+3:30:04 PM - info: uid: 3B33A159 auth: true
+3:30:04 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 7.473 ms
+

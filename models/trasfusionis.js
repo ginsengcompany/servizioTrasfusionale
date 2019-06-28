@@ -24,7 +24,10 @@ let trasfusioniSchema = new mongoose.Schema({
     trasfusioneEseguita : Boolean,
     note : String,
     inizioTrasfusione : Date,
-    fineTrasfusione : Date,
+    fineTrasfusione : {
+        type: Date,
+        default: null
+    },
     ultimoAggiornamento : Date,
     uidInfermiere : String,
     uidMedico : String,

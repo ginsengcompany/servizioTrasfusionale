@@ -1,0 +1,424 @@
+10:25:18 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 19.365 ms
+
+10:25:30 AM - info: uid: 3B33A159 auth: true
+10:25:30 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 57.801 ms
+
+10:33:26 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 3.410 ms
+
+10:33:35 AM - info: uid: 3B33A159 auth: true
+10:33:35 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 29.442 ms
+
+10:36:03 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 2.259 ms
+
+10:36:11 AM - info: uid: 3B33A159 auth: true
+10:36:11 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 22.544 ms
+
+10:37:59 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 3.181 ms
+
+10:39:10 AM - info: uid: 3B33A159 auth: true
+10:39:10 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 63.379 ms
+
+10:40:31 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 2.198 ms
+
+10:40:44 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 32.435 ms
+
+10:40:46 AM - info: uid: 3B33A159 auth: true
+10:40:46 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 3.654 ms
+
+10:41:28 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 2.289 ms
+
+10:41:40 AM - info: uid: 3B33A159 auth: true
+10:41:40 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 10.277 ms
+
+10:42:24 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 2.113 ms
+
+10:42:34 AM - info: uid: 3B33A159 auth: true
+10:42:34 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 12.020 ms
+
+10:48:39 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 2.565 ms
+
+10:48:49 AM - info: uid: 3B33A159 auth: true
+10:48:49 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 39.489 ms
+
+10:49:22 AM - info: ::ffff:192.168.125.19 - GET /paziente/datiPaziente HTTP/1.1 400 38 - 0.756 ms
+
+10:49:59 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 2.443 ms
+
+10:50:17 AM - info: uid: 3B33A159 auth: true
+10:50:17 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 47.886 ms
+
+10:50:39 AM - info: ::ffff:192.168.125.19 - GET /paziente/datiPaziente?uid=C83D68D9 HTTP/1.1 200 244 - 9.437 ms
+
+11:16:41 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 2.093 ms
+
+11:17:30 AM - info: uid: 3B33A159 auth: true
+11:17:30 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 19.676 ms
+
+11:17:34 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 10.275 ms
+
+11:17:34 AM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 5.676 ms
+
+11:17:42 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 508 - 7.007 ms
+
+11:17:56 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 503 36 - 19.304 ms
+
+11:20:34 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 503 36 - 107603.785 ms
+
+11:20:59 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 6.538 ms
+
+11:21:14 AM - info: uid: 3B33A159 auth: true
+11:21:14 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 38.789 ms
+
+11:21:18 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.740 ms
+
+11:21:19 AM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 13.831 ms
+
+11:21:23 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 508 - 4.658 ms
+
+11:21:35 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 503 36 - 8869.285 ms
+
+11:22:31 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 503 36 - 3103.709 ms
+
+11:22:55 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 503 36 - 9572.405 ms
+
+11:28:23 AM - error: uncaughtException: missing ) after argument list date=Fri Jun 28 2019 11:28:23 GMT+0200 (GMT+02:00), pid=3560, uid=null, gid=null, cwd=D:\ServiziNode\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, D:\ServiziNode\servizioTrasfusionale\bin\www.js], rss=44687360, heapTotal=33800192, heapUsed=17533168, external=18981984, loadavg=[0, 0, 0], uptime=173628, trace=[column=23, file=internal/modules/cjs/loader.js, function=Module._compile, line=721, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=787, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=653, method=load, native=false, column=12, file=internal/modules/cjs/loader.js, function=tryModuleLoad, line=593, method=null, native=false, column=3, file=internal/modules/cjs/loader.js, function=Module._load, line=585, method=_load, native=false, column=17, file=internal/modules/cjs/loader.js, function=Module.require, line=690, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=25, method=null, native=false, column=29, file=D:\ServiziNode\servizioTrasfusionale\routes\trasfusioni.js, function=null, line=6, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=776, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=787, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=653, method=load, native=false, column=12, file=internal/modules/cjs/loader.js, function=tryModuleLoad, line=593, method=null, native=false, column=3, file=internal/modules/cjs/loader.js, function=Module._load, line=585, method=_load, native=false, column=17, file=internal/modules/cjs/loader.js, function=Module.require, line=690, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=25, method=null, native=false, column=19, file=D:\ServiziNode\servizioTrasfusionale\app.js, function=null, line=19, method=null, native=false], stack=[D:\ServiziNode\servizioTrasfusionale\controllers\trasfusioniController.js:120, };, ^, , SyntaxError: missing ) after argument list,     at Module._compile (internal/modules/cjs/loader.js:721:23),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10),     at Module.load (internal/modules/cjs/loader.js:653:32),     at tryModuleLoad (internal/modules/cjs/loader.js:593:12),     at Function.Module._load (internal/modules/cjs/loader.js:585:3),     at Module.require (internal/modules/cjs/loader.js:690:17),     at require (internal/modules/cjs/helpers.js:25:18),     at Object.<anonymous> (D:\ServiziNode\servizioTrasfusionale\routes\trasfusioni.js:6:29),     at Module._compile (internal/modules/cjs/loader.js:776:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10),     at Module.load (internal/modules/cjs/loader.js:653:32),     at tryModuleLoad (internal/modules/cjs/loader.js:593:12),     at Function.Module._load (internal/modules/cjs/loader.js:585:3),     at Module.require (internal/modules/cjs/loader.js:690:17),     at require (internal/modules/cjs/helpers.js:25:18),     at Object.<anonymous> (D:\ServiziNode\servizioTrasfusionale\app.js:19:19)]
+11:30:01 AM - error: uncaughtException: missing ) after argument list date=Fri Jun 28 2019 11:30:01 GMT+0200 (GMT+02:00), pid=19560, uid=null, gid=null, cwd=D:\ServiziNode\servizioTrasfusionale, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.0, argv=[C:\Program Files\nodejs\node.exe, D:\ServiziNode\servizioTrasfusionale\bin\www.js], rss=44765184, heapTotal=33275904, heapUsed=18695440, external=18990176, loadavg=[0, 0, 0], uptime=173726, trace=[column=23, file=internal/modules/cjs/loader.js, function=Module._compile, line=721, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=787, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=653, method=load, native=false, column=12, file=internal/modules/cjs/loader.js, function=tryModuleLoad, line=593, method=null, native=false, column=3, file=internal/modules/cjs/loader.js, function=Module._load, line=585, method=_load, native=false, column=17, file=internal/modules/cjs/loader.js, function=Module.require, line=690, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=25, method=null, native=false, column=29, file=D:\ServiziNode\servizioTrasfusionale\routes\trasfusioni.js, function=null, line=6, method=null, native=false, column=30, file=internal/modules/cjs/loader.js, function=Module._compile, line=776, method=_compile, native=false, column=10, file=internal/modules/cjs/loader.js, function=Module._extensions..js, line=787, method=.js, native=false, column=32, file=internal/modules/cjs/loader.js, function=Module.load, line=653, method=load, native=false, column=12, file=internal/modules/cjs/loader.js, function=tryModuleLoad, line=593, method=null, native=false, column=3, file=internal/modules/cjs/loader.js, function=Module._load, line=585, method=_load, native=false, column=17, file=internal/modules/cjs/loader.js, function=Module.require, line=690, method=require, native=false, column=18, file=internal/modules/cjs/helpers.js, function=require, line=25, method=null, native=false, column=19, file=D:\ServiziNode\servizioTrasfusionale\app.js, function=null, line=19, method=null, native=false], stack=[D:\ServiziNode\servizioTrasfusionale\controllers\trasfusioniController.js:120, };, ^, , SyntaxError: missing ) after argument list,     at Module._compile (internal/modules/cjs/loader.js:721:23),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10),     at Module.load (internal/modules/cjs/loader.js:653:32),     at tryModuleLoad (internal/modules/cjs/loader.js:593:12),     at Function.Module._load (internal/modules/cjs/loader.js:585:3),     at Module.require (internal/modules/cjs/loader.js:690:17),     at require (internal/modules/cjs/helpers.js:25:18),     at Object.<anonymous> (D:\ServiziNode\servizioTrasfusionale\routes\trasfusioni.js:6:29),     at Module._compile (internal/modules/cjs/loader.js:776:30),     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10),     at Module.load (internal/modules/cjs/loader.js:653:32),     at tryModuleLoad (internal/modules/cjs/loader.js:593:12),     at Function.Module._load (internal/modules/cjs/loader.js:585:3),     at Module.require (internal/modules/cjs/loader.js:690:17),     at require (internal/modules/cjs/helpers.js:25:18),     at Object.<anonymous> (D:\ServiziNode\servizioTrasfusionale\app.js:19:19)]
+11:32:03 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 15.540 ms
+
+11:32:26 AM - info: uid: 3B33A159 auth: true
+11:32:26 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 35.481 ms
+
+11:32:30 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 9.369 ms
+
+11:32:30 AM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 7.772 ms
+
+11:32:32 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 508 - 14.403 ms
+
+11:32:35 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 404 17 - 15.736 ms
+
+11:34:04 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 200 22 - 11145.151 ms
+
+11:34:49 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 200 22 - 3572.336 ms
+
+11:35:49 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 200 22 - 44025.717 ms
+
+11:36:02 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.264 ms
+
+11:36:02 AM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 5.927 ms
+
+11:38:44 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 508 - 19.144 ms
+
+11:38:45 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 404 17 - 20.528 ms
+
+11:40:44 AM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 15.899 ms
+
+11:41:02 AM - info: uid: 3B33A159 auth: true
+11:41:02 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 32.690 ms
+
+11:41:05 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 11.187 ms
+
+11:41:05 AM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 13.141 ms
+
+11:41:07 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 5.535 ms
+
+11:41:34 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 3.626 ms
+
+11:41:34 AM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 7.181 ms
+
+11:41:36 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 508 - 9.178 ms
+
+11:41:47 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 200 22 - 9626.761 ms
+
+11:47:42 AM - info: ::ffff:192.168.125.19 - POST /trasfusioni/updateDopoLaTrasfusione HTTP/1.1 200 22 - 51275.303 ms
+
+11:47:43 AM - info: ::ffff:192.168.125.19 - POST /trasfusioni/updateDopoLaTrasfusione HTTP/1.1 200 22 - 33415.421 ms
+
+11:48:25 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 7.505 ms
+
+11:48:26 AM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 10.650 ms
+
+11:48:28 AM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 7.921 ms
+
+11:50:03 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 16.400 ms
+
+11:50:03 AM - info: uid: 3B33A159 auth: true
+11:50:03 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 17.006 ms
+
+11:50:18 AM - info: uid: ADF365D9 auth: true
+11:50:18 AM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 6.678 ms
+
+11:50:18 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 3.304 ms
+
+11:50:25 AM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 5.829 ms
+
+11:50:38 AM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 850 - 4.042 ms
+
+11:50:42 AM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 9.388 ms
+
+11:50:59 AM - info: ::ffff:192.168.125.19 - POST /trasfusioni/insertTrasfusione HTTP/1.1 201 46 - 5.064 ms
+
+11:51:58 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 17.116 ms
+
+11:51:58 AM - info: uid: 3B33A159 auth: true
+11:51:58 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 24.877 ms
+
+11:52:06 AM - info: uid: ADF365D9 auth: true
+11:52:06 AM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 60.133 ms
+
+11:52:06 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 4.227 ms
+
+11:52:13 AM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 6.155 ms
+
+11:52:17 AM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 850 - 11.893 ms
+
+11:52:21 AM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 404 20 - 9.507 ms
+
+11:52:24 AM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 6.167 ms
+
+11:52:53 AM - info: ::ffff:192.168.125.19 - POST /trasfusioni/insertTrasfusione HTTP/1.1 201 46 - 18756.633 ms
+
+11:54:04 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 21.398 ms
+
+11:54:04 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 16.805 ms
+
+11:54:12 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 3.097 ms
+
+11:54:12 AM - info: uid: 3B33A159 auth: true
+11:54:12 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 3.138 ms
+
+11:54:20 AM - info: uid: ADF365D9 auth: true
+11:54:20 AM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 7.043 ms
+
+11:54:20 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 3.333 ms
+
+11:54:25 AM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 1.618 ms
+
+11:54:30 AM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 850 - 7.996 ms
+
+11:54:36 AM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 12.218 ms
+
+11:54:37 AM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 62.238 ms
+
+11:54:45 AM - info: ::ffff:192.168.125.19 - POST /trasfusioni/insertTrasfusione HTTP/1.1 201 46 - 12.288 ms
+
+11:55:16 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 20.464 ms
+
+11:55:16 AM - info: uid: 3B33A159 auth: true
+11:55:16 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 26.528 ms
+
+11:55:36 AM - info: uid: ADF365D9 auth: true
+11:55:36 AM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 6.147 ms
+
+11:55:36 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 5.964 ms
+
+11:55:52 AM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 4.360 ms
+
+11:56:02 AM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 850 - 4.796 ms
+
+11:56:05 AM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 4.320 ms
+
+11:57:27 AM - info: ::ffff:192.168.125.19 - POST /trasfusioni/insertTrasfusione HTTP/1.1 201 46 - 73076.823 ms
+
+11:57:58 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 7.407 ms
+
+11:57:58 AM - info: uid: 3B33A159 auth: true
+11:57:58 AM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 5.955 ms
+
+11:58:09 AM - info: uid: ADF365D9 auth: true
+11:58:09 AM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 11.516 ms
+
+11:58:09 AM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 4.295 ms
+
+11:58:14 AM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 5.699 ms
+
+11:58:19 AM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 850 - 4.133 ms
+
+11:58:23 AM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 8.176 ms
+
+11:59:08 AM - info: ::ffff:192.168.125.19 - POST /trasfusioni/insertTrasfusione HTTP/1.1 201 46 - 36328.145 ms
+
+12:01:30 PM - info: ::ffff:192.168.125.19 - POST /trasfusioni/insertTrasfusione HTTP/1.1 500 3791 - 1837.330 ms
+
+12:01:59 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 943 - 14.394 ms
+
+12:02:13 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 39.568 ms
+
+12:02:24 PM - info: uid: 3B33A159 auth: true
+12:02:24 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 5.829 ms
+
+12:02:37 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 12.834 ms
+
+12:02:37 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 7.896 ms
+
+12:02:42 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 7.733 ms
+
+12:02:42 PM - info: uid: 3B33A159 auth: true
+12:02:42 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 6.481 ms
+
+12:03:00 PM - info: uid: ADF365D9 auth: true
+12:03:00 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 12.099 ms
+
+12:03:00 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 7.402 ms
+
+12:03:10 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 4.835 ms
+
+12:03:14 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 850 - 11.152 ms
+
+12:03:20 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 11.394 ms
+
+12:03:38 PM - info: ::ffff:192.168.125.19 - POST /trasfusioni/insertTrasfusione HTTP/1.1 500 3791 - 7314.124 ms
+
+12:03:57 PM - info: ::ffff:192.168.125.19 - POST /trasfusioni/insertTrasfusione HTTP/1.1 500 3791 - 7824.221 ms
+
+12:04:55 PM - info: ::ffff:192.168.125.19 - POST /trasfusioni/insertTrasfusione HTTP/1.1 201 46 - 7106.713 ms
+
+12:04:56 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 12.787 ms
+
+12:04:56 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 7.629 ms
+
+12:04:58 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 604 - 13.248 ms
+
+3:17:17 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 1017 - 18.095 ms
+
+3:17:51 PM - info: uid: 3B33A159 auth: true
+3:17:51 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 22.204 ms
+
+3:18:33 PM - info: ::ffff:192.168.125.19 - GET /paziente/datiPaziente?uid=id%20C83D68D9 HTTP/1.1 404 20 - 5.726 ms
+
+3:18:49 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 1017 - 5.574 ms
+
+3:18:56 PM - info: uid: 3B33A159 auth: true
+3:18:56 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 11.446 ms
+
+3:19:33 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 99 - 7.200 ms
+
+3:19:36 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 8.110 ms
+
+3:19:40 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 99 - 6.241 ms
+
+3:19:48 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 99 - 4.078 ms
+
+3:19:48 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 404 20 - 2.828 ms
+
+3:19:52 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 99 - 5.220 ms
+
+3:19:52 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 404 20 - 2.748 ms
+
+3:20:02 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 99 - 3.080 ms
+
+3:20:02 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 2.642 ms
+
+3:20:11 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.538 ms
+
+3:20:11 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 8.422 ms
+
+3:20:13 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 604 - 7.414 ms
+
+3:20:24 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.068 ms
+
+3:20:25 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 7.190 ms
+
+3:22:20 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 1017 - 1.969 ms
+
+3:24:20 PM - info: uid: 3B33A159 auth: true
+3:24:20 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 9.476 ms
+
+3:24:56 PM - info: ::ffff:192.168.125.19 - GET /paziente/datiPaziente?uid=id%20C83D68D9 HTTP/1.1 404 20 - 3.879 ms
+
+3:25:09 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 1017 - 4.685 ms
+
+3:25:19 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 9.137 ms
+
+3:25:22 PM - info: uid: 3B33A159 auth: true
+3:25:22 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 5.700 ms
+
+3:25:45 PM - info: ::ffff:192.168.125.19 - GET /paziente/datiPaziente?uid=id%20C83D68D9 HTTP/1.1 404 20 - 2.146 ms
+
+3:27:06 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 1017 - 2.444 ms
+
+3:27:15 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 7.663 ms
+
+3:27:19 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 3.973 ms
+
+3:27:30 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 4.401 ms
+
+3:27:39 PM - info: uid: 3B33A159 auth: true
+3:27:39 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 37.512 ms
+
+3:33:34 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 1017 - 5.225 ms
+
+3:35:05 PM - info: uid: 3B33A159 auth: true
+3:35:05 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 11.009 ms
+
+3:36:01 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 2.614 ms
+
+3:36:01 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 404 18 - 2.563 ms
+
+3:39:54 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 404 20 - 6.234 ms
+
+3:40:00 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 3.058 ms
+
+3:40:03 PM - info: ::ffff:192.168.125.19 - POST /provette/datiprovetta HTTP/1.1 200 99 - 6.158 ms
+
+3:43:05 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.538 ms
+
+3:43:05 PM - info: uid: 3B33A159 auth: true
+3:43:05 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 4.919 ms
+
+3:43:23 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.441 ms
+
+3:43:23 PM - info: uid: 3B33A159 auth: true
+3:43:23 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 5.050 ms
+
+3:44:14 PM - info: uid: ADF365D9 auth: true
+3:44:14 PM - info: ::ffff:192.168.125.19 - POST /operatore/loginTrasfusione HTTP/1.1 200 148 - 9.613 ms
+
+3:44:14 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 147 - 6.404 ms
+
+3:44:20 PM - info: ::ffff:192.168.125.19 - POST /modelloH/controllomodellicompilati HTTP/1.1 200 4 - 2.454 ms
+
+3:44:33 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 404 17 - 6.175 ms
+
+3:44:36 PM - info: ::ffff:192.168.125.19 - POST /sacche/datisacca HTTP/1.1 200 850 - 6.631 ms
+
+3:44:38 PM - info: ::ffff:192.168.125.19 - POST /paziente/datiPaziente HTTP/1.1 200 244 - 5.397 ms
+
+3:44:56 PM - info: ::ffff:192.168.125.19 - POST /trasfusioni/insertTrasfusione HTTP/1.1 201 46 - 17.575 ms
+
+3:45:00 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 2.572 ms
+
+3:45:00 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 3.331 ms
+
+3:45:02 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 1206 - 7.579 ms
+
+3:50:53 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 200 22 - 16.394 ms
+
+3:51:00 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.210 ms
+
+3:51:00 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 3.581 ms
+
+3:51:02 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 604 - 8.945 ms
+
+3:51:10 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 200 22 - 18.880 ms
+
+3:52:03 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 5.267 ms
+
+3:52:03 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 6.010 ms
+
+3:52:05 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 404 25 - 3.430 ms
+
+3:55:47 PM - info: ::ffff:192.168.125.19 - GET /getPrelievoRotte HTTP/1.1 200 1017 - 3.086 ms
+
+3:56:22 PM - info: uid: 3B33A159 auth: true
+3:56:22 PM - info: ::ffff:192.168.125.19 - POST /operatore/login HTTP/1.1 200 148 - 7.672 ms
+
+3:56:28 PM - info: ::ffff:192.168.125.19 - GET /operatore/me HTTP/1.1 200 157 - 6.316 ms
+
+3:56:28 PM - info: ::ffff:192.168.125.19 - GET /reparti/listareparti HTTP/1.1 200 231 - 6.150 ms
+
+3:56:31 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/trasfusioniPerReparto HTTP/1.1 200 1262 - 9.792 ms
+
+3:56:34 PM - info: ::ffff:192.168.125.19 - GET /trasfusioni/fineTrasfusione HTTP/1.1 200 22 - 10.599 ms
+
+3:56:53 PM - info: ::ffff:192.168.125.19 - POST /trasfusioni/updateDopoLaTrasfusione HTTP/1.1 200 22 - 9.519 ms
+

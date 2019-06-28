@@ -4,6 +4,7 @@ let moment = require('moment');
 let seedTok = "proviamo";
 let log = require('../utils/logger');
 let trasfusioni = require('../models/trasfusionis');
+let sacche = require('../models/sacche');
 
 
 exports.getTrasfusioni = function(req,res){
@@ -56,6 +57,27 @@ exports.insertTrasfusione = function (req, res) {
         });
     });
 };
+exports.insertTrasfusioneJson = function (req, res) {
+    if (!req.headers.hasOwnProperty('access-token') || !req.body)
+        return res.status(400).send("La richiesta non può essere elaborata");
+    if (trasfusioni.db._readyState !== 1) //Controlla se il database è pronto per la comunicazione
+        return res.status(503).send('Il servizio non è momentaneamente disponibile');
+    let token = req.headers['access-token'];
+    jwt.verify(token,seedTok,function (err, decoded) {
+        try{
+            if (err) return res.status(401).send('Accesso negato');
+            req.body.inizioTrasfusione = moment().toDate();
+            trasfusioni.create(req.body, function (err, trasfusioneCreata) {
+                if (err) return res.status(503).send('Il documento della trasfusione non è stato creato');
+                res.status(201).send("Il documento della trasfusione è stato creato")
+            });
+        }
+        catch (e) {
+            res.status(400).send("Errore generico");
+
+        }
+    });
+};
 
 exports.listTrasfusioniForReparto = function (req, res) {
     if (!req.headers.hasOwnProperty('access-token') || !req.headers.hasOwnProperty('reparto'))
@@ -65,9 +87,10 @@ exports.listTrasfusioniForReparto = function (req, res) {
     let token = req.headers['access-token'];
     jwt.verify(token,seedTok,function (err, decoded) {
         if(err) return res.status(401).send('Accesso negato');
-        trasfusioni.find({$and:[
-                {"paziente.idReparto": req.headers.reparto},{fineTrasfusione:""}
-            ]},function (err, listTrasfusioni) {
+        let p = req.headers.reparto;
+        //let query = {$and:[{"paziente.idReparto":p},{"fineTrasfusione":{$exists:false}}]};
+        let query = {$and:[{"paziente.idReparto":p},{"fineTrasfusione":null}]};
+        trasfusioni.find(query,function (err, listTrasfusioni) {
             if(err) return res.status(503).send('Il servizio non è momentaneamente disponibile');
             if (!listTrasfusioni || listTrasfusioni.length === 0) return res.status(404).send('Trasfusionali non trovati');
             res.status(200).send(listTrasfusioni);
@@ -81,16 +104,24 @@ exports.fineTrasfusione = function (req, res) {
     if (trasfusioni.db._readyState !== 1) //Controlla se il database è pronto per la comunicazione
         return res.status(503).send('Il servizio non è momentaneamente disponibile');
     let token = req.headers['access-token'];
-    jwt.verify(token,seedTok,function (err, decoded) {
+    jwt.verify(token, seedTok, function (err, decoded) {
         if (err) return res.status(401).send('Accesso negato');
         trasfusioni.findById(req.headers._id, function (err, trasfusione) {
             if (err) return res.status(503).send('Il servizio non è momentaneamente disponibile');
             if (!trasfusione) return res.status(404).send('Trasfusione non trovata');
             trasfusione.trasfusioneEseguita = true;
-            trasfusione.fineTrasfusione = moment().format('DD/MM/YYYY hh:mm:ss');
+            trasfusione.fineTrasfusione = moment().toDate();
             trasfusione.save(function (err, trasfusioneUpdate) {
                 if (err) return res.status(503).send('Il documento non è stato aggiornato');
-                res.status(200).send('Aggiornamento riuscito');
+                sacche.findOne({uid : trasfusioneUpdate.uidSacca}, function (err, sacca) {
+                    if (err) return res.status(503).send('Il servizio non è momentaneamente disponibile');
+                    if (!sacca) return res.status(404).send('Sacca non trovata');
+                    sacca.trasfusa = true;
+                    sacca.save(function (err, saccaUpdate) {
+                        if (err) return res.status(503).send('Il documento sacca non è stato aggiornato');
+                        res.status(200).send('Aggiornamento riuscito');
+                    });
+                });
             });
         });
     });
@@ -119,3 +150,27 @@ exports.updateDopoLaTrasfusione = function (req, res) {
         });
     });
 };
+exports.updateDopoLaTrasfusione = function (req, res) {
+    if (!req.headers.hasOwnProperty('access-token') || !req.body.hasOwnProperty('_id') || !req.body.hasOwnProperty('datiDopoTrasfusione'))
+        return res.status(400).send("La richiesta non può essere elaborata");
+    if (trasfusioni.db._readyState !== 1) //Controlla se il database è pronto per la comunicazione
+        return res.status(503).send('Il servizio non è momentaneamente disponibile');
+    let token = req.headers['access-token'];
+    jwt.verify(token,seedTok, function (err, decoded) {
+        if (err) return res.status(401).send('Accesso negato');
+        trasfusioni.findById(req.body._id , function (err, trasfusione) {
+            if (err) return res.status(503).send('Il servizio non è momentaneamente disponibile');
+            if (!trasfusione) return res.status(404).send('Trasfusione non trovata');
+            trasfusione.datiDopoTrasfusione.temperatura = req.body.datiDopoTrasfusione.temperatura;
+            trasfusione.datiDopoTrasfusione.frequenzaCardiaca = req.body.datiDopoTrasfusione.frequenzaCardiaca;
+            trasfusione.datiDopoTrasfusione.pressioneArteriosa = req.body.datiDopoTrasfusione.pressioneArteriosa;
+            if(req.body.note)
+                trasfusione.note = req.body.note;
+            trasfusione.save(function (err, trasfusioneUpdate) {
+                if (err) return res.status(503).send('Il documento non è stato aggiornato');
+                res.status(200).send('Aggiornamento riuscito');
+            });
+        });
+    });
+};
+
